@@ -9,7 +9,7 @@
   "structured_outside_these_native_fixtures": 3079,
   "direct_original_cases_executed": 585472,
   "controlled_callee_cases_executed": 169984,
-  "byte_return_inventory_report_sha256": "95b331ce855a8245bbd22e1100cebb004d53bb830cb5c3881a9b4065f448dbc4",
+  "byte_return_inventory_report_sha256": "f5d07da75d564f247f6748a0436f38b685c3a14a709c763333e33e91779d414e",
   "suites": [
     {
       "suite": "leaf_native",
@@ -289,7 +289,7 @@
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 3072,
-      "report_sha256": "c8c7da8d842239a65ebe75e7a6ca2e1fe0d0e6a479444e88be23df46ffc6e262"
+      "report_sha256": "9087b523624e3f8c06f80bc8e0290e094ec561dfc144076d16c37f3c2d7ce2fb"
     },
     {
       "suite": "guarded_free_native",

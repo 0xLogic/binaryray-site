@@ -1,0 +1,18 @@
+{
+  "claim": "direct original bytes vs reconstructed tree search",
+  "rva": "0x1a4090",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "native_bytes_sha256": "f5b7bd8025446a6c34d62f7bc9d9a5ca7a2f17b9911c2afbbbf308a4d55f5f84",
+  "core_sha256": "857b1fa5506ab2458d2ddd2b7e6c4d6c86cf747db1b46a085f9be0aa21741b39",
+  "cases": 6144,
+  "paths": [
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024
+  ],
+  "mismatches": 0,
+  "compared": "return pointer and all root, tree, key, and cursor bytes across six shapes"
+}

@@ -26,11 +26,11 @@
     "ownedLineMismatches": 0
   },
   "porting": {
-    "manualHelperImplementations": 8,
+    "manualHelperImplementations": 9,
     "nativeValidatedGeneratedExports": 145,
-    "distinctMappedOriginalRvas": 150,
+    "distinctMappedOriginalRvas": 151,
     "manualGeneratedOverlap": 3,
-    "mappedSlices": 153,
+    "mappedSlices": 154,
     "compiledGeneratedExports": 145,
     "withoutValidatedExportParity": 0,
     "fullRax": {
@@ -92,6 +92,7 @@
     "reports/pe_result_corpus_report.json",
     "reports/port_ledger_report.json",
     "reports/insert_linked_node_5390_native_report.json",
+    "reports/tree_lower_bound_1a4090_native_report.json",
     "reports/ports_123_native_summary_report.json",
     "reports/batch_ports_123_native_report.json",
     "reports/batch_ports_123_special_native_report.json",
