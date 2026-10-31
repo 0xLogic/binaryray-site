@@ -1,9 +1,9 @@
 {
   "claim": "exact original machine code vs compiled IR C++ for 32 admitted multi-block and leaf functions",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "41c024c1f30cff22d12aa5b7a77bd7954a6c672800877ab49b6faeb42ed401cc",
-  "compiled_dll_sha256": "22a13d01463bdad14191218cbe80e7f8f1076074f1867f2aa67e6fe8952e0931",
-  "generated_cpp_sha256": "6de9346475b0a485eee9ceb2e199e73ce8e99c141d316774da4b31dbfc72f819",
+  "own_exe_sha256": "47b01cd25d28807dc8ff6c3db867ea6e627e9abe925199891705585854d2d538",
+  "compiled_dll_sha256": "390c62132dd6932e56b6afad30387c18b8cde07416a7dd16fdc0a751c759a250",
+  "generated_cpp_sha256": "5e999a76fd72777e3088610babca79314250741b10c4c88c0b8ac9ad553453bc",
   "cases_per_function": 256,
   "cases": 8192,
   "mismatches": 0,
@@ -13,13 +13,13 @@
       "rva": "0x11340",
       "cases": 256,
       "native_bytes_sha256": "53f6240eb5b6c08a79703a48016fa6516de8371208548b6a29acd40e092f5103",
-      "generated_sha256": "c4ee6baf4679778035e9235b94e27b6569a77be8a39a9d67b124212ed6d0c105"
+      "generated_sha256": "12f8acda165dcd9fd5eda012b205f427c6e7917fb21743a4a2c298a88895b6e8"
     },
     {
       "rva": "0x11470",
       "cases": 256,
       "native_bytes_sha256": "f46d5656bcf98b74a7b4344faef1793a567b63178d23286ca3d55842f054caad",
-      "generated_sha256": "c425953a8ae5380beaa17a75c7b2f0d4fedd4f11be490ed50d7011982b49fdda"
+      "generated_sha256": "158a270c10e000ef77f9934c3882e5a1d3a54a6446517305e9269d7794656063"
     },
     {
       "rva": "0x38200",
@@ -67,7 +67,7 @@
       "rva": "0xee7d0",
       "cases": 256,
       "native_bytes_sha256": "a2b499c00f673988e0ec8fbd6b0bb40cbfbb832cf9d112e9d25a48a7471d17af",
-      "generated_sha256": "0e02a8a43e46a909d320239d2c7ad7a055967d7e54d00b425862392be45d5c84"
+      "generated_sha256": "6656804d453f07e00086dcca51e999635852ace16a491db0c8c25224146000ad"
     },
     {
       "rva": "0x12b700",
@@ -163,7 +163,7 @@
       "rva": "0x229ed0",
       "cases": 256,
       "native_bytes_sha256": "1ccc874ca9bacd560df064401b386e3fbf88e90f92de73df82b17b754f1ff130",
-      "generated_sha256": "fd14176eb7a8d335f656a775e973cfec2cd30ee70823b0da39dd953f1523b154"
+      "generated_sha256": "b254f9428b718de35df452b529786e72819f41ba6c9eb1b6e3b7fff530971114"
     },
     {
       "rva": "0x22c6e0",
