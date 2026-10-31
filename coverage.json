@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "snapshot": {
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
@@ -24,6 +24,23 @@
     "ownedLineFunctionsChecked": 3298,
     "ownedLineBytesChecked": 1586020,
     "ownedLineMismatches": 0
+  },
+  "porting": {
+    "manualHelperImplementations": 7,
+    "nativeValidatedGeneratedExports": 95,
+    "distinctMappedOriginalRvas": 100,
+    "manualGeneratedOverlap": 2,
+    "mappedSlices": 102,
+    "compiledBatchExports": 95,
+    "nativeValidatedBatchExports": 95,
+    "withoutValidatedExportParity": 0,
+    "genericNativeValidatedExports": 89,
+    "specializedAdditionalValidatedExports": 1,
+    "reusedAdditionalValidatedExports": 5,
+    "portArtifactSha256": "78fa0c54cc70c029c3e06db0dc0f33f460dca49b235ed6aeea5b94b83dd931fd",
+    "genericNativeCases": 22784,
+    "specializedNativeCases": 81920,
+    "reusedNativeCases": 61440
   },
   "sizeBands": [
     {
@@ -66,13 +83,19 @@
   "sources": [
     "reports/coverage_by_size_report.json",
     "reports/current_native_summary_report.json",
-    "reports/pe_result_corpus_report.json"
+    "reports/pe_result_corpus_report.json",
+    "reports/port_ledger_report.json",
+    "reports/ports_95_native_summary_report.json",
+    "reports/batch_ports_95_native_report.json",
+    "reports/batch_ports_95_special_native_report.json",
+    "reports/batch_ports_95_reused_fixtures_report.json"
   ],
   "limitations": [
     "Discovered means an independently identified candidate start. It does not mean valid pseudocode was produced.",
     "Structured means C-like output passed the current admission rules; it does not establish semantic equivalence.",
     "Direct native validation covers selected functions and admitted inputs, not every behavior of each function.",
     "Controlled-callee tests replace callees or effects and are distinct from direct-original comparisons.",
-    "The independent engine is not a drop-in hexx64.dll or an SDK-compatible decompiler plugin."
+    "The independent engine is not a drop-in hexx64.dll or an SDK-compatible decompiler plugin.",
+    "Mapped C++ slices and compiled exports are separate from pseudocode output; validated exports cover admitted native inputs only."
   ]
 }
