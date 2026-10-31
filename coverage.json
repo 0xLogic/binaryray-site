@@ -4,25 +4,25 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "52e125c4491bd4b596299c2ff994ee59eeb464e9193199b4291552203a6e3e39",
+    "buildSha256": "6bec8c81fd7a252a26c4b758500b4c20661bc3bac9cb58eaeb3eb3e82c34a209",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
   "coverage": {
     "discovered": 9239,
-    "structured": 3298,
-    "listing": 5941,
+    "structured": 3299,
+    "listing": 5940,
     "idaHeadsDiscovered": 9128,
-    "directNativeValidated": 175,
+    "directNativeValidated": 176,
     "controlledNativeValidated": 44,
-    "nativeValidatedDistinct": 219,
+    "nativeValidatedDistinct": 220,
     "structuredWithoutNativeFixture": 3079
   },
   "validation": {
-    "directOriginalCases": 582400,
+    "directOriginalCases": 585472,
     "controlledCases": 169984,
-    "ownedLineFunctionsChecked": 3298,
-    "ownedLineBytesChecked": 1586020,
+    "ownedLineFunctionsChecked": 3299,
+    "ownedLineBytesChecked": 1586723,
     "ownedLineMismatches": 0
   },
   "porting": {
@@ -71,7 +71,7 @@
       "label": "21-50",
       "referenceHeads": 1566,
       "discovered": 1559,
-      "structured": 77
+      "structured": 78
     },
     {
       "label": "51-100",
