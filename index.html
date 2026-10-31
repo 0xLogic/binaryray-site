@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1118">
+  <meta name="description" content="Binaryray's measured reconstruction coverage for hexx64.dll.">
+  <title>Binaryray · Reconstruction coverage</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Binaryray coverage home"><span class="brand-mark" aria-hidden="true">B<span>R</span></span><span>binaryray<span class="brand-sub"> / coverage</span></span></a>
+      <a class="repo-link" href="https://github.com/0xLogic/binaryray" target="_blank" rel="noopener noreferrer">Source repo (private) <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse" aria-hidden="true"></span> RECONSTRUCTION STATUS <span class="eyebrow-rule"></span> HEXX64.DLL</div>
+          <h1 id="page-title">How far have we <em>really</em> gotten?</h1>
+          <p class="lede">A measured view of the independent x64 decompiler. Discovery, C-like output, and native comparison are separate milestones.</p>
+          <div class="snapshot-line"><span class="snapshot-icon" aria-hidden="true">◈</span><span id="snapshot-label">Loading pinned snapshot…</span><span class="snapshot-separator" aria-hidden="true">/</span><span id="snapshot-target">hexx64.dll</span></div>
+        </div>
+        <div class="hero-aside" aria-label="Coverage legend">
+          <span class="aside-kicker">READ THE SIGNAL</span>
+          <div><span class="legend-dot discovered"></span><strong>Discovered</strong><small>candidate function start</small></div>
+          <div><span class="legend-dot structured"></span><strong>Structured</strong><small>C-like output admitted</small></div>
+          <div><span class="legend-dot validated"></span><strong>Native-validated</strong><small>selected behavior compared</small></div>
+          <p>Each tier is narrower than the last. None means full DLL parity.</p>
+        </div>
+      </section>
+
+      <div id="load-error" class="load-error" role="alert" hidden></div>
+
+      <section class="overview" aria-labelledby="overview-title">
+        <div class="section-heading"><div><span class="section-number">01 / COVERAGE</span><h2 id="overview-title">The function inventory</h2></div><span class="heading-note">One pinned target binary</span></div>
+        <div class="metric-grid">
+          <article class="metric-card"><span class="metric-label"><span class="legend-dot discovered"></span>Discovered</span><strong id="discovered-count" class="metric-value">—</strong><p>Candidate starts identified in the target</p><span id="discovered-context" class="metric-foot">—</span></article>
+          <article class="metric-card"><span class="metric-label"><span class="legend-dot structured"></span>Structured output</span><strong id="structured-count" class="metric-value">—</strong><p>Functions with admitted C-like output</p><span id="structured-context" class="metric-foot">—</span></article>
+          <article class="metric-card"><span class="metric-label"><span class="legend-dot listing"></span>Listing fallback</span><strong id="listing-count" class="metric-value">—</strong><p>Decoded functions shown as instructions</p><span class="metric-foot">No claim of reconstructed pseudocode</span></article>
+          <article class="metric-card accent"><span class="metric-label"><span class="legend-dot validated"></span>Native-validated</span><strong id="native-count" class="metric-value">—</strong><p>Distinct structured functions with fixtures</p><span id="native-context" class="metric-foot">—</span></article>
+        </div>
+        <div class="coverage-panel">
+          <div class="panel-copy"><span class="panel-kicker">FUNNEL / ALL DISCOVERED STARTS</span><h3>Coverage is a narrowing path.</h3><p id="funnel-description">Loading coverage proportions…</p></div>
+          <div class="funnel"><div class="funnel-row"><div class="funnel-meta"><span>Discovered</span><strong id="funnel-discovered">—</strong></div><div class="track"><div id="bar-discovered" class="fill discovered" style="width:100%"></div></div></div><div class="funnel-row"><div class="funnel-meta"><span>Structured</span><strong id="funnel-structured">—</strong></div><div class="track"><div id="bar-structured" class="fill structured"></div></div></div><div class="funnel-row"><div class="funnel-meta"><span>Native-validated</span><strong id="funnel-native">—</strong></div><div class="track"><div id="bar-native" class="fill validated"></div></div></div></div>
+        </div>
+      </section>
+
+      <section class="detail-grid" aria-label="Coverage detail">
+        <article class="detail-panel" aria-labelledby="native-title"><span class="section-number">02 / EVIDENCE</span><h2 id="native-title">What was compared</h2><p class="detail-intro">Native checks are targeted tests, with two different fixture types.</p><div class="evidence-row"><div class="evidence-icon direct" aria-hidden="true">↔</div><div><strong id="direct-count">—</strong><span>Direct original-byte functions</span></div><small id="direct-cases">— cases</small></div><div class="evidence-row"><div class="evidence-icon controlled" aria-hidden="true">⌘</div><div><strong id="controlled-count">—</strong><span>Controlled-callee wrappers</span></div><small id="controlled-cases">— cases</small></div><div class="evidence-note"><strong id="remaining-native">—</strong> structured functions remain outside these native fixtures.</div></article>
+        <article class="detail-panel" aria-labelledby="size-title"><span class="section-number">03 / COMPLEXITY</span><h2 id="size-title">Coverage by reference size</h2><p class="detail-intro">Reference pseudocode lines are a rough size measure. The structured column measures output coverage, not correctness.</p><div class="table-wrap"><table><thead><tr><th scope="col">Lines</th><th scope="col">Reference</th><th scope="col">Discovered</th><th scope="col">Structured</th><th scope="col">Rate</th></tr></thead><tbody id="size-bands"><tr><td colspan="5">Loading…</td></tr></tbody></table></div></article>
+      </section>
+
+      <section class="provenance" aria-labelledby="provenance-title"><div class="section-heading"><div><span class="section-number">04 / PROVENANCE</span><h2 id="provenance-title">Pin the measurement</h2></div><span class="heading-note">SHA-256, not a Git commit</span></div><div class="provenance-grid"><div class="hash-card"><span>INDEPENDENT BUILD · OWN_DECOMPILER.EXE</span><code id="build-sha">—</code><button class="copy-button" type="button" data-copy="build-sha" aria-label="Copy build SHA-256">Copy SHA</button></div><div class="hash-card"><span>TARGET BINARY · HEXX64.DLL</span><code id="target-sha">—</code><button class="copy-button" type="button" data-copy="target-sha" aria-label="Copy target SHA-256">Copy SHA</button></div></div><p class="source-note">Generated from pinned validation reports. The owned line-result audit checked <strong id="interface-count">—</strong> structured outputs and <strong id="interface-bytes">—</strong> bytes for interface consistency; this is separate from semantic validation.</p></section>
+
+      <section class="limits" aria-labelledby="limits-title"><div><span class="section-number">05 / INTERPRETATION</span><h2 id="limits-title">What these numbers do not say</h2><p>Progress is useful only when each count keeps its meaning.</p></div><ul id="limitations"><li>Loading limitations…</li></ul></section>
+    </main>
+
+    <footer><span>binaryray <span aria-hidden="true">/</span> independent decompiler research</span><span>Snapshot data: <a href="./coverage.json">coverage.json</a> · <a href="https://github.com/0xLogic/binaryray" target="_blank" rel="noopener noreferrer">Private source ↗</a></span></footer>
+  </div>
+</body>
+</html>

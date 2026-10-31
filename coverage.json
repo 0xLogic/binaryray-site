@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "snapshot": {
+    "name": "Pinned validation snapshot",
+    "target": "hexx64.dll",
+    "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+    "buildSha256": "f84abcdc235c6f5dddbc4d5f2f244034148c7e2c1547985655f58b009a5f9a75",
+    "buildArtifact": "own_decompiler.exe",
+    "referenceHeads": 9167
+  },
+  "coverage": {
+    "discovered": 9239,
+    "structured": 3282,
+    "listing": 5957,
+    "idaHeadsDiscovered": 9128,
+    "directNativeValidated": 170,
+    "controlledNativeValidated": 42,
+    "nativeValidatedDistinct": 212,
+    "structuredWithoutNativeFixture": 3070
+  },
+  "validation": {
+    "directOriginalCases": 561920,
+    "controlledCases": 161792,
+    "ownedLineFunctionsChecked": 3282,
+    "ownedLineBytesChecked": 1576115,
+    "ownedLineMismatches": 0
+  },
+  "sizeBands": [
+    {
+      "label": "1-5",
+      "referenceHeads": 3153,
+      "discovered": 3135,
+      "structured": 2115
+    },
+    {
+      "label": "6-10",
+      "referenceHeads": 1301,
+      "discovered": 1292,
+      "structured": 914
+    },
+    {
+      "label": "11-20",
+      "referenceHeads": 871,
+      "discovered": 868,
+      "structured": 161
+    },
+    {
+      "label": "21-50",
+      "referenceHeads": 1566,
+      "discovered": 1559,
+      "structured": 77
+    },
+    {
+      "label": "51-100",
+      "referenceHeads": 1044,
+      "discovered": 1042,
+      "structured": 12
+    },
+    {
+      "label": "101+",
+      "referenceHeads": 1232,
+      "discovered": 1232,
+      "structured": 3
+    }
+  ],
+  "sources": [
+    "reports/coverage_by_size_report.json",
+    "reports/current_native_summary_report.json",
+    "reports/pe_result_corpus_report.json"
+  ],
+  "limitations": [
+    "Discovered means an independently identified candidate start. It does not mean valid pseudocode was produced.",
+    "Structured means C-like output passed the current admission rules; it does not establish semantic equivalence.",
+    "Direct native validation covers selected functions and admitted inputs, not every behavior of each function.",
+    "Controlled-callee tests replace callees or effects and are distinct from direct-original comparisons.",
+    "The independent engine is not a drop-in hexx64.dll or an SDK-compatible decompiler plugin."
+  ]
+}
