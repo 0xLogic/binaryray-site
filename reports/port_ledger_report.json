@@ -175,7 +175,7 @@
     "0x25ed00"
   ],
   "independent_core_exports_total": 52,
-  "independent_core_sha256": "857b1fa5506ab2458d2ddd2b7e6c4d6c86cf747db1b46a085f9be0aa21741b39",
+  "independent_core_sha256": "b513eff8769bcba917d4bf90d6aeda4aee02e82b9c9ee4049ea15ca61a5f1d34",
   "generated_artifacts": [
     "reconstruction/validation/artifacts/reconstructed_ports_123_beaf38a4.dll",
     "reconstruction/validation/artifacts/reconstructed_ports_typed8_22_17b93dbb.dll"
