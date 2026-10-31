@@ -100,7 +100,7 @@
       "kind": "original bytes",
       "rva_count": 5,
       "case_count": 16000,
-      "report_sha256": "5483d04b40ecd7851e5182a086a63e049cf58f56e746dfe8a91964e165e9d786"
+      "report_sha256": "f5b9e4119e5f468d11ab92a2297d8181d73b05d656a0f732bd0636026f310625"
     },
     {
       "suite": "partial_byte_range_native",
@@ -121,14 +121,14 @@
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 16896,
-      "report_sha256": "8794f80845b29744ccb133d3c88055b2f8d76905cbd13bdf43c9b126c45d6050"
+      "report_sha256": "d07139aaf269f50581129469a243c4ce07f59a218243540a45bb4d0b4cb66371"
     },
     {
       "suite": "linked_unlink_native",
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 12288,
-      "report_sha256": "acf3145c6dc3c526f998a62440d7f222517653b48ea9eb68ba6bf0686638cfc6"
+      "report_sha256": "24290d15d27de8804f460c96a98536cfa200d651f5dec0ae6256eefebaf7503b"
     },
     {
       "suite": "list_swap_relink_native",
