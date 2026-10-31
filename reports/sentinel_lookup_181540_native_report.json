@@ -1,0 +1,24 @@
+{
+  "claim": "direct original bytes versus compiled sentinel-list lookup pseudocode, full RAX and memory",
+  "rva": "0x181540",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "native_bytes_sha256": "9ba5536d9fe2ef5ce8a6ca8b422fab2415af7d7ea757e644c9f343c86d15d0a4",
+  "own_exe_sha256": "e2da45c49a775c471bc28ff3aa958fc29442dcf5cb81f7c7e5e8bbdf504ad13a",
+  "generated_sha256": "8be4778d0b93a12adff9e50bc0f9674844f3ca7fde9428ff3bde16c18ecb7cd4",
+  "generated_dll_sha256": "e23889b8515ec945fb05dc296887467903fc0f4ff217901e956d2f27ca79dc8c",
+  "return_bits": 64,
+  "exit_code": 0,
+  "cases": 8192,
+  "paths": [
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024
+  ],
+  "mismatches": 0,
+  "compared": "full RAX and all sentinel, node, output bytes; empty, hit, miss, and aliased output paths"
+}

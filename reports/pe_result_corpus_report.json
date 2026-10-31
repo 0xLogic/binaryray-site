@@ -1,11 +1,11 @@
 {
   "claim": "owned PE line bytes match parsed-PE session text on all structured RVAs; CLI sampled; no semantic parity claim",
-  "exe_sha256": "58198215cdc0d7ca41254556a8dec5c928fad899438eb57e3d12948ae6ed72b1",
-  "core_sha256": "1bbbd9c4d20689f711a9b41211fc9354ae6f4dcc1348a06b74e84a59ecf3bf69",
+  "exe_sha256": "e2da45c49a775c471bc28ff3aa958fc29442dcf5cb81f7c7e5e8bbdf504ad13a",
+  "core_sha256": "c40c3aa573f60b4c7d9ed8d969af1484b6d8830cf92df827c48ab4c67d49e2b3",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "structured_functions_checked": 3308,
+  "structured_functions_checked": 3309,
   "cli_samples_checked": 32,
-  "lines_checked": 30856,
-  "bytes_checked": 1592240,
+  "lines_checked": 30869,
+  "bytes_checked": 1592584,
   "mismatches": 0
 }

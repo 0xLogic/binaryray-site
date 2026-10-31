@@ -1,0 +1,25 @@
+{
+  "claim": "2 actual batch DLL exports versus original bytes on constant_switch fixtures",
+  "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_129_dc85e667.dll",
+  "ports_dll_sha256": "dc85e6673e511bf991e6ac1140663ccd95aea12d5f74cce7eff02c2a98b4d773",
+  "port_build_report_sha256": "fb78600a5859e6aa3bbd019afbec2e3ccc085e04e7662e38d8a43304257f936f",
+  "original_fixture_report_sha256": "c20ff876b5fb2aa21150169e4e1ba1bece19aa946108ed9466c493289209407c",
+  "adapted_source_sha256": "536ab39367a340db5780c632c034ca201ca6a91a6510c98307f4ae4558f52bde",
+  "harness_sha256": "d3341f364fafa1f1daac291c2d5e70af2b352560a73c9d89068db3c0d7dfcaf1",
+  "return_bits_compared": 64,
+  "cases": 16896,
+  "mismatches": 0,
+  "functions": [
+    {
+      "rva": "0x1ede90",
+      "export": "port_001EDE90",
+      "generated_sha256": "bd3c959cc55bf80233af4e64d65707606614893966f12ffe6bfce3a102f4ec93"
+    },
+    {
+      "rva": "0x1efce0",
+      "export": "port_001EFCE0",
+      "generated_sha256": "f5072ce03f571351df8755e0d2f24b3fc62c665449c8eb23a2bdeea0d5bd1756"
+    }
+  ]
+}
