@@ -1,0 +1,24 @@
+{
+  "claim": "direct original bytes versus compiled record-update pseudocode, typed AL and full memory",
+  "rva": "0x10b2d0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "native_bytes_sha256": "2978ad3c13426d7c7054422934c6a07e33b7cd6dca01f06b29a4dee07e204a99",
+  "own_exe_sha256": "895037be86280a4db95465693d0618089429825d3547a4e1f788d64ecd2073a8",
+  "generated_sha256": "8ef4f0ce19a6e82653d6f7d94e890a19ed23591ae8ca43ceeb27fd6658724740",
+  "generated_dll_sha256": "6d88825067a569e457286105ebbf9d433816856947c29c33343948e923930597",
+  "return_bits": 8,
+  "exit_code": 0,
+  "cases": 8192,
+  "paths": [
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024
+  ],
+  "mismatches": 0,
+  "compared": "low AL and every owner/group/record byte, including a count-field alias that changes the loop bound"
+}

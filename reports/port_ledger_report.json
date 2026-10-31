@@ -2,10 +2,10 @@
   "claim": "mapped C++ port slices and provenance, not complete-function parity",
   "target_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
   "ida_heads_total": 9167,
-  "mapped_slices": 158,
-  "distinct_mapped_original_rvas": 154,
+  "mapped_slices": 159,
+  "distinct_mapped_original_rvas": 155,
   "manual_helper_slices": 9,
-  "generated_ports": 149,
+  "generated_ports": 150,
   "manual_generated_overlap_rvas": [
     "0x5390",
     "0x1a4090",
@@ -13,13 +13,13 @@
     "0x1ec2a0"
   ],
   "batch_validated_including_overlap": 127,
-  "typed8_validated_exports": 22,
+  "typed8_validated_exports": 23,
   "batch_overlap_with_explicit_ports": 0,
   "validation_kinds": {
     "direct_original": 7,
     "direct_original_controlled_callback": 1,
     "direct_original_export_batch": 127,
-    "direct_original_export_u8": 22,
+    "direct_original_export_u8": 23,
     "native_print_path": 1
   },
   "mapped_rvas": [
@@ -87,6 +87,7 @@
     "0xf5b30",
     "0xfe330",
     "0x1020c0",
+    "0x10b2d0",
     "0x116b80",
     "0x120d50",
     "0x121250",
@@ -179,9 +180,9 @@
     "0x25ed00"
   ],
   "independent_core_exports_total": 52,
-  "independent_core_sha256": "106df1a7428685208912286806ed4547504df2786638b2fca9ea7faad04699d7",
+  "independent_core_sha256": "5765b79090db9d27336e91429bb2c12585730faadda5a61c92df815c84c41443",
   "generated_artifacts": [
     "reconstruction/validation/artifacts/reconstructed_ports_127_ff07b9c4.dll",
-    "reconstruction/validation/artifacts/reconstructed_ports_typed8_22_17b93dbb.dll"
+    "reconstruction/validation/artifacts/reconstructed_ports_typed8_23_ce285311.dll"
   ]
 }
