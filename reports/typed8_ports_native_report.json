@@ -1,0 +1,214 @@
+{
+  "claim": "all actual typed-AL DLL exports versus original machine code on admitted safe fixtures",
+  "typed8_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_typed8_22_17b93dbb.dll",
+  "typed8_dll_sha256": "17b93dbb5f18bcde636a592a42b99138731cc9ac832e730bb7ef4463c4bec5fb",
+  "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "typed8_build_report_sha256": "62fae99f5a5e1bbe0b3a029599753299633df7deefd0d09bb5b9e40c832df831",
+  "typed8_generated_cpp_sha256": "79d61b3fec4d62fd2c19ff9ce342cc06f13edb30c29bcfb6693ba8976157fd5b",
+  "built_exports": 22,
+  "independently_native_validated_exports": 22,
+  "cases": 62464,
+  "functions": [
+    {
+      "rva": "0x4ae0",
+      "export": "port8_00004AE0",
+      "generated_sha256": "1268002c270454dd4d87892563f87758aea92edbac3b6f30810b1dae399a4a27",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0x4f20",
+      "export": "port8_00004F20",
+      "generated_sha256": "ca8121f1ec14df1291e67c49f4604ad62cc36fe4fa197e2aac9dfd0d5975d2ca",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0xd2e0",
+      "export": "port8_0000D2E0",
+      "generated_sha256": "e843535f2ab94aa73b5b70233f916d73848b01ef0f5d7f8582c7d54f7dd37701",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0x257a00",
+      "export": "port8_00257A00",
+      "generated_sha256": "9117ea94f32eeed764ffe2d45e0fcb4ee3812c70da35c5f90a02a5f28ab99101",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0x6d3e0",
+      "export": "port8_0006D3E0",
+      "generated_sha256": "7f00d52c4a2490a4dfb48fac58c1914b8e507db3434f71d4c41bfc90f997cc9d",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0xef3c0",
+      "export": "port8_000EF3C0",
+      "generated_sha256": "ad9465c091b820636a875b4f762075f0b0242b2d200f72a2e744c9722f457261",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0xf5b30",
+      "export": "port8_000F5B30",
+      "generated_sha256": "f5d87724a26b958eeddc7d146410fa1872293e1fe234e7a704582a9560fad055",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0x23ded0",
+      "export": "port8_0023DED0",
+      "generated_sha256": "9badcebcec4067ed0c5f0d72d79d149f213a36e0ecb7093abb8e1de282188e61",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0x2488a0",
+      "export": "port8_002488A0",
+      "generated_sha256": "eb5ee3293fbb4a44e2ef9c6ad555f400e3777a0c58b3f4d007bd516d574c855c",
+      "suite": "mov_al_native",
+      "cases": 1024,
+      "adapted_harness_sha256": "9fc9ace306f9fdf3ac3df06241f729d4d3b1dfa93be7ad24bddf554bd0276382",
+      "source_evidence_sha256": "4c513c781a9d4a827453aee5d17327a502be7f15bb60d8ebac0e953e2e961516"
+    },
+    {
+      "rva": "0x2b8a0",
+      "export": "port8_0002B8A0",
+      "generated_sha256": "2eb43f402cf813bf87134bd99f15615f2b052e276037d66a94b8615e43893f3f",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x1643f0",
+      "export": "port8_001643F0",
+      "generated_sha256": "8374a2ae85223136092797891f98defad09f8b7ebf5e46b3e3c2e724708df4d5",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x3ac00",
+      "export": "port8_0003AC00",
+      "generated_sha256": "c3ace16bf3dfe9ae5d0b91a6e3d6567b9d8d0f4cec1c4c8e20057ee6a6c7dc99",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x258040",
+      "export": "port8_00258040",
+      "generated_sha256": "b1b9f925b8c71b759ef926ee1e480172e0b22fc2ad9aeb22d646928a82bfbc52",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x257b30",
+      "export": "port8_00257B30",
+      "generated_sha256": "4792f2ae65f2739d62c135d2956d7b067e18fb09cb2ce8b95a2dde9710758c54",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0xb2b60",
+      "export": "port8_000B2B60",
+      "generated_sha256": "78a79e754d299bcff792f54093bd43f75afcc532a71c5ce940c325a379e54e71",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x116b80",
+      "export": "port8_00116B80",
+      "generated_sha256": "7a13ddc9742dc64233634adae19e9074f62cb80de387b235f7562813df1be6a3",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x121250",
+      "export": "port8_00121250",
+      "generated_sha256": "cc93605e644a3888e8f6b8bb32995acb87288ff461042eb305f9b3f780402d55",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0xb0300",
+      "export": "port8_000B0300",
+      "generated_sha256": "bc798f12c67eb7f7760720d4e289baf0d77a858004d1324c45c53cb47eb5814a",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x22d000",
+      "export": "port8_0022D000",
+      "generated_sha256": "d554a3a7fbc30380c34e0f1128f8df7ef968c6749accbe35707f56d7b4dc5e6e",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x7d9d0",
+      "export": "port8_0007D9D0",
+      "generated_sha256": "b741783f3ea490071a337b4cede5adab430c789c0a7d334b39a671578337e297",
+      "suite": "new_byte_leaf_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "d872a5a76fa9fbc253ee662c46e648d3ed2d1bc37574d27dc5ed589cc76e74a1",
+      "source_evidence_sha256": "b9691be024681236605b7461157cb47c3087924848e86e174643a42ea281ac13"
+    },
+    {
+      "rva": "0x4af0",
+      "export": "port8_00004AF0",
+      "generated_sha256": "870c71e9cca13f9751b472a2ddb71cd2ad465e46fe744de2ce69611e736e8be5",
+      "suite": "al_merge_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "72321fd6524ffe1b46de3a0c5ca5ff9a6551aff169db291a7f2ea6c5fcd3d6d7",
+      "source_evidence_sha256": "4bc16fb2a9d4d623b8576b3d01753be4619ec81fa6d3a6b0a71aa6183c4f872b"
+    },
+    {
+      "rva": "0x3a2a0",
+      "export": "port8_0003A2A0",
+      "generated_sha256": "224fc8194e2e1a725746e9f08ab6e86ba3f9efbf159de365d736bb7ffa0ccc76",
+      "suite": "al_merge_branch_native",
+      "cases": 4096,
+      "adapted_harness_sha256": "fdf04d8286fb7caacf1d1f0c7b1b25938963563fed281f7eae966f07e4f6fb88",
+      "source_evidence_sha256": "ec4d15e00dc649e271b29d2767f8b989e3285171d5ddbbcd56e5532425c3eb92"
+    }
+  ],
+  "compared": "defined low 8 return bits and complete scratch memory; original full RAX independently checked for two raw-return source fixtures",
+  "registry_checked": "RVA, four register arguments, 8-bit return, exported pointer identity",
+  "mismatches": 0
+}

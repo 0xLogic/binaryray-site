@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "snapshot": {
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "0bd7e033289e3811beb642ae489ebe53070d23e4d8422ccac55ce0584f5a2580",
+    "buildSha256": "52e125c4491bd4b596299c2ff994ee59eeb464e9193199b4291552203a6e3e39",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
@@ -13,34 +13,40 @@
     "structured": 3298,
     "listing": 5941,
     "idaHeadsDiscovered": 9128,
-    "directNativeValidated": 174,
-    "controlledNativeValidated": 42,
-    "nativeValidatedDistinct": 216,
-    "structuredWithoutNativeFixture": 3082
+    "directNativeValidated": 175,
+    "controlledNativeValidated": 44,
+    "nativeValidatedDistinct": 219,
+    "structuredWithoutNativeFixture": 3079
   },
   "validation": {
-    "directOriginalCases": 578304,
-    "controlledCases": 161792,
+    "directOriginalCases": 582400,
+    "controlledCases": 169984,
     "ownedLineFunctionsChecked": 3298,
     "ownedLineBytesChecked": 1586020,
     "ownedLineMismatches": 0
   },
   "porting": {
     "manualHelperImplementations": 7,
-    "nativeValidatedGeneratedExports": 95,
-    "distinctMappedOriginalRvas": 100,
+    "nativeValidatedGeneratedExports": 117,
+    "distinctMappedOriginalRvas": 122,
     "manualGeneratedOverlap": 2,
-    "mappedSlices": 102,
-    "compiledBatchExports": 95,
-    "nativeValidatedBatchExports": 95,
+    "mappedSlices": 124,
+    "compiledGeneratedExports": 117,
     "withoutValidatedExportParity": 0,
-    "genericNativeValidatedExports": 89,
-    "specializedAdditionalValidatedExports": 1,
-    "reusedAdditionalValidatedExports": 5,
-    "portArtifactSha256": "78fa0c54cc70c029c3e06db0dc0f33f460dca49b235ed6aeea5b94b83dd931fd",
-    "genericNativeCases": 22784,
-    "specializedNativeCases": 81920,
-    "reusedNativeCases": 61440
+    "fullRax": {
+      "returnBitsCompared": 64,
+      "compiledExports": 95,
+      "nativeValidatedExports": 95,
+      "nativeCases": 166144,
+      "artifactSha256": "78fa0c54cc70c029c3e06db0dc0f33f460dca49b235ed6aeea5b94b83dd931fd"
+    },
+    "typedAl": {
+      "returnBitsCompared": 8,
+      "compiledExports": 22,
+      "nativeValidatedExports": 22,
+      "nativeCases": 62464,
+      "artifactSha256": "17b93dbb5f18bcde636a592a42b99138731cc9ac832e730bb7ef4463c4bec5fb"
+    }
   },
   "sizeBands": [
     {
@@ -88,7 +94,8 @@
     "reports/ports_95_native_summary_report.json",
     "reports/batch_ports_95_native_report.json",
     "reports/batch_ports_95_special_native_report.json",
-    "reports/batch_ports_95_reused_fixtures_report.json"
+    "reports/batch_ports_95_reused_fixtures_report.json",
+    "reports/typed8_ports_native_report.json"
   ],
   "limitations": [
     "Discovered means an independently identified candidate start. It does not mean valid pseudocode was produced.",
@@ -96,6 +103,7 @@
     "Direct native validation covers selected functions and admitted inputs, not every behavior of each function.",
     "Controlled-callee tests replace callees or effects and are distinct from direct-original comparisons.",
     "The independent engine is not a drop-in hexx64.dll or an SDK-compatible decompiler plugin.",
-    "Mapped C++ slices and compiled exports are separate from pseudocode output; validated exports cover admitted native inputs only."
+    "Mapped C++ slices and compiled exports are separate from pseudocode output; validated exports cover admitted native inputs only.",
+    "Typed-AL export comparisons check the defined low 8 return bits and scratch memory; they do not claim full-RAX equality."
   ]
 }

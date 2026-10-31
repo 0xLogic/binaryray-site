@@ -5,7 +5,7 @@ const put = (id, value) => { $(id).textContent = String(value); };
 const pct = (part, whole) => whole ? `${oneDecimal.format(100 * part / whole)}%` : '0.0%';
 
 function assertSnapshot(data) {
-  if (data.schemaVersion !== 2) throw new Error('Unsupported coverage.json schema version.');
+  if (data.schemaVersion !== 3) throw new Error('Unsupported coverage.json schema version.');
   const c = data.coverage;
   const s = data.snapshot;
   const v = data.validation;
@@ -28,18 +28,24 @@ function assertSnapshot(data) {
   }
   if (!p || ![p.manualHelperImplementations, p.nativeValidatedGeneratedExports,
       p.distinctMappedOriginalRvas, p.manualGeneratedOverlap, p.mappedSlices,
-      p.compiledBatchExports, p.nativeValidatedBatchExports,
-      p.withoutValidatedExportParity, p.genericNativeValidatedExports,
-      p.specializedAdditionalValidatedExports, p.reusedAdditionalValidatedExports,
-      p.genericNativeCases, p.specializedNativeCases, p.reusedNativeCases]
+      p.compiledGeneratedExports, p.withoutValidatedExportParity]
       .every(x => Number.isSafeInteger(x) && x >= 0) ||
+      !p.fullRax || !p.typedAl ||
+      ![p.fullRax.compiledExports, p.fullRax.nativeValidatedExports,
+        p.fullRax.nativeCases, p.typedAl.compiledExports,
+        p.typedAl.nativeValidatedExports, p.typedAl.nativeCases]
+        .every(x => Number.isSafeInteger(x) && x >= 0) ||
+      p.fullRax.returnBitsCompared !== 64 || p.typedAl.returnBitsCompared !== 8 ||
       p.mappedSlices !== p.manualHelperImplementations + p.nativeValidatedGeneratedExports ||
       p.distinctMappedOriginalRvas !== p.mappedSlices - p.manualGeneratedOverlap ||
-      p.compiledBatchExports !== p.nativeValidatedBatchExports + p.withoutValidatedExportParity ||
-      p.nativeValidatedBatchExports !== p.nativeValidatedGeneratedExports ||
-      p.nativeValidatedGeneratedExports !== p.genericNativeValidatedExports +
-          p.specializedAdditionalValidatedExports + p.reusedAdditionalValidatedExports ||
-      !/^[a-f0-9]{64}$/i.test(p.portArtifactSha256)) {
+      p.compiledGeneratedExports !== p.fullRax.compiledExports + p.typedAl.compiledExports ||
+      p.nativeValidatedGeneratedExports !== p.fullRax.nativeValidatedExports + p.typedAl.nativeValidatedExports ||
+      p.withoutValidatedExportParity !== p.compiledGeneratedExports - p.nativeValidatedGeneratedExports ||
+      p.fullRax.nativeValidatedExports > p.fullRax.compiledExports ||
+      p.typedAl.nativeValidatedExports > p.typedAl.compiledExports ||
+      ![p.fullRax.artifactSha256, p.typedAl.artifactSha256]
+        .every(x => /^[a-f0-9]{64}$/i.test(x)) ||
+      p.fullRax.artifactSha256 === p.typedAl.artifactSha256) {
     throw new Error('Porting counts or artifact SHA-256 are inconsistent.');
   }
   if (!Array.isArray(data.sizeBands) || !Array.isArray(data.limitations) || !data.sizeBands.length) {
@@ -77,12 +83,17 @@ function render(data) {
   put('port-manual', number.format(p.manualHelperImplementations));
   put('port-validated', number.format(p.nativeValidatedGeneratedExports));
   put('port-mapped', number.format(p.distinctMappedOriginalRvas));
-  put('port-compiled', number.format(p.compiledBatchExports));
+  put('port-compiled', number.format(p.compiledGeneratedExports));
   put('port-overlap', `${number.format(p.mappedSlices)} mapped slices; ${number.format(p.manualGeneratedOverlap)} overlapping RVAs`);
   put('port-unvalidated', p.withoutValidatedExportParity === 0 ?
-      `All ${number.format(p.nativeValidatedBatchExports)} exports native-validated` :
+      `All ${number.format(p.nativeValidatedGeneratedExports)} exports native-validated` :
       `${number.format(p.withoutValidatedExportParity)} without validated export parity`);
-  put('port-sha', p.portArtifactSha256);
+  put('port-full-count', number.format(p.fullRax.nativeValidatedExports));
+  put('port-full-cases', number.format(p.fullRax.nativeCases));
+  put('port-full-sha', p.fullRax.artifactSha256);
+  put('port-typed-count', number.format(p.typedAl.nativeValidatedExports));
+  put('port-typed-cases', number.format(p.typedAl.nativeCases));
+  put('port-typed-sha', p.typedAl.artifactSha256);
 
   const tbody = $('size-bands');
   tbody.replaceChildren();
