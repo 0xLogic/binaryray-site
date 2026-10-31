@@ -1,0 +1,18 @@
+{
+  "claim": "direct original bytes vs reconstructed linked-node insertion",
+  "rva": "0x5390",
+  "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "native_bytes_sha256": "5624c08b85932ddcfcbe1447b6a078dd04dca45b2f557eb3326e86c2f2d83244",
+  "reconstructed_dll_sha256": "ece70b4553029de08f35c542c984fab92d9da2023d2fbced1b803fbd48599deb",
+  "cases": 3072,
+  "paths": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "mismatches": 0,
+  "compared": "return pointer and all owner/node bytes across six list shapes"
+}
