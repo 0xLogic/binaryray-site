@@ -1,0 +1,24 @@
+{
+  "claim": "actual 96-export batch ports versus exact original bytes, specialized safe inputs",
+  "ports_dll_sha256": "f4a8a78735f3d499cf09f917798337009c21189adf3539eb2756e341f5d73367",
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_130_f4a8a787.dll",
+  "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "harness_sha256": "d0801a4f55d683503728dadff57705681c2743e0a04a08ca80b64109613b2521",
+  "functions": [
+    {
+      "rva": "0xd4630",
+      "generated_sha256": "09654cfc2fcba222f4b80871dcc00c9d2bc3bd8680417063527c0bd0a32148df"
+    },
+    {
+      "rva": "0x94c00",
+      "generated_sha256": "3191eae7fca3bd4561605fe58a72f6e3da88cf526c65076799a6dd953d852927"
+    }
+  ],
+  "cases": 81920,
+  "mismatches": 0,
+  "compared": "full 64-bit return and complete scratch memory; independent increment and partial-AL expectations",
+  "registry_checked": "RVA, 4 register arguments, 64-bit return, export identity",
+  "stdout": "Compiled ports: checked=81920 mismatches=0 inc=8192 partial=73728",
+  "stderr": "",
+  "exit_code": 0
+}

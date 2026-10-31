@@ -1,0 +1,20 @@
+{
+  "claim": "retained 130-export DLL linked insertion versus exact original bytes",
+  "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_130_f4a8a787.dll",
+  "ports_dll_sha256": "f4a8a78735f3d499cf09f917798337009c21189adf3539eb2756e341f5d73367",
+  "port_build_report_sha256": "e31393f3d3b44376ea0d93b8d43c5e55812c92a74e1a02fb2cb8880be2e3905a",
+  "functions": [
+    {
+      "rva": "0x5390",
+      "generated_sha256": "84210e61a96a0e1931701e8aadb690c6d92a4d5005a9a007c3be7faaca36b508",
+      "native_bytes_sha256": "5624c08b85932ddcfcbe1447b6a078dd04dca45b2f557eb3326e86c2f2d83244",
+      "cases": 3072
+    }
+  ],
+  "cases": 3072,
+  "mismatches": 0,
+  "return_bits_compared": 64,
+  "registry_checked": "130 entries; RVA, four arguments, full-RAX return and export pointer",
+  "compared": "full return pointer and every owner/node byte across six graph shapes"
+}

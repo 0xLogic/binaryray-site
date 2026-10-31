@@ -16,13 +16,13 @@ The generator reads these pinned reports:
 - `reverse_engineering/reconstruction/validation/current_native_summary_report.json`
 - `reverse_engineering/reconstruction/validation/pe_result_corpus_report.json`
 - `reverse_engineering/reconstruction/validation/port_ledger_report.json`
-- `reverse_engineering/reconstruction/validation/ports_129_native_summary_report.json` and its 14 `batch_ports_129_*` native reports
-- `reverse_engineering/reconstruction/validation/typed8_ports_28_native_report.json` and its seven `typed8_28_*` native reports
-- The direct original-byte reports named in `build_coverage.py`, including `record_subtract_10b2d0_native_report.json`, `qword_contains_10c3c0_native_report.json`, `unsigned_gcd_176fc0_native_report.json`, `bitset_word_scans_native_report.json`, `bitset_zero_trim_native_report.json`, and `sentinel_lookup_181540_native_report.json`
+- `reverse_engineering/reconstruction/validation/ports_130_native_summary_report.json` and its 15 `batch_ports_130_*` native reports
+- `reverse_engineering/reconstruction/validation/typed8_ports_29_native_report.json` and its eight `typed8_29_*` native reports
+- The direct original-byte reports named in `build_coverage.py`, including `record_subtract_10b2d0_native_report.json`, `qword_contains_10c3c0_native_report.json`, `unsigned_gcd_176fc0_native_report.json`, `bitset_word_scans_native_report.json`, `bitset_zero_trim_native_report.json`, `bitset_set_run_native_report.json`, and `sentinel_lookup_181540_native_report.json`
 
 It rejects disagreement on the target DLL SHA-256, independent engine build SHA-256 within the engine reports, full-RAX port artifact SHA-256 between its reports, each native suite report hash, structured count, native fixture partition, export inventories, mapped-slice ledger, or corpus audit. The **engine snapshot SHA** identifies the report-pinned `own_decompiler.exe`; the **two port artifact SHAs** identify separate compiled full-RAX and typed-AL DLLs. None is a Git commit. Repin dependent reports before regenerating. The checked-in snapshot may lag active development.
 
-The current retained port snapshot records 9 manual helper slices and 157 native-validated generated exports: 129 full-RAX exports and 28 typed-AL exports. Four RVAs overlap between manual and generated slices, yielding 162 distinct mapped original RVAs from 166 slices. All 157 compiled exports have native fixtures on admitted inputs. Typed-AL comparisons check the defined low 8 return bits and fixture memory; these fixtures do not establish full-function equivalence.
+The current retained port snapshot records 9 manual helper slices and 159 native-validated generated exports: 130 full-RAX exports and 29 typed-AL exports. Four RVAs overlap between manual and generated slices, yielding 164 distinct mapped original RVAs from 168 slices. All 159 compiled exports have native fixtures on admitted inputs. Typed-AL comparisons check the defined low 8 return bits and fixture memory; these fixtures do not establish full-function equivalence.
 
 Preview locally from this directory with `python -m http.server 8000` and visit `http://localhost:8000/`. Opening `index.html` directly with a `file:` URL may block the JSON fetch.
 

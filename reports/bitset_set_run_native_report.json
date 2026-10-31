@@ -1,0 +1,47 @@
+{
+  "claim": "direct original bytes versus compiled bitset run pseudocode, typed AL or full 64-bit return and memory",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "c026c0713320fe1e216b60e6fbb9fa3188af67e43607726140531d52d4fa0512",
+  "generated_dll_sha256": "39a7a55edab3be908e8e586a77b50a092b474d47aa1d44b5f9f77431346c8590",
+  "exit_code": 0,
+  "cases_per_function": 8192,
+  "cases": 16384,
+  "functions": [
+    {
+      "rva": "0x1840",
+      "native_bytes_sha256": "abe8fbfa95d353f067f7cb055a89bbf867b7d6da934b72d819024d31e5fdb5b7",
+      "generated_sha256": "3d450f026498c2a50263bb9a155037619a8556fdc7db0ecedbe5cbbc24162efc",
+      "cases": 8192,
+      "paths": [
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1da0",
+      "native_bytes_sha256": "1e641ead7025c6e7c4f5608edb546a9eba1baefda18a473f27ce656a3d4401fd",
+      "generated_sha256": "36811d4fa35316178f32f60d4b4049e72d7bb2054e2090dbdd1f1b5a83ddc732",
+      "cases": 8192,
+      "paths": [
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024
+      ],
+      "return_bits": 8
+    }
+  ],
+  "mismatches": 0,
+  "compared": "return bits and every owner/data byte across bounds, negative indices, and mixed bit patterns"
+}
