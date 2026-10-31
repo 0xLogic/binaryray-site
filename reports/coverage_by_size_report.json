@@ -1,13 +1,13 @@
 {
   "claim": "coverage by recovered pseudocode line count; no semantic parity claim",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "exe_sha256": "895037be86280a4db95465693d0618089429825d3547a4e1f788d64ecd2073a8",
+  "exe_sha256": "64584a2e319350de86eb596e0f7133c31de3a607f870db7b78c0288d494f9048",
   "inventory_sha256": "eada06fb974995fa4694a1fb5997f123dfe000b14e7a081c56f1503336e152a1",
   "discovered_total": 9239,
-  "structured_total": 3304,
+  "structured_total": 3305,
   "ida_heads_total": 9167,
   "ida_heads_discovered": 9128,
-  "ida_heads_structured": 3304,
+  "ida_heads_structured": 3305,
   "bands": [
     {
       "reference_lines": "1-5",
@@ -31,7 +31,7 @@
       "reference_lines": "21-50",
       "ida_heads": 1566,
       "discovered": 1559,
-      "structured": 80
+      "structured": 81
     },
     {
       "reference_lines": "51-100",

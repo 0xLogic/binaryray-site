@@ -4,34 +4,34 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "895037be86280a4db95465693d0618089429825d3547a4e1f788d64ecd2073a8",
+    "buildSha256": "64584a2e319350de86eb596e0f7133c31de3a607f870db7b78c0288d494f9048",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
   "coverage": {
     "discovered": 9239,
-    "structured": 3304,
-    "listing": 5935,
+    "structured": 3305,
+    "listing": 5934,
     "idaHeadsDiscovered": 9128,
-    "directNativeValidated": 181,
+    "directNativeValidated": 182,
     "controlledNativeValidated": 44,
-    "nativeValidatedDistinct": 225,
+    "nativeValidatedDistinct": 226,
     "structuredWithoutNativeFixture": 3079
   },
   "validation": {
-    "directOriginalCases": 652042,
+    "directOriginalCases": 660234,
     "controlledCases": 169984,
-    "ownedLineFunctionsChecked": 3304,
-    "ownedLineBytesChecked": 1590422,
+    "ownedLineFunctionsChecked": 3305,
+    "ownedLineBytesChecked": 1590882,
     "ownedLineMismatches": 0
   },
   "porting": {
     "manualHelperImplementations": 9,
-    "nativeValidatedGeneratedExports": 150,
-    "distinctMappedOriginalRvas": 155,
+    "nativeValidatedGeneratedExports": 151,
+    "distinctMappedOriginalRvas": 156,
     "manualGeneratedOverlap": 4,
-    "mappedSlices": 159,
-    "compiledGeneratedExports": 150,
+    "mappedSlices": 160,
+    "compiledGeneratedExports": 151,
     "withoutValidatedExportParity": 0,
     "fullRax": {
       "returnBitsCompared": 64,
@@ -42,10 +42,10 @@
     },
     "typedAl": {
       "returnBitsCompared": 8,
-      "compiledExports": 23,
-      "nativeValidatedExports": 23,
-      "nativeCases": 70656,
-      "artifactSha256": "ce2853118db936efd19d3fa50a36db8d228dbaf333c18bf27bf75156bf2754a8"
+      "compiledExports": 24,
+      "nativeValidatedExports": 24,
+      "nativeCases": 78848,
+      "artifactSha256": "d62873b5907c8649440b3e2377c61a6488a45f6056117f72aee152e8ebf087dc"
     }
   },
   "sizeBands": [
@@ -71,7 +71,7 @@
       "label": "21-50",
       "referenceHeads": 1566,
       "discovered": 1559,
-      "structured": 80
+      "structured": 81
     },
     {
       "label": "51-100",
@@ -97,6 +97,7 @@
     "reports/rotating_mask_17ede0_native_report.json",
     "reports/dword_array_search_2093b0_native_report.json",
     "reports/record_subtract_10b2d0_native_report.json",
+    "reports/qword_contains_10c3c0_native_report.json",
     "reports/ports_127_native_summary_report.json",
     "reports/batch_ports_127_native_report.json",
     "reports/batch_ports_127_special_native_report.json",
@@ -110,9 +111,10 @@
     "reports/batch_ports_127_remap_native_report.json",
     "reports/batch_ports_127_rotating_mask_native_report.json",
     "reports/batch_ports_127_dword_array_native_report.json",
-    "reports/typed8_ports_23_native_report.json",
-    "reports/typed8_23_existing_native_report.json",
-    "reports/typed8_23_record_native_report.json"
+    "reports/typed8_ports_24_native_report.json",
+    "reports/typed8_24_existing_native_report.json",
+    "reports/typed8_24_record_native_report.json",
+    "reports/typed8_24_qword_native_report.json"
   ],
   "limitations": [
     "Discovered means an independently identified candidate start. It does not mean valid pseudocode was produced.",
