@@ -1,0 +1,14 @@
+{
+  "claim": "direct original bytes versus compiled rotating-mask pseudocode",
+  "rva": "0x17ede0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "native_bytes_sha256": "4eaac8dfebdcede03acd5a5132a12e889d61c52ac9624fc4caca929d7186e6fa",
+  "own_exe_sha256": "6ac838075887c749db4aa5f658646f52ed289c7c3bf11a06ce18993ff7580d40",
+  "generated_sha256": "9f23b2502546e55000dbb19c002e7254106331a630c1015e12d4a8cf73ea324e",
+  "generated_dll_sha256": "7537d277094a2c3baecf13dbc5440dd0b8204cc16fd71c869b449f601a4682df",
+  "return_bits": 64,
+  "exit_code": 0,
+  "cases": 35850,
+  "mismatches": 0,
+  "compared": "full RAX over boundary lengths, 64 single-bit and complemented masks, and 32768 deterministic random pairs"
+}

@@ -1,0 +1,772 @@
+{
+  "claim": "actual batch port exports versus exact original bytes on 89 prior safe leaf input shapes",
+  "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "ports_dll_sha256": "4a62f39883f182ff013d2dd136ec8bd1de2e7da048047bb32f5ae6ad3acd0c52",
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_126_4a62f398.dll",
+  "port_generated_cpp_sha256": "824b6609c310f3150ea74688b89a9f7192ced366a8a65088256961aae66ef953",
+  "port_build_report_sha256": "65b7f2475ac218f5ef1f2225e190696f85ac59690024b3c29645d13ccee13d2d",
+  "source_leaf_report_sha256": "1e0f36286dabda944b07827c10fcf74c00a3506c12d16bb80bc2e1bff8a787cd",
+  "harness_sha256": "cdd59851fa43027fa89f73c2cef5351c40baedb9b49de75dd9d53ba00d08122b",
+  "batch_exports_total": 126,
+  "independently_native_validated_ports": 89,
+  "outside_this_generic_fixture": [
+    "0x12ac0",
+    "0x12b20",
+    "0x14d890",
+    "0x15d6d0",
+    "0x17ede0",
+    "0x187f20",
+    "0x190870",
+    "0x1a4090",
+    "0x1d6ab0",
+    "0x1d6ae0",
+    "0x1e3b00",
+    "0x1eda30",
+    "0x1ede90",
+    "0x1efce0",
+    "0x215aa0",
+    "0x22d020",
+    "0x22e460",
+    "0x242800",
+    "0x25ed00",
+    "0x5390",
+    "0x5c30",
+    "0x5c50",
+    "0x5c70",
+    "0x5c90",
+    "0x5cb0",
+    "0x5cd0",
+    "0x71b0",
+    "0x74a0",
+    "0x74c0",
+    "0x89320",
+    "0x91000",
+    "0x9a060",
+    "0x9a180",
+    "0x9ae50",
+    "0xd4630",
+    "0xe2f00",
+    "0xfe330"
+  ],
+  "cases_per_function": 256,
+  "cases": 22784,
+  "functions": [
+    {
+      "rva": "0x3240",
+      "export": "port_00003240",
+      "native_bytes_sha256": "cbc18d5e3d66ae414162c4a417b073a375f2804b50567d073ef1c62e50d8d523",
+      "generated_sha256": "6bcdb53ea781869b1ca1bca15c3dbebc2bfe5e7a39cf9cfdf9ea8d5d37d0180f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4ac0",
+      "export": "port_00004AC0",
+      "native_bytes_sha256": "4bc724f3b1d0caf4fe369c18cba3102e6c4ea057f63fe1587e3973134a7f755e",
+      "generated_sha256": "28fd9271dfeac9b5624365065b6b7b60d8836e40bcf1b868fe7e0f046a6dc5d1",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4ad0",
+      "export": "port_00004AD0",
+      "native_bytes_sha256": "f9ab56c764100f6de974a6afa5ca5ea00146ab6bd602328393ec5e4228c34b90",
+      "generated_sha256": "fd6cdfd2386c5400f5537469b9df2172d4ab130e3df2352443af9eaa5a8a3786",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4b20",
+      "export": "port_00004B20",
+      "native_bytes_sha256": "4d8bbabf4078fb522f1b7e5fa9e993af5e9c941d53117c673ecfde3a5feca5c7",
+      "generated_sha256": "960e87fc431e36fc72bd06fa1a70d5f69534d549b301145de276f8b5d5262f2c",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4c10",
+      "export": "port_00004C10",
+      "native_bytes_sha256": "534009b1b3a0d4a912f5ccd5fb57fbfb8be45d709f8cb2068df72297c946e59e",
+      "generated_sha256": "20450810ff8ffed7c640ad829065b413a74061a7272e92e39b1a0db95943675f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4dc0",
+      "export": "port_00004DC0",
+      "native_bytes_sha256": "94ce425d03d3b432b5f5f310a6d45fd06c27213053b2578593a3ead54357e3aa",
+      "generated_sha256": "0de5a902f36e1336f3c817f471e35887c2db5261a2dfef13a41946e16a5d806e",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x5c20",
+      "export": "port_00005C20",
+      "native_bytes_sha256": "b4e9c4823d1a91e1e42cf1ba0f6f4c6feb9f6119e3043101f2797aeb8514db16",
+      "generated_sha256": "fd34696c0d018f04fd46f57fbfbb26084f45df771d78842667686def41e6d1d1",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x6120",
+      "export": "port_00006120",
+      "native_bytes_sha256": "b67e6f6279912c9f0c75b35fdd023ee36930864c3d2a93ac29dbabd50d0d77dc",
+      "generated_sha256": "02a01053da212d9ff994d72936483dcdd4630a2e4c033e26528a28d19dddba5f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x71c0",
+      "export": "port_000071C0",
+      "native_bytes_sha256": "7e6bda0a031f94dbe8477fe3ce3ba2b7e3d761a050d55625bc7d92212670e60c",
+      "generated_sha256": "03a413177d3b6a20a8403328d2244f15427142b0f325238296e9212dea93c31a",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x10fe0",
+      "export": "port_00010FE0",
+      "native_bytes_sha256": "5fea9cbd0ad30d8f35484f3cca786aafe1905026790ef09a3a9667d8ca7fa16b",
+      "generated_sha256": "58e21d9a37ca3c83cb60d4d408b5806f3c488a2e8bd9a724c36f64a225ab1bd8",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x11380",
+      "export": "port_00011380",
+      "native_bytes_sha256": "30ef07aba27aa47419b76464fc4aa141932176390943721fd7f3996cebab9ef6",
+      "generated_sha256": "d5d9042b89b425f26790489611d718eeab341aa115cfdf5933af39f92f1f5585",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x14140",
+      "export": "port_00014140",
+      "native_bytes_sha256": "92ca7142687bd5513bea360e328ca1c00c3c3a9b71ffdda7bfc2407de7693978",
+      "generated_sha256": "432c5bf7803af1d79635c8020530a2a04be9d3d24c93ff5ebbf53608d4b7f9bd",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x14150",
+      "export": "port_00014150",
+      "native_bytes_sha256": "705c9e01b392374cd64927b9b31da557c7e17d682e7dfb111bf0e1b3876fdeb2",
+      "generated_sha256": "5e141fe003d676b4a68c9041f727185807eacfd0ecaf72264f60400a70bb1257",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x19ac0",
+      "export": "port_00019AC0",
+      "native_bytes_sha256": "b5616597d9d103740c775e346be0bfa5ead32ab5e9d5708a443d6545b1240f99",
+      "generated_sha256": "73e465353fec060fa756973834edbe1e9f09a7e1cd23895c419a566c4e989f6a",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x3f5c0",
+      "export": "port_0003F5C0",
+      "native_bytes_sha256": "66ad7ee1b73f11b81ece9f722e1cc0b606a8d8e18c57f78bf720bb17aecfad1a",
+      "generated_sha256": "0b9843e0cdeb5bcc3eff66dc9e2769bc94722481060c50d807be46f5a8197e9b",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x51530",
+      "export": "port_00051530",
+      "native_bytes_sha256": "fb878c426f74d771c084b5dcc633b208c01565ae2788e9f0ddd6989aad36d0dc",
+      "generated_sha256": "84f71394674b1f510af7d57ba6f2a7c3041bf565c94e303746e52acbfef03dde",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x65590",
+      "export": "port_00065590",
+      "native_bytes_sha256": "6aec56e5fe75ba6c026da955516ea682badc49523f18f7c64a23d6c541a62973",
+      "generated_sha256": "75aa00457c5ededd02d3abbca648c22c17c05d1d3c123956c2f0421c37bcbee6",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x6e3f0",
+      "export": "port_0006E3F0",
+      "native_bytes_sha256": "b0ffd7ed4ad9da68052749d722ac9b341dcd5b900abb11c0afe9ac8f5489b9ea",
+      "generated_sha256": "c3c8df73102b88af62d1cf09b1152481207c663c6a61908834055f9597bc0e93",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x78470",
+      "export": "port_00078470",
+      "native_bytes_sha256": "6ac7a88a1e7cdfdbd066ca9ddd00918e7276ac830719d58062fa738b402b791e",
+      "generated_sha256": "b269a816e599f16e87a8ddf125a5c789da1af2b767639d5ab65e6d4fba858a78",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x822b0",
+      "export": "port_000822B0",
+      "native_bytes_sha256": "7c1785f4b60f00d845d878ad9b5ed377c5c3621aad06d7294fd7acbb6d9ba147",
+      "generated_sha256": "847801075cf694db8e083ff2265be59af085c0138bc32f578f9ec0faa4a88d4e",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x827b0",
+      "export": "port_000827B0",
+      "native_bytes_sha256": "7a64c0e82e9028aed95f03ef90dcbac4a71b6d42a9f131badca5034ec0d026ec",
+      "generated_sha256": "9df158b00f850d508824fecc8aaaf10a023b620bdecd1ae2a5a5380287be136e",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x91120",
+      "export": "port_00091120",
+      "native_bytes_sha256": "72f692236ff40b75b9e9cfa9ac449c318322f056b6ce079beba7795cef572c54",
+      "generated_sha256": "18558d8c9acc0a9fd4a165c5ddf0e9ee215503b3265651baf8a6cc14fa2e72a0",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x937c0",
+      "export": "port_000937C0",
+      "native_bytes_sha256": "952ae44fc0c2792e05aa14d6b65c5474efdd6542dac3fb6fbbb23159547aa16c",
+      "generated_sha256": "46c93f165d3829206ed6334ab11d953348ba9539896f8ad92ef1a0a69f7be9b6",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x94ad0",
+      "export": "port_00094AD0",
+      "native_bytes_sha256": "c6249955eb19b6823b7bce08334346e84bab74755b437a128bba79b41f1e7426",
+      "generated_sha256": "d40810a0c8565c0da4da1fd3e8a3255887fbf8575c8a12fb0be78ece7b13f2a1",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x94c00",
+      "export": "port_00094C00",
+      "native_bytes_sha256": "5bc5146ecb1c8fed1572d07938aa12f8cf953b695623035105d5249b34622964",
+      "generated_sha256": "3191eae7fca3bd4561605fe58a72f6e3da88cf526c65076799a6dd953d852927",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x9afe0",
+      "export": "port_0009AFE0",
+      "native_bytes_sha256": "8a9721fb3a231a8f281351452a4c04f81551f880294ea4f5ca2f801980a9a237",
+      "generated_sha256": "3d82400793dd3d55c650cab3e3441843070b529fef4d5d26c11aca2844b39d49",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x9b240",
+      "export": "port_0009B240",
+      "native_bytes_sha256": "575b9a8438ff053f3b688e775a013c3d2c66fedb6d6e91035bfd8e20e512666e",
+      "generated_sha256": "b0a41dc240984be1edf1ed3c12ce13fa2135563bb5fa958d43257e1c0bbbc74d",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0xab4a0",
+      "export": "port_000AB4A0",
+      "native_bytes_sha256": "58e7369c57f4c2e5078496dcbdb6cec15f32eb29799a5b214cce0fc70a736beb",
+      "generated_sha256": "3c2971937d5a0036cc0cec8c7944a47b7c0592ec2761ab98b3e7f9af046a35c3",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0xaf900",
+      "export": "port_000AF900",
+      "native_bytes_sha256": "474af2a2e3f26cff9905b3dc67155d4e4c3ddb301f68474fc6f047aa83bad439",
+      "generated_sha256": "3c5d9dc4059d2287b24f1cd09d21011ea4609298555ce8d4ae4a06144d4e57d4",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0xd4610",
+      "export": "port_000D4610",
+      "native_bytes_sha256": "2db31f4e09597946e56e859813bfdad7046d457c32332c3a882654d1e3ffdf67",
+      "generated_sha256": "0171561e302f5a2c5558a9b2c4e4c5a03e7ffa4580c389879f7be28f76abb03c",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1020c0",
+      "export": "port_001020C0",
+      "native_bytes_sha256": "52a43e63940278a15c8524982da78969eba1418755015f3ac07ccd64ab38037f",
+      "generated_sha256": "b4cc994ec21b1aa87a13597c9c72d98108c1dd745ddce6534e7e93630917024e",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x120d50",
+      "export": "port_00120D50",
+      "native_bytes_sha256": "f23b95e3ee5d4a6fdb3587fa85a034e97e24e8dce93d6bf3849966a9a1392d34",
+      "generated_sha256": "0fa6095c3d9e63e4906cf2ff3519a5fc86c89d6f02e81076e89a319828329bd6",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x15df50",
+      "export": "port_0015DF50",
+      "native_bytes_sha256": "c27891ab90e2e66641e5e47d112535b2d9b50d4d982a2cfbb10232ae49a58471",
+      "generated_sha256": "6aa32d223a7dab2301fa28017de25312248b95dae7a8f73cec09654bbd2bb14c",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x161660",
+      "export": "port_00161660",
+      "native_bytes_sha256": "32ab137f4c0976a9310d1d110407546484d2e71fcf00d48028576dbb7fca77e5",
+      "generated_sha256": "efdc85621f74f7b3a1dccb850337147bf1dda3163489deb6269426d3dfc09824",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x161b30",
+      "export": "port_00161B30",
+      "native_bytes_sha256": "0bb2115e1cd394f28b1c5c776b98e9b25000e3ff851225fdacc7bcccce94f29c",
+      "generated_sha256": "1caf7eeb8fdc6da093420d59303aa6269c77924ec80273b7bf33aaca37fe7b56",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x161b60",
+      "export": "port_00161B60",
+      "native_bytes_sha256": "502f9ac335f90b26a29e7463fa346a914711be57d873bc445273111859f6b13d",
+      "generated_sha256": "02732ca0ca455fafc02a24f3361df72bf40002be7816b5c360bc20d2b1d26632",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x165730",
+      "export": "port_00165730",
+      "native_bytes_sha256": "6817ddc4ff9d3c053dc84e7545ccf11bd1296fc25d1eb6665e5c861bef2b3c72",
+      "generated_sha256": "ed58e3ec7b0086cca32f7d34eca8f527fa89056010a2d8e44473a047a4153499",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x166fc0",
+      "export": "port_00166FC0",
+      "native_bytes_sha256": "8b3fa14da1b59b8abee81424699ee2ccb0f87515545f8fa2ba0e753c4c618f8f",
+      "generated_sha256": "92460c49af43272ada2ebaf9ffb30d0c9764e0e7438d10fecf341b75fb649378",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x16a570",
+      "export": "port_0016A570",
+      "native_bytes_sha256": "dedb194956276addcbc95239fa948dd617abe8b0a33669ad356c213668edcf38",
+      "generated_sha256": "e992ffa16dc48df780fea57bb648f0ab57525d71ca16cf24a5e88bf55ee9237c",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x183c20",
+      "export": "port_00183C20",
+      "native_bytes_sha256": "6efb90613ebdb8dc430ecdb56ce0b43fef04e1fd58773fb0491b17b5f7911589",
+      "generated_sha256": "9fabd6bd4c4a6ecc93e51f455eb5c9ff551b98f1115d9ab2bb5764d83242d2e8",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x18ff80",
+      "export": "port_0018FF80",
+      "native_bytes_sha256": "66894fbc2fba6631cd5cf5853c2f23c570f79914d717fd9cbe3b709fa4cb5e68",
+      "generated_sha256": "98f6effadc4ec365c6d95e1b9fc954cb64decb45c6f895eafdcd4fc32672d3da",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1b7c50",
+      "export": "port_001B7C50",
+      "native_bytes_sha256": "7a9ff34f40bc27bb5d2b00f2702a142b5ebbbfc264abb2133a8861b67c425c99",
+      "generated_sha256": "67519bc1bc9e72610a2021db5822127fb072f25f7673ca2bb2e2e04e53484e44",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1b7c60",
+      "export": "port_001B7C60",
+      "native_bytes_sha256": "05295ad85122433bade6fd9f70dabc6f4e3f6e37f86b640c83e847193291e7b5",
+      "generated_sha256": "5f21bfa061748f9ef02b3a07a465acccba19244009b4e1659c721712a1215526",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1b7c70",
+      "export": "port_001B7C70",
+      "native_bytes_sha256": "a8f559a7540c5ad3a41642ea391c34dc5c596467cb964c238c0cf2b94b17a785",
+      "generated_sha256": "944da1eaeccfa4e633562e2b501e0d99ce0063f35b9c4b49cd65f8e117af5097",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1b7c90",
+      "export": "port_001B7C90",
+      "native_bytes_sha256": "8e3cc13e74bc621e00ac7a3085c22fa32fe95ea0d73811780ac6ac703bd23470",
+      "generated_sha256": "d51fd008424379a3321cb420a0119930ace9f2fb524dbef799a7aec97b47d4a9",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1b7ca0",
+      "export": "port_001B7CA0",
+      "native_bytes_sha256": "daafbb8d40d90eaf393d62d62102ebbf3cb6755489cc359bc24988e5ddb53a32",
+      "generated_sha256": "4783aebe87a828f805426e28966f51a4c85042563edc4b33b6adb3727105824b",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1b93d0",
+      "export": "port_001B93D0",
+      "native_bytes_sha256": "6bb85a84f216f985079851003e61f47f0bb3b473e493f4648c66543e1cfb352f",
+      "generated_sha256": "53f98e611a18af29f18148c71cfe7bee77298e8b24a04b26cc583742663f4616",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1bcc50",
+      "export": "port_001BCC50",
+      "native_bytes_sha256": "3519ea67c06d14b5fa17b1a856065b9dfc482d923a0d3ec38b2a8148197d50c5",
+      "generated_sha256": "08bde06cb07b993089759da88ce84ae77e24e7b12d4d3912e3c411fb00cb572b",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1bef00",
+      "export": "port_001BEF00",
+      "native_bytes_sha256": "348f66ab6477e09117e6c12cb0678a98b055b77b3de62353f9326ab99e0c27f9",
+      "generated_sha256": "f47e545a8a75bc435ec637207e9e2c211085dc57e1e153956ee0e8397f59f643",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1bf130",
+      "export": "port_001BF130",
+      "native_bytes_sha256": "847af67e0683640b794da378e5ebc1bdc0948ff65c1cce12bc8853022d98db54",
+      "generated_sha256": "6e806e45897e2f0b1aa177f7abbd42668be24fb5b1216eec6181891fe82bc3fc",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1bf140",
+      "export": "port_001BF140",
+      "native_bytes_sha256": "4d368ad2d99f2c8b1724c426129fd325cec55ce2c8886da13df7b81856a4b8a8",
+      "generated_sha256": "07ece2e327f9ae509f3e1f94e62c592cf57db9a2be7e9b2313927a01e7e5716a",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1bf2e0",
+      "export": "port_001BF2E0",
+      "native_bytes_sha256": "f75638fe0016cf82faddfa60bf6db21d3445dcb56700c1f3c0aae5c3aa912f53",
+      "generated_sha256": "71bd67cf6497fef3520f4871c0d75b3e0ab40a2cff0a7d6778940fb5169d6b84",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1bf760",
+      "export": "port_001BF760",
+      "native_bytes_sha256": "be0d05965dc835782e7cf3836e77591b0f4f6274c898b6209ff60fea334dead2",
+      "generated_sha256": "3570d73ac0ade90d244ccc3f3089637ddff5fae8aff60f8597791495850eed5f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1ce580",
+      "export": "port_001CE580",
+      "native_bytes_sha256": "2747235cc4f412fd9145c4f6b73a4b3c6b326f1c81d488d2f16da278da93dc59",
+      "generated_sha256": "b298c2dcd1492007b9108dbabd41380ba69ff7d72c28e774b976bd570b88c314",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1d3a70",
+      "export": "port_001D3A70",
+      "native_bytes_sha256": "2c5a1308f2b8e737278451d46b4a8787af80bcacf0dfe04baed71a8ac1658b32",
+      "generated_sha256": "9309bfe6fea28f37af250930b3764a3a13e50a056e23e2cce896e1f70bf4181f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1d3ae0",
+      "export": "port_001D3AE0",
+      "native_bytes_sha256": "656b921ff001e1d88caace703b6cc55e4f5c61845310b8a26d1c4f60d33eb37c",
+      "generated_sha256": "ae44c827870065a952afb423c8f0e16febf1f7efd5db83b0b22aa8c03a948712",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1d3b00",
+      "export": "port_001D3B00",
+      "native_bytes_sha256": "af6bf13899457bfb940dd26f7e796ed73cb0ae177cb15a31ef53afc34ec5ba5b",
+      "generated_sha256": "85b4d45771e615e69cd8821004940ca2032abbac77d8db12b1dac2235f28ded1",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1d3b10",
+      "export": "port_001D3B10",
+      "native_bytes_sha256": "fdc1eedc9bdc5725c1bcb4bd406458360ea4f6e7baa2c2640b802f6dac6b414b",
+      "generated_sha256": "2991ee4bcadbab4aba85b0a71f847941a4c66241d20977189225ac37d62904d4",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1d3b20",
+      "export": "port_001D3B20",
+      "native_bytes_sha256": "96882c602cc5085e958d52ce1f40f468009b6f1e0d7238e450fdf27adabf11fd",
+      "generated_sha256": "ab9c5609c600c610f6909989295e00fb19a13964ca1a576f880f7859884bd9db",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1d5950",
+      "export": "port_001D5950",
+      "native_bytes_sha256": "9756adafaeca806592cd676e4cc5c17347d12f89d81423485f1b15f1690752dc",
+      "generated_sha256": "e43bdf4ec07299ec69499ad9d1e26cbfed2665e923c71eb1d131883de85a608b",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1e8240",
+      "export": "port_001E8240",
+      "native_bytes_sha256": "92b9d27e64156c675e866ef36d1e5514ad46e5f78ecc542eb9441a337759cc68",
+      "generated_sha256": "01c99fc5e4ac13a88991fe6432e5d91e9a8b9fd76f7ea049c109173daeb91ef8",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1e8310",
+      "export": "port_001E8310",
+      "native_bytes_sha256": "7ed16873edf0c905d23b5428a4e3c27da5b2f8da669df52f71ad85a7610f7824",
+      "generated_sha256": "6fed22d4a1a4ac5d27099579d406ba53c77d694b308bee46b07412a5541a0867",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1e91c0",
+      "export": "port_001E91C0",
+      "native_bytes_sha256": "c9fd4c557a4ae9293a976a770a96e7eea1976f169cf0bb219cb96ef64c5434a8",
+      "generated_sha256": "c6889b4cccaa8a6aade97fbcd66e2943b545e635a3b1436563dc961b7fc579eb",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1eb040",
+      "export": "port_001EB040",
+      "native_bytes_sha256": "970ad629d7eee646f89029c5b0261c54c4d03b31af4cb18faff52829c2734187",
+      "generated_sha256": "ff2ee5f996579fe80eb6a68c030a85da36751bf9f7b986fa2938f25631ab2534",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1eb1b0",
+      "export": "port_001EB1B0",
+      "native_bytes_sha256": "7b790ccf2a26d07ffa166f04d1d8c348655359e82cfe18879151323ca7860296",
+      "generated_sha256": "90b8c5178fea891440a2b71963642e369d49f8ac1a4c5f32421f833c32e3e53b",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1ec240",
+      "export": "port_001EC240",
+      "native_bytes_sha256": "7d1eb57dca580951d0c0b6abdb2ec3105552b7ab8d4546e3120541dd53f69776",
+      "generated_sha256": "276b6580963690c32efeae7862db0bfc5211342f8df92a1ad470bc2a8ea8e23e",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1ec2a0",
+      "export": "port_001EC2A0",
+      "native_bytes_sha256": "166d8be3def57909120f5dad52a8d57deb726dfcca0378f72345bfbafd0e7036",
+      "generated_sha256": "79ff25a12743078859cce0460a1c69ba506169afc5483df63914d8d8072c7da4",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1ee9f0",
+      "export": "port_001EE9F0",
+      "native_bytes_sha256": "3646a6f5b0e2a5a2a9154433629def7085d8e0444cb6bc9b67022836274e8a99",
+      "generated_sha256": "c733e4eea7f71b703c294b226d1b9c84667794f26892b3ffca9916a2c4f2c8ba",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x1f4980",
+      "export": "port_001F4980",
+      "native_bytes_sha256": "125a7455f606b97f1c15486867f91653bf9b07930d0f17f616aa8863d711838c",
+      "generated_sha256": "39fde0e7d2a5137dd3c90448261b1dee5e8a409333f706f1f8559f47fe7817bf",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x2145b0",
+      "export": "port_002145B0",
+      "native_bytes_sha256": "eb45d1a8bcd5763c051852321180f9df19173ea7f69abfabfe898d8d1b7d4567",
+      "generated_sha256": "eb52435b557d3c9be9cff9075c6b33cf23aab3235916cb97c704542a483116a0",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x215070",
+      "export": "port_00215070",
+      "native_bytes_sha256": "e85d42489a9383815d25e2b42b8ca6c1d411622a52f1949c5672c74be02fb56f",
+      "generated_sha256": "e26e2ed5e8bfde5c53928a9858d446400f8880a2172c853a315e23457695518d",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x21c2f0",
+      "export": "port_0021C2F0",
+      "native_bytes_sha256": "09343530cab266ab61693fe44a4b8f00739e996123e3e344d531396afd8309eb",
+      "generated_sha256": "69e2b6fab0c4de60f98d391bf7035ececc55535edc2ffdfe39f6eaf7d2f5a611",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x21f390",
+      "export": "port_0021F390",
+      "native_bytes_sha256": "91ed29b082d18b62357dcf699b30fcb449bbde5a1e5d7c02de24ac4258667854",
+      "generated_sha256": "c33509fbd2fd1d09a2284ac913751d5cce4b404b58f0335d9982c15075f19b3f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x227d30",
+      "export": "port_00227D30",
+      "native_bytes_sha256": "8dd1a729f135c61d0575a363385037834e1c6af6f857a82d4cfa05db2b7cdcc7",
+      "generated_sha256": "8ed84d372970082956c05bc25c2d732485684904debdaf6b16b3d9f1aad185ea",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x227d40",
+      "export": "port_00227D40",
+      "native_bytes_sha256": "74032ad0e931f3c4730df99da43479f9f5315cc898c7c8614278631cb2c16a62",
+      "generated_sha256": "961975d96e08ff2f16a3b287d1a7d975b19375921e0128590b5ac19e20c2ee03",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x229ef0",
+      "export": "port_00229EF0",
+      "native_bytes_sha256": "96cf88a982638d289e322812e11ff634ac7780e07648c73b929008f634eed79b",
+      "generated_sha256": "3e79b1d26a10a88dde8e269373f6f87801f915d3e77bd35c774c3283bb6eb634",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x22b320",
+      "export": "port_0022B320",
+      "native_bytes_sha256": "7e90c224728a8e94ca0a7381c44b1d32267555c755fab186741292f999f25446",
+      "generated_sha256": "50c3ae1bd424ffdd119ee4e22fdcd0a810b6c57f303c9bb6b6c0676c145f71f0",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x22b6a0",
+      "export": "port_0022B6A0",
+      "native_bytes_sha256": "20bea6d376c00f4a75bb4ffcc653b1dbb286059f46e21dacb4296a6fc414c5b7",
+      "generated_sha256": "7037f3cd5d97e927671ed1b6c36cad5a556b1fab090d49bb5bc2b3da3f28d639",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x22c160",
+      "export": "port_0022C160",
+      "native_bytes_sha256": "0c6b8858e139e1a255688dfc8b1fca61c89ccea689e8da8bcd4276a9918f1dbe",
+      "generated_sha256": "fbe5f154dfd7c85cc976a680b496e2a93b34499a5abd647a678c995e276f1b1a",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x22c4b0",
+      "export": "port_0022C4B0",
+      "native_bytes_sha256": "07ad3a50b1c271e07fb57fb47d2f0e77f3342d41bfa410990cb1320a45035fb2",
+      "generated_sha256": "bcc3e073623606bc222618ded4a8fe839fa704374f08f18d1a2513bda6dfff07",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x22c4c0",
+      "export": "port_0022C4C0",
+      "native_bytes_sha256": "23334c82ef0133c65cc0394d318a2637276496cb9b99f6dd580d0ee4f6c9e7b5",
+      "generated_sha256": "e9c104de56a0d97b056dbfd6d4cda0fbf18a747482227db73a18b4fb06670172",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x23b880",
+      "export": "port_0023B880",
+      "native_bytes_sha256": "0007cfa1f68eedf4c2429d71df5343eb81e99523ea0928bca628f4326bc5d189",
+      "generated_sha256": "72e9eb9dc279aa332b91f91078d49ab34e5a9e9fbf1e6dac6eaf403c5648d46e",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x23df60",
+      "export": "port_0023DF60",
+      "native_bytes_sha256": "739c6cf564fea102d569b4c054c0a5eb1079612c071d372178b0d28215722257",
+      "generated_sha256": "ee4d8355c3f0ae74ab4fd19bbab1355d3e225ce69ba3d74d94ac803a51751a31",
+      "arg2_pointer": true,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x23e660",
+      "export": "port_0023E660",
+      "native_bytes_sha256": "8e5a57dadc4dc78b98ce89f1c1fd31df26766692f938d3eeaf9fb0cbe52012a9",
+      "generated_sha256": "c782dfd7a2cefe3d273b4d21915e404fd49b7fb1fda4174c0663f83a91990e13",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x24e9f0",
+      "export": "port_0024E9F0",
+      "native_bytes_sha256": "c33d8a7f72d8de8507ac7625d2142839e1b25007d66d084ab9e5e635cde95a3f",
+      "generated_sha256": "c47fea8fd5cd782266ae1b8df6017ef53e980670ef66581fe661a701f77ac220",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x24f320",
+      "export": "port_0024F320",
+      "native_bytes_sha256": "b39b19bb8e36c8b7cb15442139a65556e7fd072a2f22226d5a8ac0f7225b4bd0",
+      "generated_sha256": "259e1b93ceddc3b6ec0992009047a3981de7ba0a92f90d4b4c036a38085b254f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x24f330",
+      "export": "port_0024F330",
+      "native_bytes_sha256": "4700d9e3a33b4b5c68d8ad032ae60c183a676463718c7677fe661cc5545e3c65",
+      "generated_sha256": "270d234f5a763971342aea20dc533b51f67aae953a99e2b406a3a18010008270",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x24fa30",
+      "export": "port_0024FA30",
+      "native_bytes_sha256": "6422a3b262a1cd2cc3976525b5bbc7d1eacb76784469ad950805c754c662d8ab",
+      "generated_sha256": "80e4f47908b5a7b71e39a558551af1a50561b9961bc530a6ac22222bc535e12f",
+      "arg2_pointer": false,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x25ad70",
+      "export": "port_0025AD70",
+      "native_bytes_sha256": "be0d00f3959e87d76da4950e9c6cbbfb347d903b2eff18a5a8424f794b1da703",
+      "generated_sha256": "63d6fefffa11cb74c13848bf2ee36306e23f2980f3757d9f4e40a78579f32da8",
+      "arg2_pointer": false,
+      "return_bits": 64
+    }
+  ],
+  "compared": "full 64-bit return and complete two 2,048-byte scratch objects against original machine code",
+  "registry_checked": "RVA, 4 register arguments, 64-bit return, and exported function pointer identity",
+  "stdout": "Batch compiled ports: checked=22784 mismatches=0 ports=89",
+  "mismatches": 0,
+  "exit_code": 0
+}
