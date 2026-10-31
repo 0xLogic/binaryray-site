@@ -4,7 +4,7 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "eb95c848c2e5ee5abe40754e3e2445d512949c6aef588c0ddcbbf71e69222120",
+    "buildSha256": "10aedd298b8e9693767d6c8d645a4ebde3657c24d35a7694ab7fceff4859e2ee",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
@@ -13,13 +13,13 @@
     "structured": 3313,
     "listing": 5926,
     "idaHeadsDiscovered": 9128,
-    "directNativeValidated": 193,
+    "directNativeValidated": 225,
     "controlledNativeValidated": 44,
-    "nativeValidatedDistinct": 237,
-    "structuredWithoutNativeFixture": 3076
+    "nativeValidatedDistinct": 269,
+    "structuredWithoutNativeFixture": 3044
   },
   "validation": {
-    "directOriginalCases": 732938,
+    "directOriginalCases": 741130,
     "controlledCases": 169984,
     "ownedLineFunctionsChecked": 3313,
     "ownedLineBytesChecked": 1594632,
@@ -130,7 +130,8 @@
     "reports/typed8_29_containment_native_report.json",
     "reports/typed8_29_zero_native_report.json",
     "reports/typed8_29_trim_native_report.json",
-    "reports/typed8_29_bitset_run_native_report.json"
+    "reports/typed8_29_bitset_run_native_report.json",
+    "reports/branch_cohort_native_report.json"
   ],
   "limitations": [
     "Discovered means an independently identified candidate start. It does not mean valid pseudocode was produced.",

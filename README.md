@@ -18,7 +18,7 @@ The generator reads these pinned reports:
 - `reverse_engineering/reconstruction/validation/port_ledger_report.json`
 - `reverse_engineering/reconstruction/validation/ports_130_native_summary_report.json` and its 15 `batch_ports_130_*` native reports
 - `reverse_engineering/reconstruction/validation/typed8_ports_29_native_report.json` and its eight `typed8_29_*` native reports
-- The direct original-byte reports named in `build_coverage.py`, including `record_subtract_10b2d0_native_report.json`, `qword_contains_10c3c0_native_report.json`, `unsigned_gcd_176fc0_native_report.json`, `bitset_word_scans_native_report.json`, `bitset_zero_trim_native_report.json`, `bitset_set_run_native_report.json`, and `sentinel_lookup_181540_native_report.json`
+- The direct original-byte reports named in `build_coverage.py`, including `record_subtract_10b2d0_native_report.json`, `qword_contains_10c3c0_native_report.json`, `unsigned_gcd_176fc0_native_report.json`, `bitset_word_scans_native_report.json`, `bitset_zero_trim_native_report.json`, `bitset_set_run_native_report.json`, `sentinel_lookup_181540_native_report.json`, and `branch_cohort_native_report.json`
 
 It rejects disagreement on the target DLL SHA-256, independent engine build SHA-256 within the engine reports, full-RAX port artifact SHA-256 between its reports, each native suite report hash, structured count, native fixture partition, export inventories, mapped-slice ledger, or corpus audit. The **engine snapshot SHA** identifies the report-pinned `own_decompiler.exe`; the **two port artifact SHAs** identify separate compiled full-RAX and typed-AL DLLs. None is a Git commit. Repin dependent reports before regenerating. The checked-in snapshot may lag active development.
 
