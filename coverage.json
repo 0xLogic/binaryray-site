@@ -4,7 +4,7 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "47b01cd25d28807dc8ff6c3db867ea6e627e9abe925199891705585854d2d538",
+    "buildSha256": "dcf11d50668ca774d98661692e0a5aff7df2b683803f683dac7eef40f85e5c09",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
@@ -13,13 +13,13 @@
     "structured": 3313,
     "listing": 5926,
     "idaHeadsDiscovered": 9128,
-    "directNativeValidated": 245,
+    "directNativeValidated": 262,
     "controlledNativeValidated": 44,
-    "nativeValidatedDistinct": 289,
-    "structuredWithoutNativeFixture": 3024
+    "nativeValidatedDistinct": 306,
+    "structuredWithoutNativeFixture": 3007
   },
   "validation": {
-    "directOriginalCases": 775434,
+    "directOriginalCases": 790864,
     "controlledCases": 169984,
     "ownedLineFunctionsChecked": 3313,
     "ownedLineBytesChecked": 1594632,
