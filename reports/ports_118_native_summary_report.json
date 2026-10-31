@@ -1,12 +1,12 @@
 {
   "claim": "every current compiled port export compared with original machine-code behavior on admitted safe inputs; no full-function equivalence claim",
   "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_109_2f7a1014.dll",
-  "ports_dll_sha256": "2f7a1014b30b095170a08109804a45970eb8752fb0a1b87be8fb72b5c3eade47",
-  "port_generated_cpp_sha256": "586f4e2ac701cbe0ea9cb5fda8585193e1d973da6e0c503f6a15b54e146b307b",
-  "port_build_report_sha256": "9ee6c2da439e8f30170b98b00611ac83907b554c722805c2f68c305ace57cf57",
-  "built_exports": 109,
-  "independently_native_validated_exports": 109,
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_118_69783e4a.dll",
+  "ports_dll_sha256": "69783e4a5e831989c79b74210640ba404350837d8cf28089cef2a6fa383907b7",
+  "port_generated_cpp_sha256": "5e0270fb6c6194ebc736ba21dcf33988a1c568dad9f02b6c5e38710528925a28",
+  "port_build_report_sha256": "c51cd85e4452c9008abbe4b601fd8baa5e09afa26625a3771d9206b7453da444",
+  "built_exports": 118,
+  "independently_native_validated_exports": 118,
   "not_native_validated_exports": 0,
   "distinct_validated_rvas": [
     "0x3240",
@@ -41,11 +41,14 @@
     "0x78470",
     "0x822b0",
     "0x827b0",
+    "0x89320",
     "0x91120",
     "0x937c0",
     "0x94ad0",
     "0x94c00",
+    "0x9a060",
     "0x9a180",
+    "0x9ae50",
     "0x9afe0",
     "0x9b240",
     "0xab4a0",
@@ -53,8 +56,10 @@
     "0xd4610",
     "0xd4630",
     "0xe2f00",
+    "0xfe330",
     "0x1020c0",
     "0x120d50",
+    "0x15d6d0",
     "0x15df50",
     "0x161660",
     "0x161b30",
@@ -84,6 +89,7 @@
     "0x1d3b10",
     "0x1d3b20",
     "0x1d5950",
+    "0x1d6ae0",
     "0x1e3b00",
     "0x1e8240",
     "0x1e8310",
@@ -98,6 +104,7 @@
     "0x1f4980",
     "0x2145b0",
     "0x215070",
+    "0x215aa0",
     "0x21c2f0",
     "0x21f390",
     "0x227d30",
@@ -113,56 +120,58 @@
     "0x23b880",
     "0x23df60",
     "0x23e660",
+    "0x242800",
     "0x24e9f0",
     "0x24f320",
     "0x24f330",
     "0x24fa30",
-    "0x25ad70"
+    "0x25ad70",
+    "0x25ed00"
   ],
   "overlap_rvas_between_fixtures": [
     "0x94c00"
   ],
-  "total_native_cases_executed": 220416,
+  "total_native_cases_executed": 404736,
   "suite_reports": [
     {
-      "report": "batch_ports_109_native_report.json",
-      "report_sha256": "664010435aa9e8471cf818bdaa48273b78f0c647205869dafb569c25a9c9e9da",
+      "report": "batch_ports_118_native_report.json",
+      "report_sha256": "cb0e601a63d9a1c5890750a2ad747882c43f517203a7c417733fd729b66893d3",
       "validated_ports": 89,
       "cases": 22784
     },
     {
-      "report": "batch_ports_109_special_native_report.json",
-      "report_sha256": "cd259b342eb576bd75edb1b4802737e76d3e42f1015c779ea3431d0b8f6cbddc",
+      "report": "batch_ports_118_special_native_report.json",
+      "report_sha256": "d99e78766e65ee4c27d136dd39a48133b3083b601328d3e181068c4d127035d8",
       "validated_ports": 2,
       "cases": 81920
     },
     {
-      "report": "batch_ports_109_reused_fixtures_report.json",
-      "report_sha256": "99141d71acef98bb3757630865c7329de74964999b6cbca36f4687180e9f3ec4",
-      "validated_ports": 6,
-      "cases": 69632
+      "report": "batch_ports_118_reused_fixtures_report.json",
+      "report_sha256": "9f4e9ce0ede73f4820759bf2a569d239242bddbf36e0061599338e5425693eab",
+      "validated_ports": 15,
+      "cases": 253952
     },
     {
-      "report": "batch_ports_109_index_scale_native_report.json",
-      "report_sha256": "f12e3d9a0fc9fb0d3d5ce3d921d3aafda901031b8ab71a5b5173105df86f3709",
+      "report": "batch_ports_118_index_scale_native_report.json",
+      "report_sha256": "46a7ed1c793ed274120935454de69aea174c8d0d919ec1d29cdb3dd3039cd91f",
       "validated_ports": 4,
       "cases": 896
     },
     {
-      "report": "batch_ports_109_indirect_getter_native_report.json",
-      "report_sha256": "5392adb115fc37a627cbc822d20ed38be1b09a27f9350dbc780b3059c0331bc8",
+      "report": "batch_ports_118_indirect_getter_native_report.json",
+      "report_sha256": "f170028d5a6bf3b11639b2c3e3d534f439f56a9b5a24c55e1997a536b88eb843",
       "validated_ports": 5,
       "cases": 16000
     },
     {
-      "report": "batch_ports_109_constant_switch_native_report.json",
-      "report_sha256": "eaa925364affa719bc4599b4655e20504f963c3e54fab73e883ee50fd906904c",
+      "report": "batch_ports_118_constant_switch_native_report.json",
+      "report_sha256": "e0c15c357e82a05b78abca9fce5da8bbaaa994bb4dd7899966ae94bc92decdb5",
       "validated_ports": 2,
       "cases": 16896
     },
     {
-      "report": "batch_ports_109_linked_unlink_native_report.json",
-      "report_sha256": "7b2146bd9e09b37a6464661347771e294f95e789ba61af74d2212dcbc1e766c9",
+      "report": "batch_ports_118_linked_unlink_native_report.json",
+      "report_sha256": "5e7a61e0a4495fed22a53a37b67a6d1af7d532b2755cc9f8c9b112338c825e7c",
       "validated_ports": 2,
       "cases": 12288
     }
