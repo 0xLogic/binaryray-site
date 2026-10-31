@@ -1,12 +1,12 @@
 {
   "claim": "every current compiled port export compared with original machine-code behavior on admitted safe inputs; no full-function equivalence claim",
   "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_108_591f1b9f.dll",
-  "ports_dll_sha256": "591f1b9f7bd148ef4bedf977159e03e58efb5d93c617d3b4864abab9701ff915",
-  "port_generated_cpp_sha256": "8aac3f984a4ccdad1006196f31dbb59cec4c545d263c912cbee75e2512a02599",
-  "port_build_report_sha256": "6d717fdca143a75b80197d5144d9b716902a7e4024bf8c6fa561e0f8222dcbb0",
-  "built_exports": 108,
-  "independently_native_validated_exports": 108,
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_109_2f7a1014.dll",
+  "ports_dll_sha256": "2f7a1014b30b095170a08109804a45970eb8752fb0a1b87be8fb72b5c3eade47",
+  "port_generated_cpp_sha256": "586f4e2ac701cbe0ea9cb5fda8585193e1d973da6e0c503f6a15b54e146b307b",
+  "port_build_report_sha256": "9ee6c2da439e8f30170b98b00611ac83907b554c722805c2f68c305ace57cf57",
+  "built_exports": 109,
+  "independently_native_validated_exports": 109,
   "not_native_validated_exports": 0,
   "distinct_validated_rvas": [
     "0x3240",
@@ -84,6 +84,7 @@
     "0x1d3b10",
     "0x1d3b20",
     "0x1d5950",
+    "0x1e3b00",
     "0x1e8240",
     "0x1e8310",
     "0x1e91c0",
@@ -121,47 +122,47 @@
   "overlap_rvas_between_fixtures": [
     "0x94c00"
   ],
-  "total_native_cases_executed": 212224,
+  "total_native_cases_executed": 220416,
   "suite_reports": [
     {
-      "report": "batch_ports_108_native_report.json",
-      "report_sha256": "8bda9587f47970b18a2cf3b9802edd209f94b8cd4189aec7740e46a2f83c2422",
+      "report": "batch_ports_109_native_report.json",
+      "report_sha256": "664010435aa9e8471cf818bdaa48273b78f0c647205869dafb569c25a9c9e9da",
       "validated_ports": 89,
       "cases": 22784
     },
     {
-      "report": "batch_ports_108_special_native_report.json",
-      "report_sha256": "7f4221a11072664c4a705bb0ea2a37837d656a4fe005ad77994f434af6d75e07",
+      "report": "batch_ports_109_special_native_report.json",
+      "report_sha256": "cd259b342eb576bd75edb1b4802737e76d3e42f1015c779ea3431d0b8f6cbddc",
       "validated_ports": 2,
       "cases": 81920
     },
     {
-      "report": "batch_ports_108_reused_fixtures_report.json",
-      "report_sha256": "7c2e15d60895cea9d1f265f9b44d20f70ab54fec76628e75a34036917da22806",
-      "validated_ports": 5,
-      "cases": 61440
+      "report": "batch_ports_109_reused_fixtures_report.json",
+      "report_sha256": "99141d71acef98bb3757630865c7329de74964999b6cbca36f4687180e9f3ec4",
+      "validated_ports": 6,
+      "cases": 69632
     },
     {
-      "report": "batch_ports_108_index_scale_native_report.json",
-      "report_sha256": "e6b42bdbbbda6730630faf642d6a9b4a307cc0bc09218f9af6eca5f3d0c53ae2",
+      "report": "batch_ports_109_index_scale_native_report.json",
+      "report_sha256": "f12e3d9a0fc9fb0d3d5ce3d921d3aafda901031b8ab71a5b5173105df86f3709",
       "validated_ports": 4,
       "cases": 896
     },
     {
-      "report": "batch_ports_108_indirect_getter_native_report.json",
-      "report_sha256": "b1e31b3ebf7c396527bb437b15dbe52b000843b7fdec9e0cabbf43c9fc5fdceb",
+      "report": "batch_ports_109_indirect_getter_native_report.json",
+      "report_sha256": "5392adb115fc37a627cbc822d20ed38be1b09a27f9350dbc780b3059c0331bc8",
       "validated_ports": 5,
       "cases": 16000
     },
     {
-      "report": "batch_ports_108_constant_switch_native_report.json",
-      "report_sha256": "e9aaef3e65f6b1eb6b20746efa90feefcc091b595df886833ce001dfc6e35ab9",
+      "report": "batch_ports_109_constant_switch_native_report.json",
+      "report_sha256": "eaa925364affa719bc4599b4655e20504f963c3e54fab73e883ee50fd906904c",
       "validated_ports": 2,
       "cases": 16896
     },
     {
-      "report": "batch_ports_108_linked_unlink_native_report.json",
-      "report_sha256": "a27253028a65e771665b602a01c4e245581bf83346cfedd9c0f967ab53031191",
+      "report": "batch_ports_109_linked_unlink_native_report.json",
+      "report_sha256": "7b2146bd9e09b37a6464661347771e294f95e789ba61af74d2212dcbc1e766c9",
       "validated_ports": 2,
       "cases": 12288
     }
