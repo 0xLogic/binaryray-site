@@ -1,0 +1,131 @@
+{
+  "claim": "decoded x64 to typed IR evaluated against exact original machine code",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "eb95c848c2e5ee5abe40754e3e2445d512949c6aef588c0ddcbbf71e69222120",
+  "cases_per_function": 1024,
+  "cases": 7168,
+  "functions": [
+    {
+      "rva": "0x24f0",
+      "native_bytes_sha256": "1018b23bfc6803d1e50586a1e9b0151b14d97a7ba9267a595518de56a7704eab",
+      "ir_sha256": "0edf8fee8f1c85a47bf6c7483ee3f61442570f74b56da20b2847b589adccb28f",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x2640",
+      "native_bytes_sha256": "794761535e8da11e78548b58e469bb4e783f7149e446d6c2a8a5f9be2959f7e1",
+      "ir_sha256": "4563d02855dba9c1d76fbb4470efce1fbf076ca1875bb07dbb7f3a75bdeaa0a1",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4ad0",
+      "native_bytes_sha256": "f9ab56c764100f6de974a6afa5ca5ea00146ab6bd602328393ec5e4228c34b90",
+      "ir_sha256": "59f219285bb393cd67503d0a51a23b8164dbf62af1b8ec24e408c0cfc1583b59",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x4dc0",
+      "native_bytes_sha256": "94ce425d03d3b432b5f5f310a6d45fd06c27213053b2578593a3ead54357e3aa",
+      "ir_sha256": "17a8d260b22048cb7fb91e1c54ee318560a24c74364f54b0b4faa852c69ea0ae",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x114b0",
+      "native_bytes_sha256": "06333eef75398cc88d83d7f31df4f01d89cb3307fea68609abcfd715c96c083d",
+      "ir_sha256": "4dc89986021e9f25f1f2acf6710d71fd1f978d04740f2822153d50ba8fa3cc04",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x14150",
+      "native_bytes_sha256": "705c9e01b392374cd64927b9b31da557c7e17d682e7dfb111bf0e1b3876fdeb2",
+      "ir_sha256": "bb2c3b84118b6796cbe63fee101d18669a6994b004411757b106b633adea3e1e",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    },
+    {
+      "rva": "0x71b0",
+      "native_bytes_sha256": "fc337e6050339a3081e40964ffebf7f852312a9623410952298639442550d9cd",
+      "ir_sha256": "520b5333b6efacb1dd15548ef1016c095b431e300a04ddce32d3f26ff04746b0",
+      "cases": 1024,
+      "paths": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "return_bits": 64
+    }
+  ],
+  "mismatches": 0,
+  "exit_code": 0,
+  "compared": "full RAX and every fixture byte across disjoint and aliased MOV loads/stores"
+}
