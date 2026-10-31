@@ -23,21 +23,21 @@
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "7d4029751d703ca1ac0633f5871758560455d34cd5cade60d74bda8e71cdf6e5"
+      "report_sha256": "a3093007470b006dace166f67cf7c4d3f92cc3ecb50ff1ec6a3e3fb91e667d32"
     },
     {
       "suite": "pointer_match_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "9aa89f8eda38b28ad0a86c2dda354c8b46588e845b3b8cce80f8c8ad156e59ed"
+      "report_sha256": "110072f24e0b48a3e000b0e19b0f12edf12fa0fc594bfa10204128dfcdcd277f"
     },
     {
       "suite": "conditional_update_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "d637086a9429983dc3a3ed073891713c9cbbe8cfb08850a2148f13c4881b6821"
+      "report_sha256": "5274f842de123567dc7a49d760881737ffd2e4488b21cefebb637da5507727e0"
     },
     {
       "suite": "imul_native",
@@ -93,7 +93,7 @@
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "c67b01f91f4d24757ae79e3e85a9dc55f2959316cce3c25e99ba6b9b043dc9ab"
+      "report_sha256": "51b5cd9e518913e0f903fd006376d442bffd1f435ff33ec25f3cbe61ef29ea0d"
     },
     {
       "suite": "indirect_getter_native",
