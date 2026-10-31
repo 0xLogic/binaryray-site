@@ -27,18 +27,18 @@
   },
   "porting": {
     "manualHelperImplementations": 7,
-    "nativeValidatedGeneratedExports": 117,
-    "distinctMappedOriginalRvas": 122,
+    "nativeValidatedGeneratedExports": 121,
+    "distinctMappedOriginalRvas": 126,
     "manualGeneratedOverlap": 2,
-    "mappedSlices": 124,
-    "compiledGeneratedExports": 117,
+    "mappedSlices": 128,
+    "compiledGeneratedExports": 121,
     "withoutValidatedExportParity": 0,
     "fullRax": {
       "returnBitsCompared": 64,
-      "compiledExports": 95,
-      "nativeValidatedExports": 95,
-      "nativeCases": 166144,
-      "artifactSha256": "78fa0c54cc70c029c3e06db0dc0f33f460dca49b235ed6aeea5b94b83dd931fd"
+      "compiledExports": 99,
+      "nativeValidatedExports": 99,
+      "nativeCases": 167040,
+      "artifactSha256": "f4c209b3d57940db0cfb57b80e5736595b2dacc648fdc1543620476ddb3ab676"
     },
     "typedAl": {
       "returnBitsCompared": 8,
@@ -91,10 +91,11 @@
     "reports/current_native_summary_report.json",
     "reports/pe_result_corpus_report.json",
     "reports/port_ledger_report.json",
-    "reports/ports_95_native_summary_report.json",
-    "reports/batch_ports_95_native_report.json",
-    "reports/batch_ports_95_special_native_report.json",
-    "reports/batch_ports_95_reused_fixtures_report.json",
+    "reports/ports_99_native_summary_report.json",
+    "reports/batch_ports_99_native_report.json",
+    "reports/batch_ports_99_special_native_report.json",
+    "reports/batch_ports_99_reused_fixtures_report.json",
+    "reports/batch_ports_99_index_scale_native_report.json",
     "reports/typed8_ports_native_report.json"
   ],
   "limitations": [

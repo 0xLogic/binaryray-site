@@ -1,7 +1,7 @@
 {
   "claim": "actual 96-export batch ports versus exact original bytes, specialized safe inputs",
-  "ports_dll_sha256": "78fa0c54cc70c029c3e06db0dc0f33f460dca49b235ed6aeea5b94b83dd931fd",
-  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_95_78fa0c54.dll",
+  "ports_dll_sha256": "f4c209b3d57940db0cfb57b80e5736595b2dacc648fdc1543620476ddb3ab676",
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_99_f4c209b3.dll",
   "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
   "harness_sha256": "d0801a4f55d683503728dadff57705681c2743e0a04a08ca80b64109613b2521",
   "functions": [

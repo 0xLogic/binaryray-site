@@ -79,7 +79,7 @@
       "kind": "original bytes",
       "rva_count": 4,
       "case_count": 896,
-      "report_sha256": "19832967fb2b5eee85ce04e635cbf251c8656ebedf7b0def84fbf5259585baa6"
+      "report_sha256": "8c45b1ac59bbf881635f69bde0672e8933ac99c22f9462b6b5100cb9c1c4d823"
     },
     {
       "suite": "rip_initializer_native",

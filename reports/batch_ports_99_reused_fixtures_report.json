@@ -1,9 +1,9 @@
 {
   "claim": "six actual batch DLL exports versus exact original bytes via established specialized native fixtures",
-  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_95_78fa0c54.dll",
-  "ports_dll_sha256": "78fa0c54cc70c029c3e06db0dc0f33f460dca49b235ed6aeea5b94b83dd931fd",
+  "ports_dll_path": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\artifacts\\reconstructed_ports_99_f4c209b3.dll",
+  "ports_dll_sha256": "f4c209b3d57940db0cfb57b80e5736595b2dacc648fdc1543620476ddb3ab676",
   "original_dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "port_build_report_sha256": "6aaa84baa56775ae0745435a59e10cd77ff12e3a0ad14522d71629a0823e2731",
+  "port_build_report_sha256": "88500a1c90f05497523fd9a280ac91a2a3aa689b17990844a6d6337de1f6e789",
   "functions": [
     {
       "rva": "0x9a180",
@@ -11,7 +11,7 @@
       "cases": 8192,
       "native_bytes_sha256": "807bd32af88b6fd5d0346dc02c41a32496d3be0572c8dd362f8bd722b17acd11",
       "generated_sha256": "81faaf0d4e5f102b99f18d3fb7ccea8193f7a9b70fe015b379e68a9ad3e1a736",
-      "harness_sha256": "31b773a09ed9d2540b23c34330b9a471b7b482d63182a14f5a88ae2523b35df4",
+      "harness_sha256": "dffbe1af55743db15a14c41e8d813b7aaae11b54591fb77eecd02129240610f5",
       "adapted_source_sha256": "add7124be34ee7e016954562962a2268c056ec4e09eabd1752fa50cd0e0a46ae",
       "stdout": "Mixed-width record swap: checked=8192 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,"
     },
@@ -21,7 +21,7 @@
       "cases": 16384,
       "native_bytes_sha256": "4ceecf57941b9e9bf4e2fa3e8a0a67136c311bc730cf3c8e0120dfe9d72ef5ac",
       "generated_sha256": "084e38495d5689ac4c8820cab5decd97d8ab827ce4339e5c2f9ba5b76db9c397",
-      "harness_sha256": "401bba54f7e186bb69b8e68c3f3e784ebb9027bbde2643e2c02e7ffda264a506",
+      "harness_sha256": "9119d796df98a5a1df3d7d5e971841f428d255a7bd4f25d842c2f505baa03703",
       "adapted_source_sha256": "fc38cfd999c2bdca9cc46b19a4d85d03447c29909532c6848529768f31d143c5",
       "stdout": "SIMD signed64 three-record sort: checked=16384 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,"
     },
@@ -31,7 +31,7 @@
       "cases": 12288,
       "native_bytes_sha256": "4a4322f722a5bb9d333989797fc4f428a9d9d05217ee0268f44bee7be9133f2c",
       "generated_sha256": "59b0962ceb3d2c9c6511f56c99fdb7735d9e1dc595f2eca3b35dffb1cc0caa6c",
-      "harness_sha256": "5676ee0801ce5a94801fce3f8687ca6604b1333527a4a23cc5f6af09176999b8",
+      "harness_sha256": "609b8ace749ba329889671645c17aa0ea3af7ffb844e58c2d5643a6143e89df2",
       "adapted_source_sha256": "c7cc392e3acd936d0662fbbf44fc099c302899cba1aff5924cc71cfeca7699a0",
       "stdout": "Linked node swap 0x187F20: checked=12288 mismatches=0 shapes=2048,2048,2048,2048,2048,2048,"
     },
@@ -41,7 +41,7 @@
       "cases": 8192,
       "native_bytes_sha256": "055bcac670736f45999d5a9a462070641af16f21e38d49be598122cafee0251a",
       "generated_sha256": "cec21bce4bd1a4161460ebb76c1f6cae7beb1c7f08e5db68d6bf04991f0fadab",
-      "harness_sha256": "f0cdd3a117318fc7606c468648c3eec724d50611149cb827ae3d5bf2c7156060",
+      "harness_sha256": "066e8b7a1e93f173bd894a32dfe8505ad826a111ef231631fbd74e8cfab7bc4e",
       "adapted_source_sha256": "cd79c937a2fbf78b313129ff88d7e87f5df46b754bd0114fc80f21a358d80910",
       "stdout": "Counter bound 0x22D020: checked=8192 mismatches=0"
     },
@@ -51,7 +51,7 @@
       "cases": 16384,
       "native_bytes_sha256": "70542117d2b318677b8471905b0a7817539de866439e3850aaec774a9427e398",
       "generated_sha256": "9fe25a49fd3fc496e496b28f172e3bbd536e750512169a8d9bb2040c47cb7e81",
-      "harness_sha256": "0689df0fc9272de5c47c24c7a02801d94a9e9a2ca2ce232af80eb98112c776fe",
+      "harness_sha256": "8ff348d39d455b27b569a2547d355ed5a0b14862ebc803b9bf67c03a914995e8",
       "adapted_source_sha256": "d009952d086275c030d0e04aca3d40ab1ad943606ff78580eef28e4eecc8093d",
       "stdout": "SIMD three-record sort: checked=16384 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,"
     }
