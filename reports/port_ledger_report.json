@@ -2,22 +2,23 @@
   "claim": "mapped C++ port slices and provenance, not complete-function parity",
   "target_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
   "ida_heads_total": 9167,
-  "mapped_slices": 154,
+  "mapped_slices": 155,
   "distinct_mapped_original_rvas": 151,
   "manual_helper_slices": 9,
-  "generated_ports": 145,
+  "generated_ports": 146,
   "manual_generated_overlap_rvas": [
     "0x5390",
+    "0x1a4090",
     "0x1ec240",
     "0x1ec2a0"
   ],
-  "batch_validated_including_overlap": 123,
+  "batch_validated_including_overlap": 124,
   "typed8_validated_exports": 22,
   "batch_overlap_with_explicit_ports": 0,
   "validation_kinds": {
     "direct_original": 7,
     "direct_original_controlled_callback": 1,
-    "direct_original_export_batch": 123,
+    "direct_original_export_batch": 124,
     "direct_original_export_u8": 22,
     "native_print_path": 1
   },
@@ -177,7 +178,7 @@
   "independent_core_exports_total": 52,
   "independent_core_sha256": "b513eff8769bcba917d4bf90d6aeda4aee02e82b9c9ee4049ea15ca61a5f1d34",
   "generated_artifacts": [
-    "reconstruction/validation/artifacts/reconstructed_ports_123_beaf38a4.dll",
+    "reconstruction/validation/artifacts/reconstructed_ports_124_2dbba875.dll",
     "reconstruction/validation/artifacts/reconstructed_ports_typed8_22_17b93dbb.dll"
   ]
 }
