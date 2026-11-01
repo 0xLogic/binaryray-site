@@ -15,14 +15,14 @@
     "idaHeadsDiscovered": 9128,
     "idaHeadsStructured": 6396,
     "structuredOutsideReference": 111,
-    "directNativeValidated": 270,
+    "directNativeValidated": 281,
     "controlledNativeValidated": 1421,
-    "nativeValidatedDistinct": 1691,
-    "structuredWithoutNativeFixture": 4816
+    "nativeValidatedDistinct": 1702,
+    "structuredWithoutNativeFixture": 4805
   },
   "validation": {
-    "directOriginalCases": 806412,
-    "controlledCases": 1542785,
+    "directOriginalCases": 816414,
+    "controlledCases": 1542270,
     "ownedLineFunctionsChecked": 6507,
     "ownedLineBytesChecked": 8456205,
     "ownedLineMismatches": 0,
@@ -149,8 +149,8 @@
   "integration": {
     "baselineStructured": 5838,
     "gainedStructured": 669,
-    "gainsWithNativeFixtures": 35,
-    "gainsWithoutNativeFixtures": 634,
+    "gainsWithNativeFixtures": 46,
+    "gainsWithoutNativeFixtures": 623,
     "unchangedOutputs": 8570,
     "unexpectedChanges": 0,
     "lanes": [

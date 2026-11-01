@@ -3,9 +3,9 @@
   "callee_model": "controlled: callees return table values and do not touch memory; real callees untested",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
   "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "compiled_dll_sha256": "176f127c35691d1058e2d120a4662ae42aa9fa4d4d1b25e98e3b993504937804",
+  "compiled_dll_sha256": "541908fff00a5b77aafd192a305302cd9b3a1c8e96e5e4e04124a3cdcc24c163",
   "generated_cpp_sha256": "0289799600c3206dca483851ec0a64bf3057534d32f9fe616c53e11a59b03f50",
-  "cases": 28306,
+  "cases": 27791,
   "mismatches": 0,
   "exit_code": 0,
   "functions": [
@@ -109,7 +109,7 @@
       "cases": 1024,
       "faulting_inputs_skipped": 0,
       "distinct_returns": 1,
-      "distinct_outcomes": 1022,
+      "distinct_outcomes": 1023,
       "calls_compared": 5120
     },
     {
@@ -172,8 +172,8 @@
           "arguments_passed": 2
         }
       ],
-      "cases": 988,
-      "faulting_inputs_skipped": 36,
+      "cases": 473,
+      "faulting_inputs_skipped": 551,
       "distinct_returns": 2,
       "distinct_outcomes": 403,
       "calls_compared": 4752
@@ -235,7 +235,7 @@
       ],
       "cases": 575,
       "faulting_inputs_skipped": 449,
-      "distinct_returns": 145,
+      "distinct_returns": 136,
       "distinct_outcomes": 575,
       "calls_compared": 940
     },
@@ -400,8 +400,8 @@
       "cases": 1024,
       "faulting_inputs_skipped": 0,
       "distinct_returns": 3,
-      "distinct_outcomes": 792,
-      "calls_compared": 1952
+      "distinct_outcomes": 899,
+      "calls_compared": 2252
     },
     {
       "rva": "0x1b6720",
