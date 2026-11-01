@@ -2,8 +2,8 @@
   "value_pool": "small, with forward-pointer memory; inputs on which the original faults are skipped",
   "claim": "original machine code vs compiled IR for memory-source CMOV; full RAX and 16 KiB memory; full RAX and the whole 16 KiB argument buffer compared",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "compiled_dll_sha256": "ebaa965e2627194a3fc5d443238a1e06c37cff90677941a32043c8e075c8cc8b",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "compiled_dll_sha256": "088a12af434c7da1ddfed8d10b089de0d19f573e2323727a933436328ce7a756",
   "generated_cpp_sha256": "d4ad48a2d603ea403539d35378c9b317ca12f48c25dd946814442478fb7a90a4",
   "cases": 1024,
   "mismatches": 0,
@@ -15,8 +15,8 @@
       "generated_sha256": "eddc5740a873022b61b539a8ae322cdc8766e507d9427890964c18bd134a39e5",
       "cases": 1024,
       "faulting_inputs_skipped": 0,
-      "distinct_returns": 79,
-      "distinct_outcomes": 79,
+      "distinct_returns": 78,
+      "distinct_outcomes": 78,
       "pointer_args": [
         "rcx",
         "rdx"

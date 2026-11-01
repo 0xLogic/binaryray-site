@@ -1,0 +1,30 @@
+{
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "core_sha256": "0c6cb79d02bb63ec1fc9a97d00c2c245c0e7f587d31f9126344ffbebee913c22",
+  "jobs": 4,
+  "seconds": 25.791185799986124,
+  "scope": "selected suites",
+  "suites": [
+    {
+      "suite": "ir_call_slice_s001_native",
+      "status": "passed",
+      "seconds": 21.144719399977475
+    },
+    {
+      "suite": "ir_call_slice_s004_native",
+      "status": "passed",
+      "seconds": 22.296683999942616
+    },
+    {
+      "suite": "ir_call_slice_s002_native",
+      "status": "passed",
+      "seconds": 23.254169999971054
+    },
+    {
+      "suite": "ir_call_slice_s003_native",
+      "status": "passed",
+      "seconds": 25.785484199994244
+    }
+  ]
+}

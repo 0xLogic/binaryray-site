@@ -1,0 +1,25 @@
+{
+  "claim": "original mapped DLL vs compiled IR; full RAX and bitset/record memory; no substituted callees or skipped faults",
+  "coverage_method": "bitset lengths 0..256 with 8 patterns; all 512 triples of 8 strings, including equal strings; not an execution trace",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "compiled_exe_sha256": "cae48e4655a060f527ae3e6e20a26012f301da0fdf894cd0909cdc9575ec8e35",
+  "generated_cpp_sha256": "1fd6fd477fac1869765e76394eae9644f076cd39c30a58561b5dae62d7ca99ca",
+  "functions": [
+    {
+      "rva": "0x1ff0",
+      "cases": 2056,
+      "generated_sha256": "04b2ab80e6e3b33eff4b185cd29d704f94079dfeaced7466e92d8d45de5935e3"
+    },
+    {
+      "rva": "0x1e3270",
+      "cases": 512,
+      "generated_sha256": "017efbc2ab92e1b7f1ff0c90e9aa4f0e468256f35f818cf19aba2eb3a1527aa5"
+    }
+  ],
+  "cases": 2568,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "2568 cases; zero mismatches\n",
+  "stderr": ""
+}

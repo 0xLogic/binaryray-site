@@ -1,8 +1,8 @@
 {
   "claim": "exact original machine code vs compiled IR C++ for 7 accepted multi-block functions",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "compiled_dll_sha256": "49dd8c77ed9b9b72cee9154b825632ec1f388ac32f2d07b5f3eef08a4311c155",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "compiled_dll_sha256": "9a7515494fafe9fa250552dd9650fb2e637bbc19b3af7e7a9839f43647d105c3",
   "generated_cpp_sha256": "3f4d9ee83c7854d936d2b5019e658090c9541b862bad4f698c02dc8e87b4cde9",
   "cases_per_function": 256,
   "cases": 1792,

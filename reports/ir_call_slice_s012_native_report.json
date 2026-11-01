@@ -2,10 +2,10 @@
   "claim": "original machine code (image mapped at its preferred base, every callee replaced by a recording stub that clobbers volatile registers) vs compiled IR C++; return value, 16 KiB argument buffer, .data section and the call sequence with every argument the callee reads compared",
   "callee_model": "controlled: callees return table values and do not touch memory; real callees untested",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "compiled_dll_sha256": "e657dca3dc293059cd51499f73a66db1a2a8f23967da151ddb1183de19e4b6c9",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "compiled_dll_sha256": "affcc2c3566c81c82731a6a682b8775f54ca9518584d5e384eb50ed4b7c29043",
   "generated_cpp_sha256": "90d149b8c6e9c805b0e375c0b70881b19374f16f1952634bd4b461129882c122",
-  "cases": 44836,
+  "cases": 44530,
   "mismatches": 0,
   "exit_code": 0,
   "functions": [
@@ -835,11 +835,11 @@
           "arguments_passed": 4
         }
       ],
-      "cases": 745,
-      "faulting_inputs_skipped": 279,
-      "distinct_returns": 10,
-      "distinct_outcomes": 113,
-      "calls_compared": 121
+      "cases": 439,
+      "faulting_inputs_skipped": 585,
+      "distinct_returns": 12,
+      "distinct_outcomes": 233,
+      "calls_compared": 276
     },
     {
       "rva": "0x207c80",

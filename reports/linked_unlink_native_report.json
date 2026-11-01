@@ -1,8 +1,8 @@
 {
   "claim": "two direct original-byte linked-node mutations with six independently checked graph paths",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "harness_sha256": "7b40a98be08ebe72c35b6b4056bf78e92a612a6c802ba6e01841cf0cd4d0a027",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "harness_sha256": "2f2b40dfd6a1072d2773f9acaf2af8d16902690a5d1551938f24cd14d6f8a098",
   "function_count": 2,
   "cases_per_function": 6144,
   "checked": 12288,

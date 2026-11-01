@@ -2,10 +2,10 @@
   "claim": "controlled callees with local-frame reads/writes; original machine code vs compiled IR; full RAX and 256 bytes external memory",
   "limitations": "three callees substituted; only initialized local record fields compared; no arbitrary-callee or exception equivalence claim",
   "rva": "0x1d14c0",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
   "generated_cpp_sha256": "0399b71c73353322dc0b35c9dfcfa1d154508899bbd3454a5198f76a42455935",
-  "compiled_exe_sha256": "2cc8792e29c7fd8a1a49748c6d45afff2d760aada52a659d13d1af4a7c1b1286",
+  "compiled_exe_sha256": "4a1c807866265c77609ee0be3dff9efbe3f51b777f49b7f765e70c4c1501c0a3",
   "cases": 1024,
   "mismatches": 0,
   "lengths_exercised": [

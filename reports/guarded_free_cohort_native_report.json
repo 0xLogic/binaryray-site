@@ -1,7 +1,7 @@
 {
   "claim": "controlled free-effect differential for exact 43-byte wrappers; real allocator untested",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
   "controlled_callee_rva": "0x26161c",
   "real_allocator_tested": false,
   "function_count": 10,
@@ -88,7 +88,7 @@
       "adapted_generated_sha256": "86514899a8b2b9443583299aecb71587d31411ca87e12b4dc052b87a5aa7c2df"
     }
   ],
-  "harness_sha256": "29742c25d56e023fe78b49788663536d960eb4c3de99d70488e35b09fb695457",
+  "harness_sha256": "4a1d39bffa441c8f6eece8b817e810cbc77bc5b5bf354e4d13a7486deaab8207",
   "exit_code": 0,
   "semantic_mismatch_found": false,
   "stdout": "guarded-free cohort native parity: 10 wrappers, 10240 cases passed; free=5120 skip=5120 real_allocator_tested=0",

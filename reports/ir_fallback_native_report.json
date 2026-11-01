@@ -1,8 +1,8 @@
 {
   "claim": "default IR fallback vs original bit-count bytes; synthetic conditional tail-call regressions",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "compiled_dll_sha256": "07d46ee62245f7febfeefe316e25fad01c168f5aa418a4fbdda753ac79520926",
+  "compiled_dll_sha256": "44c82b2fda69ba11a9652d4de036fcd3c4f46ea5887bd8b8d79cb3b6588a4273",
   "exit_code": 0,
   "mismatches": 0,
   "cases": 8192,

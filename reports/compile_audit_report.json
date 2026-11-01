@@ -1,0 +1,10 @@
+{
+  "claim": "generated C++ syntax/type check only, no behavior parity",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "structured_functions": 6829,
+  "source": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\own_decompiler\\build\\compile_audit\\generated.cpp",
+  "configure_exit": 0,
+  "build_exit": 0,
+  "compiler_output_tail": "MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework\n\n  1>Checking Build System\n  Building Custom Rule C:/Users/dev/Desktop/IDA9/reverse_engineering/own_decompiler/build/compile_audit/CMakeLists.txt\n  generated.cpp\n  generated.vcxproj -> C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\own_decompiler\\build\\compile_audit\\cmake\\generated.dir\\Release\\generated.lib\n  Building Custom Rule C:/Users/dev/Desktop/IDA9/reverse_engineering/own_decompiler/build/compile_audit/CMakeLists.txt\n"
+}

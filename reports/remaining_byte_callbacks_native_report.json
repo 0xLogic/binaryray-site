@@ -1,8 +1,8 @@
 {
   "claim": "controlled virtual and imported callbacks; actual target callees not validated",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "harness_sha256": "25d7b05850b9178ab7fa7c50d9e2e47381ed4b20f2eb46ad326ae2d8fa319fd9",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "harness_sha256": "295637deb17f5009fd2ab936272d009de0022b8b855c7955a824d0bf6eb02369",
   "cases_per_function": 4096,
   "cases": 8192,
   "mismatches": 0,

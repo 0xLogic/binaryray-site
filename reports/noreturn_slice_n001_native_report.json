@@ -4,10 +4,10 @@
   "noreturn_file": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\ir_call_slices\\noreturn_callees.json",
   "noreturn_file_sha256": "c2614cac099228d2ab2320aa242ecec55044cb5a40e926dda3ecb7166e3514f3",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "compiled_dll_sha256": "9f3173ba84d7eb3f01df74d9ae9229174be7d42797e150c30b29c707e19184c8",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "compiled_dll_sha256": "e842d223be852ce059611406f9a4e7916c7fca03276212d7e0e2ff78d8d98d45",
   "generated_cpp_sha256": "fde002333270645f23d8a0b5903a6689f41583d99727c8c86cccf067bdf1d84c",
-  "cases": 5306,
+  "cases": 5311,
   "mismatches": 0,
   "exit_code": 0,
   "noreturn_cases": 2048,
@@ -37,10 +37,10 @@
           "noreturn": true
         }
       ],
-      "cases": 840,
-      "faulting_inputs_skipped": 184,
+      "cases": 845,
+      "faulting_inputs_skipped": 179,
       "distinct_returns": 146,
-      "distinct_outcomes": 449,
+      "distinct_outcomes": 448,
       "calls_compared": 431,
       "noreturn_cases": 0,
       "noreturn_exercised": false

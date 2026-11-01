@@ -1,8 +1,8 @@
 {
   "claim": "native differential for nine structured MOV AL/XOR AL byte-return functions",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
-  "harness_sha256": "a543dbcb6e1f6b86d3e043754c720612058ac1103d407d2cd4fe63303bad3521",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "harness_sha256": "5f4d15f4bdc266d5a897c4dedc700452afef76814e155c42cb180de66752c3ea",
   "function_count": 9,
   "cases_per_function": 1024,
   "functions": [

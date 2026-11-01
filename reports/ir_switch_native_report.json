@@ -1,9 +1,9 @@
 {
   "claim": "original mapped DLL vs compiled IR; full RAX and 256-byte input memory; no substituted callees or skipped faults",
   "coverage_method": "input-derived from original switch tables; all indices exercised; not an execution trace",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "compiled_exe_sha256": "831812f928cac02e8c35e0c4e1ad63e664dca41fd1e874041185b440be040c7b",
+  "compiled_exe_sha256": "fff49504843d3846012055368c25045c2163cc8924fdb3622a24dc6cefd4e3c0",
   "generated_cpp_sha256": "3abf9f0217b3b3796a0afaf79363acef5b4cb7bb9e003ae28e738323505e6ede",
   "functions": [
     {

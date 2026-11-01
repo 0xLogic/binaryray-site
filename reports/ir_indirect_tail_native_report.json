@@ -1,9 +1,9 @@
 {
   "claim": "controlled vtable callees; original wrapper bytes vs compiled IR",
-  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "own_exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
   "generated_cpp_sha256": "54a6799e5c6b7de31d3ab706349b96bf75ce6513d014111973a881d38431737a",
-  "harness_exe_sha256": "d598b7fd708cbc761fe23cb3ccea2b46255e41f38bdcab4efe52cee0d868163e",
+  "harness_exe_sha256": "5ef79ef50a5849364dc4953b99d5899065de9540a4b0b6c97aab445a536e31d8",
   "functions": [
     {
       "rva": "0x5c10",

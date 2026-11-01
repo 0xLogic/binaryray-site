@@ -1,0 +1,18 @@
+{
+  "exe_sha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+  "cases": 4096,
+  "mismatches": 0,
+  "scope": "synthetic native x64 vs compiled IR; full RAX and output memory; no DLL-function admission",
+  "arm_coverage": [
+    "duplicate_targets arms=256,384,0 default=384",
+    "remapped arms=256,384,128 default=256",
+    "scheduled arms=256,384,0 default=384",
+    "scheduled_remap arms=256,384,128 default=256"
+  ],
+  "must_reject": [
+    "scheduled_index_clobber",
+    "wrong_bounds_branch",
+    "outside_unwind_range",
+    "destination_inside_table"
+  ]
+}
