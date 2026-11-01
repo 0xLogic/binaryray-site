@@ -1,7 +1,7 @@
 {
   "claim": "decoded x64 to typed IR evaluated against exact original machine code",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "4eabcaf2f3a98ffa05325c4ab860a34bcaa4128d17e4ee8e22d686c9961a56d1",
+  "own_exe_sha256": "bdc4ca09f7e54977ddee0597c7e5b577880a3df72bac50beb2489835e879ff92",
   "cases_per_function": 1024,
   "cases": 7168,
   "functions": [

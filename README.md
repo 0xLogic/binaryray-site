@@ -40,6 +40,8 @@ For GitHub Pages, publish this directory as the Pages artifact root (or copy its
 | `coverage.structured` | Candidate starts yielding admitted C-like output. This does not imply native semantic validation. |
 | `coverage.listing` | Discovered starts receiving an instruction listing; equals `discovered - structured`. |
 | `coverage.idaHeadsDiscovered` | Intersection between discovered starts and reference IDA function heads. |
+| `coverage.idaHeadsStructured` | Structured starts in the reference inventory; equals the sum of the size-band structured counts. |
+| `coverage.structuredOutsideReference` | Structured starts absent from the reference inventory. These contribute to overall coverage but have no reference size band. |
 | `coverage.directNativeValidated` | Distinct structured functions covered by direct original-byte fixtures. |
 | `coverage.controlledNativeValidated` | Distinct structured wrappers covered with substituted callees or effects. |
 | `coverage.nativeValidatedDistinct` | Sum of the preceding two disjoint categories. |
