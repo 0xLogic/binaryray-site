@@ -1,10 +1,10 @@
 {
   "claim": "native behavior differential for straight-line call-free functions",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
   "inventory_sha256": "eada06fb974995fa4694a1fb5997f123dfe000b14e7a081c56f1503336e152a1",
-  "harness_sha256": "df024320f6bf0c1fd3e6a9e40a595afd1cd417b8d9dac09daf2a4fb696ced769",
-  "structured_candidates": 6507,
+  "harness_sha256": "ceaeae135df8fef27beb859bdb9f52799560e3a76a706ba367ab76315422fdd6",
+  "structured_candidates": 6777,
   "admitted": 91,
   "forward_branch_functions": 26,
   "cases_per_function": 256,
@@ -816,6 +816,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x2180",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x22c0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -944,6 +948,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x3bf0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x3f30",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1052,6 +1060,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x5ed0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x5f80",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1061,6 +1073,10 @@
     },
     {
       "rva": "0x6140",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x6160",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1077,6 +1093,10 @@
     },
     {
       "rva": "0x6740",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x6810",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1220,6 +1240,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xe350",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xed30",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1229,6 +1253,10 @@
     },
     {
       "rva": "0xef10",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xf0a0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1276,11 +1304,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x103d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x104d0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x105e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x10720",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1492,6 +1528,10 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x12b80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x12e40",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1509,6 +1549,10 @@
     },
     {
       "rva": "0x13090",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x13100",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1620,6 +1664,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x16cb0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x17b00",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1653,6 +1701,10 @@
     },
     {
       "rva": "0x19060",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x196c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1796,6 +1848,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1bd90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1bea0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1825,6 +1881,10 @@
     },
     {
       "rva": "0x1c550",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1e070",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -1896,6 +1956,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x22890",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x23100",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -1904,11 +1968,23 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x23e00",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x24250",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x24280",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x24fe0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x27710",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2068,6 +2144,18 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x330a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x34a90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x35360",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x355e0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2077,6 +2165,14 @@
     },
     {
       "rva": "0x36720",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x37710",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x37a40",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2112,6 +2208,18 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x3a510",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x3a680",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x3a850",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x3ac20",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2133,6 +2241,10 @@
     },
     {
       "rva": "0x3b870",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x3bbb0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2164,6 +2276,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x3ec00",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x3f180",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2181,6 +2297,10 @@
     },
     {
       "rva": "0x3f4b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x3f5e0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2284,11 +2404,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x45d70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x460a0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x464a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x469d0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2344,6 +2472,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x4e990",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x4ea80",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2357,6 +2489,10 @@
     },
     {
       "rva": "0x4ed40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x4f100",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2512,6 +2648,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x52830",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x528e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x52c70",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2521,6 +2665,18 @@
     },
     {
       "rva": "0x54b50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x55dd0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x55f10",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x57580",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2537,6 +2693,10 @@
     },
     {
       "rva": "0x59000",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x59c30",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2604,6 +2764,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x65120",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x65260",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2621,6 +2785,10 @@
     },
     {
       "rva": "0x655b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x67010",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2656,6 +2824,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x68b40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x68d00",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -2680,7 +2852,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x69e70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x6a180",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x6a810",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -2784,6 +2964,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x6d220",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x6d540",
       "reason": "call/relocation/unsafe memory base"
     },
@@ -2833,6 +3017,10 @@
     },
     {
       "rva": "0x6f810",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x6f970",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3060,6 +3248,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x78640",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x78a50",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3101,6 +3293,10 @@
     },
     {
       "rva": "0x7f960",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x804a0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3152,6 +3348,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x838f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x85760",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3165,6 +3365,10 @@
     },
     {
       "rva": "0x863e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x86b50",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3228,11 +3432,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x8bff0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x8ce30",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x8d020",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x8dd10",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3249,6 +3461,10 @@
     },
     {
       "rva": "0x8e7d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x8ed40",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3336,6 +3552,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x92e90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x932b0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3404,6 +3624,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x964a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x96990",
       "reason": "indirect generated memory access"
     },
@@ -3424,6 +3648,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x97040",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x970e0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3441,6 +3669,10 @@
     },
     {
       "rva": "0x99250",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x99340",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3473,6 +3705,14 @@
     },
     {
       "rva": "0x9aa20",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x9aaf0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x9ac50",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3668,6 +3908,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x9ef50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x9f4f0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3724,6 +3968,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xa34a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xa3680",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3773,6 +4021,10 @@
     },
     {
       "rva": "0xa5f30",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xa5fc0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3888,6 +4140,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xae8e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xaeee0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3904,6 +4160,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xaf570",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xafa50",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -3913,6 +4173,10 @@
     },
     {
       "rva": "0xafbf0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xafea0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -3957,6 +4221,10 @@
     },
     {
       "rva": "0xb3500",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xb3750",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4028,6 +4296,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xc3420",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xc3680",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4057,6 +4329,10 @@
     },
     {
       "rva": "0xc5060",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xc5c80",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4124,6 +4400,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xcbbb0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xcc360",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4164,6 +4444,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xd29e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xd2c00",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4180,6 +4464,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xd3ee0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xd4620",
       "reason": "indirect generated memory access"
     },
@@ -4193,6 +4481,10 @@
     },
     {
       "rva": "0xd48e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xd4980",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4228,6 +4520,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xdc0e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xdc1a0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4241,6 +4537,10 @@
     },
     {
       "rva": "0xdd610",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xdd730",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4264,7 +4564,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xde060",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xde330",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xde3c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4281,6 +4589,10 @@
     },
     {
       "rva": "0xdec00",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xdf060",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4444,6 +4756,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xe6b70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xe6e10",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4453,6 +4769,14 @@
     },
     {
       "rva": "0xe6f00",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xe6f80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xe89b0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4485,6 +4809,10 @@
     },
     {
       "rva": "0xed290",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xed2c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4608,6 +4936,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xf6ae0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xf6f60",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4700,8 +5032,20 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xf8420",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xf86e0",
       "reason": "call/relocation/unsafe memory base"
+    },
+    {
+      "rva": "0xf8780",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xf9000",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0xf9370",
@@ -4712,7 +5056,23 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xf96f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xf9a30",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xf9b50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xfa080",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xfa270",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4720,7 +5080,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0xfb300",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0xfb550",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0xfc920",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -4764,6 +5132,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1018e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x101d30",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x101fb0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4782,6 +5158,14 @@
     {
       "rva": "0x102720",
       "reason": "indirect generated memory access"
+    },
+    {
+      "rva": "0x102760",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x102df0",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x103430",
@@ -4818,6 +5202,10 @@
     {
       "rva": "0x105ed0",
       "reason": "indirect generated memory access"
+    },
+    {
+      "rva": "0x106890",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x106ab0",
@@ -4920,6 +5308,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x10be50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x10bed0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -4996,6 +5388,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x10e5c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x10e6c0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5025,6 +5421,10 @@
     },
     {
       "rva": "0x110710",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x110860",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5072,6 +5472,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x113bc0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x113cc0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5092,6 +5496,10 @@
       "reason": "call/relocation/unsafe memory base"
     },
     {
+      "rva": "0x114860",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x114ca0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5110,6 +5518,10 @@
     {
       "rva": "0x115c40",
       "reason": "indirect generated memory access"
+    },
+    {
+      "rva": "0x116bb0",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x116de0",
@@ -5153,6 +5565,10 @@
     },
     {
       "rva": "0x11a970",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x11b310",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5248,7 +5664,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x11f510",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x11f730",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x11fec0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5261,6 +5685,10 @@
     },
     {
       "rva": "0x1203e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x120460",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5300,6 +5728,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x121410",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1216c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x121760",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5329,6 +5765,10 @@
     },
     {
       "rva": "0x1225b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x122620",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5464,6 +5904,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x12d600",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x12d750",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5516,7 +5960,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x12e540",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x12e600",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x12f690",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5529,6 +5981,10 @@
     },
     {
       "rva": "0x12f990",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x131f90",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5596,6 +6052,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x137410",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x137770",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x137a00",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5608,7 +6072,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1380d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x138200",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1384d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x138870",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5628,6 +6104,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x138eb0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x139670",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5638,6 +6118,10 @@
     {
       "rva": "0x1398c0",
       "reason": "indirect generated memory access"
+    },
+    {
+      "rva": "0x1398f0",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x139b70",
@@ -5684,7 +6168,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x13c190",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x13ca90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x13d5a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x13d6c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5812,7 +6308,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x149d90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x14be80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x14d260",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5908,6 +6412,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1511c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x151990",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5937,6 +6445,10 @@
     },
     {
       "rva": "0x155a70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x156680",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -5972,6 +6484,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x158300",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x158450",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -5985,6 +6501,10 @@
     },
     {
       "rva": "0x158af0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x158b70",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6016,6 +6536,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x15bce0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x15bec0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -6024,7 +6548,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x15c090",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x15c590",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x15c9b0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6140,11 +6672,23 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1600b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1604f0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x160a20",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x160c20",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x160db0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6197,6 +6741,10 @@
     },
     {
       "rva": "0x1622c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x162470",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6280,6 +6828,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x164020",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x164480",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -6288,11 +6840,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x164580",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x164620",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x164840",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x164960",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6305,6 +6865,10 @@
     },
     {
       "rva": "0x165170",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1653c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6352,6 +6916,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x166250",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1662d0",
       "reason": "indirect generated memory access"
     },
@@ -6365,6 +6933,10 @@
     },
     {
       "rva": "0x1665f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x166af0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6384,7 +6956,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x168670",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x16a900",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x16b030",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x16d390",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6397,6 +6981,10 @@
     },
     {
       "rva": "0x16dbb0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x16dc30",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6496,6 +7084,10 @@
       "reason": "call/relocation/unsafe memory base"
     },
     {
+      "rva": "0x176ff0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x177810",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -6532,6 +7124,10 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x17d5c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x17d700",
       "reason": "indirect generated memory access"
     },
@@ -6549,6 +7145,14 @@
     },
     {
       "rva": "0x17d800",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x17e2b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x17eaa0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6708,6 +7312,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x185c40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x185d70",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -6788,6 +7396,10 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x1901f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x190440",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -6808,7 +7420,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x190960",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x191fa0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x192030",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6868,6 +7488,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x195ba0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x195d80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x196000",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -6924,11 +7552,27 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x196600",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x196770",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x1967f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x197990",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x197f70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x198640",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6953,6 +7597,14 @@
     },
     {
       "rva": "0x199a50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x19a7e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x19c230",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -6984,6 +7636,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x19e5d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x19e7a0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7000,7 +7656,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1a2710",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1a35d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1a3630",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7056,6 +7720,38 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1ae1f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ae450",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ae6b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ae910",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1aeb80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1aedf0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1af2e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1af500",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1b47d0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7072,6 +7768,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1b4c90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1b50b0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7081,6 +7781,10 @@
     },
     {
       "rva": "0x1b5640",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b57f0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7468,6 +8172,30 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1b8e60",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b8f40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b9030",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b9110",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b91f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b92e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1b93e0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7497,6 +8225,14 @@
     },
     {
       "rva": "0x1b9820",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b9890",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1b9940",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7564,6 +8300,26 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1bace0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1bb0c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1bb570",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1bb610",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1bb6d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1bb9c0",
       "reason": "indirect generated memory access"
     },
@@ -7573,6 +8329,10 @@
     },
     {
       "rva": "0x1bca80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1bcac0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7604,11 +8364,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1be6f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1bea00",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x1beb30",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1bec00",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7668,6 +8436,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1cb3a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1cb4a0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7701,6 +8473,10 @@
     },
     {
       "rva": "0x1cb940",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1cb9e0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7804,6 +8580,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1cd400",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1cd5c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1cd6e0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7848,7 +8632,27 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1cee40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1cefb0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1cf120",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1cf490",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1cf5b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1cf7d0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7944,6 +8748,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1d05c0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1d0980",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -7956,7 +8764,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1d0a70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1d0d50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d14c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -7969,6 +8785,10 @@
     },
     {
       "rva": "0x1d16f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d1970",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8044,6 +8864,14 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1d5770",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d5990",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1d5bc0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -8072,6 +8900,18 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1d6320",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d63b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d6510",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1d6a50",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -8088,6 +8928,10 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x1d7350",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1d76f0",
       "reason": "call/relocation/unsafe memory base"
     },
@@ -8100,11 +8944,27 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1d7d80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d8270",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1d87a0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x1d8870",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d89b0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1d9ac0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8196,7 +9056,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1e0d70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1e0e30",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1e0ed0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8276,11 +9144,23 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1e4f20",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1e4fc0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1e50a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1e5640",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1e5aa0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8313,6 +9193,14 @@
     },
     {
       "rva": "0x1e8270",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1e8330",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1e91e0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8376,7 +9264,19 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x1eb310",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ebc80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1ebe70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ec010",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8404,11 +9304,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1ecb50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1ed130",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x1ed280",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ed580",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8436,6 +9344,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1edb70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1ede90",
       "reason": "call/relocation/unsafe memory base"
     },
@@ -8448,6 +9360,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1eeb80",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1ef0d0",
       "reason": "indirect generated memory access"
     },
@@ -8457,6 +9373,10 @@
     },
     {
       "rva": "0x1ef260",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1ef6c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8496,6 +9416,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1f0d40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1f0e70",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -8513,6 +9437,14 @@
     },
     {
       "rva": "0x1f1220",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f12e0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f1440",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8537,6 +9469,14 @@
     },
     {
       "rva": "0x1f2760",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f2870",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f3200",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8628,7 +9568,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1f5160",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1f52d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f5f10",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8640,6 +9588,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1f6650",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1f6960",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -8648,7 +9600,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x1f6b70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f6fe0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x1f73f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f7490",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8662,6 +9626,10 @@
     {
       "rva": "0x1f8ab0",
       "reason": "indirect generated memory access"
+    },
+    {
+      "rva": "0x1f8ff0",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x1f92e0",
@@ -8681,6 +9649,10 @@
     },
     {
       "rva": "0x1f9620",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x1f96c0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8816,6 +9788,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x202290",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x202310",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -8829,6 +9805,10 @@
     },
     {
       "rva": "0x202750",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x202fd0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -8980,6 +9960,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x20b6d0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x20b810",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -9045,6 +10029,10 @@
     },
     {
       "rva": "0x2142f0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x214330",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -9244,6 +10232,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x218600",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x218cd0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -9316,7 +10308,15 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x21d780",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x21d8a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x21e170",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -9424,6 +10424,10 @@
       "reason": "indirect generated memory access"
     },
     {
+      "rva": "0x221330",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x2214a0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -9485,6 +10489,10 @@
     },
     {
       "rva": "0x224810",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x224820",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -9552,6 +10560,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x227120",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x227210",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -9560,11 +10572,27 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x227750",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x227940",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x227d50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x227ef0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x229c90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x229d90",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -9761,6 +10789,10 @@
     },
     {
       "rva": "0x22fb50",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x22fbe0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -10156,11 +11188,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x23eff0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x23f180",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x23f2a0",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x23f480",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -10248,6 +11288,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x243280",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x2438b0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -10276,6 +11320,10 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x245170",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x2452d0",
       "reason": "IR requires a dedicated native fixture"
     },
@@ -10301,6 +11349,10 @@
     },
     {
       "rva": "0x246410",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x247300",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -10342,6 +11394,10 @@
     {
       "rva": "0x24edd0",
       "reason": "indirect generated memory access"
+    },
+    {
+      "rva": "0x24efb0",
+      "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x24f050",
@@ -10408,11 +11464,19 @@
       "reason": "IR requires a dedicated native fixture"
     },
     {
+      "rva": "0x259030",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
       "rva": "0x259350",
       "reason": "IR requires a dedicated native fixture"
     },
     {
       "rva": "0x259800",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x259cb0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -10425,6 +11489,14 @@
     },
     {
       "rva": "0x25ac70",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x25ae90",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x25b0d0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -10497,6 +11569,10 @@
     },
     {
       "rva": "0x25ed40",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x25f1a0",
       "reason": "IR requires a dedicated native fixture"
     },
     {
@@ -14197,6 +15273,10 @@
     },
     {
       "rva": "0x271220",
+      "reason": "IR requires a dedicated native fixture"
+    },
+    {
+      "rva": "0x271280",
       "reason": "IR requires a dedicated native fixture"
     },
     {

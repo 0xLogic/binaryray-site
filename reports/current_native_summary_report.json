@@ -1,764 +1,785 @@
 {
   "claim": "admitted version-matched native fixtures; no broad semantic parity claim",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "structured_total": 6507,
-  "direct_original_function_count": 281,
-  "controlled_callee_wrapper_count": 1421,
-  "native_tested_distinct_function_count": 1702,
-  "structured_outside_these_native_fixtures": 4805,
-  "direct_original_cases_executed": 816414,
-  "controlled_callee_cases_executed": 1542270,
-  "byte_return_inventory_report_sha256": "44ac414dcf522a2c0dd8ef76b6b78fd65a7e92154619c98c616f708f3c9f2209",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "structured_total": 6777,
+  "direct_original_function_count": 284,
+  "controlled_callee_wrapper_count": 1422,
+  "native_tested_distinct_function_count": 1706,
+  "structured_outside_these_native_fixtures": 5071,
+  "direct_original_cases_executed": 819473,
+  "controlled_callee_cases_executed": 1542997,
+  "byte_return_inventory_report_sha256": "815f301d48114059535a1e24125c27b146160eeb074eff17652b33daad615ae7",
   "suites": [
     {
       "suite": "leaf_native",
       "kind": "original bytes",
       "rva_count": 91,
       "case_count": 23296,
-      "report_sha256": "efe2064f746649805c88c6799e12a4408bc8c05636a7945c79ea010f057946b5"
+      "report_sha256": "3e66e84fac8c394b7330a836808a7b46087caf8289d1ebf7132c47ab9ae75feb"
     },
     {
       "suite": "enum_transition_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "7e4779c6c291a12278435aa80916042847673b8e5d3a51c0f5fac752409ea22e"
+      "report_sha256": "e103487e77d588435361ad947707561b1ae4da732f5ac8840e9687b1bc891660"
     },
     {
       "suite": "pointer_match_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "084f142804ec2902f6a88eb25062e7b27392da2760b791cf31e04c8b5fc3b782"
+      "report_sha256": "1272a34d3e544dc2b51335e80736995082dcf187cb4de78e9b7cb67ab41a6bf3"
     },
     {
       "suite": "conditional_update_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "894d3438d5242ef3dd5876ed0baf5a3dd52d201c152e214c512509c0cc54a0b2"
+      "report_sha256": "e87d0585675febfef0a5a72d0281033bf80ff03d1e02f04311083553bb9b0657"
     },
     {
       "suite": "imul_native",
       "kind": "original bytes",
       "rva_count": 3,
       "case_count": 12288,
-      "report_sha256": "52a20c8eff7e17424c9bdae861946aeaa27d6704350f3283bf07ff21d2bd75de"
+      "report_sha256": "fcb47779912abda8c6454647eac6b4414ac4aa5578b8bd1519d74ad6c48d6dc4"
     },
     {
       "suite": "al_merge_branch_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "f7a36ed940a7ed636d3fe12e6cb43d43572b56a0bd1b955a6e596dc498b30546"
+      "report_sha256": "1ffd6a3d54cf694e277257bc3b4a38793765aedad48be6cfefb7df25774b9663"
     },
     {
       "suite": "al_merge_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "5b776c4673a1b78e00d6330dafc1a9b8171e7197abb30703eb79d8bde47bf4b6"
+      "report_sha256": "f11cead6432448eee90fe560f552c3975f44ed34489bdd043b0e234b5e6800df"
     },
     {
       "suite": "setcc_native",
       "kind": "original bytes",
       "rva_count": 9,
       "case_count": 9216,
-      "report_sha256": "e5edb52b98d8c0bcb0410db285277ff4c2b2c55f2da5331ec4e52d21ec32a03a"
+      "report_sha256": "dee9c164bc04bf544e027f9e4ea2754d1fd20c3f80e48bc98e37bc7349622757"
     },
     {
       "suite": "mov_al_native",
       "kind": "original bytes",
       "rva_count": 9,
       "case_count": 9216,
-      "report_sha256": "d71165f07d3052d25c28dfe965d3a5613143074ed09f82e7e6268c5c70e7d17c"
+      "report_sha256": "0efa82e771b5750a61cd6c7fa0d4ace0fe0b8d172c8d493f24015d757d31d14b"
     },
     {
       "suite": "index_scale_native",
       "kind": "original bytes",
       "rva_count": 4,
       "case_count": 896,
-      "report_sha256": "4f2576485a86bc7f9075ff0ae05aaa7eaa98bc28199f46badd8f52d4404284d5"
+      "report_sha256": "eaff44282c6118ddb91affe4b2e520e3b65d2e5e0a8440679ba7c611d48d69dd"
     },
     {
       "suite": "rip_initializer_native",
       "kind": "original bytes",
       "rva_count": 10,
       "case_count": 10240,
-      "report_sha256": "2ec04c1833a7592a6751052685c839aade744382fa4a9096aa7239e85f0c5e31"
+      "report_sha256": "8bd75aa58a34cd4d06a9806389c469c338c5f3e3b7dad14536d995884404d4c7"
     },
     {
       "suite": "b01_slice_cohort_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 256,
-      "report_sha256": "42fa94a720b175c8db1bbaca7f1b4b5ec0723db1a18dc03a8e735affefef171e"
+      "report_sha256": "7d0d402860e0b21c9036528f65cab3381f5ddd3c25f5ab5cf68b75678c3c955e"
     },
     {
       "suite": "dual_record_lookup_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "5c4b4e49b2541c0d5a794bc3387d438e13ddc2436c4f919143c6b90e2b9c911c"
+      "report_sha256": "ee59c7587750e83398a74d908b22fd5048c33a02f936ab419806be65b0a44b51"
     },
     {
       "suite": "indirect_getter_native",
       "kind": "original bytes",
       "rva_count": 5,
       "case_count": 16000,
-      "report_sha256": "be091e2394dac9d3944fa8d23a63a54d6e6f4b1f2aedfc4ebe5a500bb620ab91"
+      "report_sha256": "2161a65d5d3dde5b2c7a0790276e097b0e046237474c05c5b77ce5d7a6ff6ff6"
     },
     {
       "suite": "partial_byte_range_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "a4cb7d83214131a07b58526c2273d8dce3262b75786ac261e260eb8f0af934dc"
+      "report_sha256": "b50c71a85f55795a3ab1982439aa888bfe20c9c52f4c2548b0e8946bd1559264"
     },
     {
       "suite": "overlap_swap_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 32768,
-      "report_sha256": "c65a25fd0a924194573cd4c1ee527bb225bbf939601d19c3dea49b905a04d33b"
+      "report_sha256": "e96cc0ef89f901cda5022a88975df0ad4bf66ef9e6059921eac024368b8c5b1a"
     },
     {
       "suite": "constant_switch_native",
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 16896,
-      "report_sha256": "7df6a9a08be70c00ef42a8d5e4e8ce27b6a37eb56a2fcd9dee9a3a6b8c7d879f"
+      "report_sha256": "f5bfecf9a4f3acce6843ba026f591717275f0b993b79e9bb46542f92393b8b7b"
     },
     {
       "suite": "linked_unlink_native",
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 12288,
-      "report_sha256": "db9ebb6ea706d33f6168a66f78e4b9af695257fc943a11a64b58aa53bc7957f9"
+      "report_sha256": "ec23f6081a2d6879ff69fc986212b1e69c110ddf134ffb57913e090c49622637"
     },
     {
       "suite": "list_swap_relink_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "53f825e6b3f6ee56969d0b3c89df2ce593f49b6a4c81067ea80249bf61db5ff1"
+      "report_sha256": "bb0b966d2f6bcbbe6087debd65aa8d7bbb9bb1be34366a2f64e91af6dcffb8fe"
     },
     {
       "suite": "nested_pointer_dispatch_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 12288,
-      "report_sha256": "0fc77fa1d6d5060c3e6d0140324d9f4a44e481bc227d96e3d1be788e635502cb"
+      "report_sha256": "14ae26792e56eaa4bd759d48f1185e7291ae8645dfdde22483aff202e7e7a807"
     },
     {
       "suite": "guarded_pointer_store_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 6144,
-      "report_sha256": "0ca452b7611db9ba8a18084d8d4371bda3ee9d73230a22684b563680375a87e8"
+      "report_sha256": "a22ea7787b06551df03dc43f8c8e54b0f7efd9df8457428c769403cb858a9330"
     },
     {
       "suite": "sparse_switch_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 65536,
-      "report_sha256": "d4c46437db8b1815281b35d60ceaab99ec2a6c8e6ce8e05bda32ce4deacdd276"
+      "report_sha256": "fe46c30d41aab06ddbebf683284dd04b77ff2075b81ea7d10a1ccd43dd273bd0"
     },
     {
       "suite": "three_index_weight_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 12288,
-      "report_sha256": "1e8f2596b67dfdeb18efa164a07e7db5f98b999f95a4c2f36f4f256ab9932455"
+      "report_sha256": "5404cdf25d429c9202a6daecf8f1f5cf669275979e7adac6e4e5e1e404fcd2ad"
     },
     {
       "suite": "byte_switch_258130_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 65536,
-      "report_sha256": "13cef4e3d4c9aa4504e6e47ee2e036c94f9ca1ea05c47bc33d9b4f343b0204b9"
+      "report_sha256": "2cfa99698dd418f21cf37b78b51ceba4b4dccff6a4907a58c6ec28a7ac8614b3"
     },
     {
       "suite": "multiwidth_overlap_swap_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 32768,
-      "report_sha256": "dc3ad2b304641293a10c0d7dcfb0218378156268ef2ed37e9ae5dc0526eac9b2"
+      "report_sha256": "623174839d6e207a4b98043db7be94a489594e805dc73899e61ce0bdd20c6755"
     },
     {
       "suite": "swap_6d540_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 5120,
-      "report_sha256": "35feaff30489baebc8236eefd5bb0e9c01c96541dd55476366f9ce758a5f11fa"
+      "report_sha256": "80e554abb5bdbca8b9e30f1986509dc582e5b9729a28e8b3c7e737aabe98f5c6"
     },
     {
       "suite": "composed_swap_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 32768,
-      "report_sha256": "9862cc79b6d95cbf6279bee831255dd19fa359352285773d6017736e60334c9b"
+      "report_sha256": "1951dd3d05d8f8e00bf81c8fa55f62ae2dc1a087e52d2569cfcb54dc8a825efb"
     },
     {
       "suite": "mixed_width_predicate_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "35eca6792ce49ac22578040df83bbbb4f3c58ce5d669372e3d817b404d3c502f"
+      "report_sha256": "040bc0ced15f7aa5e551e6c085db5b1144148f9cec1dc88451a99d7c648f1851"
     },
     {
       "suite": "simd_sort_three_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 16384,
-      "report_sha256": "54b9cdbca16d83aa50a92087cf9e10a2cd4c39b4d2e965ec38ba30ec30d46c7a"
+      "report_sha256": "960ccb5652447b67c00d68c409cd6dd1f64982d5a891a6833f0d7e98502ce817"
     },
     {
       "suite": "simd_sort_i64_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 16384,
-      "report_sha256": "b074ba4ea81407c769e3f23465ba4c4c17fb1a43a895e73c3d24ea727015ddf9"
+      "report_sha256": "0f8f3f0d7c11b1a5067cd5e3afc119eee85c530586dee8ecb86ea0d97e304869"
     },
     {
       "suite": "xmm_output_copy_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 6144,
-      "report_sha256": "08c123c04a7035b165fcaf22e85c3643de3068e3b4877faf3f86047fd924063f"
+      "report_sha256": "0227deb1e30a6c0b5b9a0725d6ee3ef6c3b5271f053604235ef547f6651de32e"
     },
     {
       "suite": "vector_initializer_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "61e0e3556c3b30074b974c1bb2cfefc0397307b860ffde5a4fd5aa8dbb8ac943"
+      "report_sha256": "668bf0147b1605cc60112bae84452fc60500861b4bc59bf99c10d0faa1cc080c"
     },
     {
       "suite": "linked_swap_187f20_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 12288,
-      "report_sha256": "5178bd572f056c5d026e4be3ca06b16235b2a44a0d8dcc228d69f98c38cbf7b3"
+      "report_sha256": "22a2bbb8e59cc8dfa5e7e71a5952043ef21dbd3b6329d31c9dc0eb1a3cc6375b"
     },
     {
       "suite": "mixed_width_swap_9a180_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "a3a020177be1402eedcee1b5ecd2def779d8e0cf8e850395ab50eb5dca9fa393"
+      "report_sha256": "b02a610ca0557867f5875ae0a53aa5ef40c94ac082d6a6a18244c53cf9bff0e7"
     },
     {
       "suite": "memory_inc_d4630_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "67cea8779812f38a8166f8b585e0ae31e813a38ecd7d64fa3b586ad86c0adc9c"
+      "report_sha256": "024d6f77328c9836b6254c7b0d529e79dfd369d904db7ac3f49bd10ae9774277"
     },
     {
       "suite": "counter_bound_22d020_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "07506cbbd1b0fa1581169a51e23002f176ec420072a2b64b2af4a2ef735d2856"
+      "report_sha256": "78784e2dfab9cc0c19da2162612afee7decb372281f400c5953b168c654bac30"
     },
     {
       "suite": "composed_outparam_943b0_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "999db8baee269abb3a941477f68c4664a462b5727dd6dc8748aa711c33eb342f"
+      "report_sha256": "218da915fe881dde761e6aa1dcc702f19d4a3c5811aef57771202d66c0dad11d"
     },
     {
       "suite": "new_byte_leaf_native",
       "kind": "original bytes",
       "rva_count": 11,
       "case_count": 45056,
-      "report_sha256": "ccfc6800b5cb16f21b33f274110ff22130e65bfbdc03489671c7cc41e1890205"
+      "report_sha256": "61a5f4ca2239ca11510d923e183509521cbf18c44bc8bc0890724d127a58f62d"
     },
     {
       "suite": "new_byte_composed_native",
       "kind": "original bytes",
       "rva_count": 4,
       "case_count": 16384,
-      "report_sha256": "4492d36ac5a572c23cda45d2ef4762e6ad650852c7217e5d4a0553fc2c46bb5e"
+      "report_sha256": "96ff9bfb0a6f2c80ad8613d822762f7b112b6cfeba24383c4d625300985b0791"
     },
     {
       "suite": "remaining_byte_local_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "fe7347a6bd54a3e66ee166109c98d16ecde2088b04bd405b54005aadf41874a7"
+      "report_sha256": "3f3a785b5bdeb4ec1779d88ad120e25c428c7329a2200a8623f14874b4b769b2"
     },
     {
       "suite": "insert_linked_node_5390_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 3072,
-      "report_sha256": "4a3c5d38ea3348e47fb5b4fd827ecb62db69ef5418fbb9777ce0864214987957"
+      "report_sha256": "e4c977586d97f0e5f638578b8e1422ee4b72aa5ea739331508869d88ef8c3bb7"
     },
     {
       "suite": "tree_lower_bound_1a4090_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 6144,
-      "report_sha256": "409fe66b307e30c0a42cd52344507654f3c750424a6d2004cf52a6720c11f4f6"
+      "report_sha256": "b488cfdf67b6d2c70234b4942a8743c1a4830ba48b8af00635e2b00b873fe736"
     },
     {
       "suite": "table_remap_1eda30_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "c48b3d763719d6c17df9a02e26de8299254326910499377b2886f5fcc3dc44af"
+      "report_sha256": "b606a6487f0ce6d7ffcd2e89d62c103bc7e85b4683942afce5c3ef2ad00e485e"
     },
     {
       "suite": "rotating_mask_17ede0_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 35850,
-      "report_sha256": "346a5cf462e05c54226b0f7a59f66526e0aa7751ad213ab9d27a4e3a1f9bef52"
+      "report_sha256": "fdf992844ae3250e7fde72d25ca744e22eab79a011eaf4dc6145b5abd4d4425e"
     },
     {
       "suite": "dword_array_search_2093b0_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "55b3d049e92aa6344ff26cc0d6d87052cbd690ccf0df1f9358a0ea84e3cae929"
+      "report_sha256": "b6be15c4841c3a30419d3818e4a53608dbf5512930222a6528fa8b65a263d88e"
     },
     {
       "suite": "record_subtract_10b2d0_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "c035a3dfe46cc55ebb07a0c7d896781d441b0a4bbbe970c6d4a61773995b7e11"
+      "report_sha256": "2fb789cabf972f150170ee8b35656bc17ed6bf87aaebc8dbbc8d1be141ea1170"
     },
     {
       "suite": "qword_contains_10c3c0_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "7384e61f1c2ad10e9beaaf42b0bafd6a814c075a1cd4c17a94926de29fc1498d"
+      "report_sha256": "4549ecee7f467bf4919129dcd8463e855f65ad8915238a7e03af60459c5ddabc"
     },
     {
       "suite": "unsigned_gcd_176fc0_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "9eb83f45721b7a5c04890f314542ce18ac8f225e3c3a98f1c1a2e0bec8cd730d"
+      "report_sha256": "91c280aa34a75151f24abf62e370637096ea588909b4473aa80a2edeb99e039e"
     },
     {
       "suite": "bitset_word_scans_native",
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 16384,
-      "report_sha256": "e56c06a08ddd2d4b4e5a6cdcbc7749d9361e7247a213c80428699a2644209f86"
+      "report_sha256": "70a2a3fc4c15dcda4b74d83aac2caaf59b543c0993d099e152ddbcfda53b947f"
     },
     {
       "suite": "sentinel_lookup_181540_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "552034947f686a3e67c3bef744099ef49abf5c7af69f21201ea222cae91b6508"
+      "report_sha256": "056ec1fdb497a8192a6cabbc4be0e61546ff82e9c5699a670f4a77257e97155a"
     },
     {
       "suite": "bitset_zero_trim_native",
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 16384,
-      "report_sha256": "80899997457277134b3edaa77c474a0cbf305eb6598e439fa96eb71a075bfd10"
+      "report_sha256": "281b8d8fcfd6e4acc29c54fee64620451ec28ff31a75cab9f62dd5277c52b946"
     },
     {
       "suite": "bitset_set_run_native",
       "kind": "original bytes",
       "rva_count": 2,
       "case_count": 16384,
-      "report_sha256": "2b07f9aeafe27fb8eaeb6bf547ddab612437a460e938cfa8c42148f4fbb145a1"
+      "report_sha256": "ed92aa241efb19722806d016bcef76b92afee5cbe7fb753cbf7c46ff6b7cf2e2"
     },
     {
       "suite": "decoded_ir_mov_native",
       "kind": "original bytes",
       "rva_count": 7,
       "case_count": 7168,
-      "report_sha256": "c2ad924087366d6d03d80d7af6633a14c3f68cda87ab1e4bce986ee1cb3d2f7e"
+      "report_sha256": "0f5ad1af35155f4151f304304e94bc9b857735a0b990114137aa014eda274cc6"
     },
     {
       "suite": "branch_cohort_native",
       "kind": "original bytes",
       "rva_count": 32,
       "case_count": 8192,
-      "report_sha256": "8e75ef64f53c3e9ff70c9f9b8bd09dca00df966281ec36c8c0059a386a216854"
+      "report_sha256": "8bcf3651b57d09195c9d163f612f9d720221cc4f80efb3acd02273bf77b26af2"
     },
     {
       "suite": "mb_cohort_native",
       "kind": "original bytes",
       "rva_count": 7,
       "case_count": 1792,
-      "report_sha256": "c7c4f8079abba4596300dcf160cabcea6c765cdd0940a2603843b38a5fe6c249"
+      "report_sha256": "f86846df28101ae2b5455d7652f5dd628223d362fac5f4a222fa81b87fac888a"
     },
     {
       "suite": "jcc_cohort_native",
       "kind": "original bytes",
       "rva_count": 3,
       "case_count": 768,
-      "report_sha256": "46069a307766c307e1e39d967df2405359d39605513dfb9cee389bfdf20f7ed9"
+      "report_sha256": "af070e5b47ae4360afe082ed8a3eafcc1ed19cbc42c42a828f6b41903edaa88e"
     },
     {
       "suite": "setcc_cohort_native",
       "kind": "original bytes",
       "rva_count": 10,
       "case_count": 10240,
-      "report_sha256": "df5531eb4aa21c9883779b3a020331b46a9c75569d1febc8051477333eb15098"
+      "report_sha256": "77891ddbcf08a627bfc89ec6056fb1d9100553f6895d5cd95ddd8e1fcda2ffb5"
     },
     {
       "suite": "operand_cohort_native",
       "kind": "original bytes",
       "rva_count": 21,
       "case_count": 21504,
-      "report_sha256": "443aa6d8bddef77f35fef8c1c13b8732cdf19819f1dd1729186c685036a0f8cb"
+      "report_sha256": "80c049f6cbd06e6949065b89c00545b24c99f95d96930e874cd01fb7d0de75c7"
     },
     {
       "suite": "loop_cohort_native",
       "kind": "original bytes",
       "rva_count": 21,
       "case_count": 15431,
-      "report_sha256": "0f355b4bda42614fb99dd5a1559a064fba8dbcdd995dd5313d6d2caa1a7752e1"
+      "report_sha256": "f48db702279c847518081b9aaf557bdc5d0be8f6eae2e87246f2c531eef0fbe4"
     },
     {
       "suite": "stack_cohort_native",
       "kind": "original bytes",
       "rva_count": 3,
-      "case_count": 2083,
-      "report_sha256": "8bd344b706175c9283a33171f4c1d37b3d9ca9655dc69382031405bbeca6b334"
+      "case_count": 2038,
+      "report_sha256": "cbfb36ffe0859cd6b1d33adb66cfaf32f2e1726f8d1655800da5ddbe8e601c80"
     },
     {
       "suite": "b01a_callfree_cohort_native",
       "kind": "original bytes",
       "rva_count": 4,
       "case_count": 3480,
-      "report_sha256": "fdf2d916bc8467dd2fb70c74fa49701e94bc0bc362747027bbcb71b02d4b9edf"
+      "report_sha256": "a17984d91595c6db50a1726df5d484089396ace6a7e0256369cbd3a4e338a341"
     },
     {
       "suite": "ir_fallback_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "ecf83d85cdc4dff30335c2b226328511ae6735a2dc2d1d5054902df6bb8520fd"
+      "report_sha256": "34140a1051e728e173c2ed4e42d364530e33d35be5f0d62da662d7b8e5c60567"
     },
     {
       "suite": "l3_sse_direct_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 1024,
-      "report_sha256": "ddff61fe7dbcef99ef6c65f4ccd9b55233721e08444d5cc4ce2e1340aa18bd76"
+      "report_sha256": "3f14efe9a6a2213d908fc6c1ead1e67f43fcb574e69fa8fe053ba742bfee23bf"
     },
     {
       "suite": "l3_sse_crafted_native",
       "kind": "original bytes",
       "rva_count": 1,
       "case_count": 512,
-      "report_sha256": "c2c7ae234e4ebc109d408ce0dfcd1f75360c0c41957b6e7e335bf4892dba52d2"
+      "report_sha256": "ba00574fae99e3ff03810faac94f95583264a8ea00fbeeed2a15bf66caf6fc97"
     },
     {
       "suite": "lane_callfree_native",
       "kind": "original bytes",
       "rva_count": 11,
       "case_count": 10002,
-      "report_sha256": "51b77b7304b7fdf927d2dc5f2fd437ebe7e832350820ee05de3f315a43326e5f"
+      "report_sha256": "f6d3a8d986030e0bbf675ba1b5af433fbcdbd84f48a3a016d6ba97b513b7814d"
+    },
+    {
+      "suite": "ir_switch_native",
+      "kind": "original bytes",
+      "rva_count": 2,
+      "case_count": 2080,
+      "report_sha256": "1ec55e520095f6fdcf09ab067ec69ba0a85243f49b9483bebe436674f074c4b6"
+    },
+    {
+      "suite": "ir_cmov_memory_native",
+      "kind": "original bytes",
+      "rva_count": 1,
+      "case_count": 1024,
+      "report_sha256": "4e5bb365281d01161479c78550587ab194892414e59d7905e6c179f58659a2c3"
     },
     {
       "suite": "guarded_free_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "4a0b5e12b5693b0d3a4a7287a2ecc2a75fda536147384f0743d8d7ab81c84863"
+      "report_sha256": "f97b78819148bad4d1188d64fa22011c3fd723a4b63ad01c41b03f4fcd2cc513"
     },
     {
       "suite": "guarded_free_cohort_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 10,
       "case_count": 10240,
-      "report_sha256": "8966461cd28fa58be1094d19990d711e4f8cc2a08096332aa78464eee7878a9e"
+      "report_sha256": "20c50fde95f30210e9c8f68ac48c0eade5a22fa01a41f445b70ee9f613aa7837"
     },
     {
       "suite": "low_byte_forward_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 4,
       "case_count": 16384,
-      "report_sha256": "763a7bb63c1e6516e7b63498a93b1f3727f19d86ec204326f780ae9e504d42cf"
+      "report_sha256": "ee40bf86d0f4b558a38e96bd32f51e22fa11c8c6d12a573ab00afa7aeffcd8c0"
     },
     {
       "suite": "large_initializer_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 1,
       "case_count": 4096,
-      "report_sha256": "2df540a0457ab14e8e987e705dce2db7e0cc18d9c5c186c0ba19e75422f323d0"
+      "report_sha256": "036d388e2cf0f72ec3044c864bb01fc6d6e030e2b5f3e701ef95d7d3065b69d5"
     },
     {
       "suite": "tail_jump_88c0_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "03f0713e7b12f69fe6fad8bd383de4174d5c62429d8357ebae30e5c8795f4858"
+      "report_sha256": "4508c40223f42f7a8b86aadd2e79d38d1c3928f9446e6b77dd0a9c5f7118759b"
     },
     {
       "suite": "tail_adjust_6db40_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "c5c5390c071552ee10c6fec352c4df1a6f0b1e12587593493ca8cadc7f2d30e9"
+      "report_sha256": "a623ca7fb50de21586f1e2ee5e766de3feb0404c110f7fbb6fa88d548898c538"
     },
     {
       "suite": "tail_shape_sample_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 19,
       "case_count": 77824,
-      "report_sha256": "1de05c75cf93e28e87ed4355283d71ea6caba20849bde72ce4983a8dd5d4d53c"
+      "report_sha256": "d416e99186aed7ed44227dc139a7b3047297351542127109617f760e9279903b"
     },
     {
       "suite": "guarded_bit_cleanup_263480_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "9ca7c008623def6c7cdc26f01790af8ac30b352ef42751229642034ba46e0783"
+      "report_sha256": "77b8758fd3c233bfe1571e3802051f92d181ff296db430c5d230ec9b6f0f9642"
     },
     {
       "suite": "guarded_bit_cleanup_cohort_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 4,
       "case_count": 16384,
-      "report_sha256": "96e0d6cea05cbb201d4c051950bbc6fc535cbb1ee1da92a214c01c87962c5515"
+      "report_sha256": "5ef8bd931d0a6e6255c08f649b2dba0634864d07e242c8429d00b45645f61a87"
     },
     {
       "suite": "allocator_init_136930_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 1,
       "case_count": 8192,
-      "report_sha256": "fef8bbba562c61f69bba63675cad7aaba418aa52b2e6ca659f621869807f9b28"
+      "report_sha256": "729f0a73cf6ed7d66a983b5c784dbd18297af31e64d0fd599804d146e462c7da"
     },
     {
       "suite": "remaining_byte_callbacks_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 2,
       "case_count": 8192,
-      "report_sha256": "3b78d918eab553354c2962a70b0301cd779f7aa036d70dca23ff63e53ff01412"
+      "report_sha256": "ab8ba349cc647081bcf449b2575e2a09726e60539307fee20b55dac0007ee3b2"
     },
     {
       "suite": "ir_call_slice_s001_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 41,
       "case_count": 39705,
-      "report_sha256": "9a388966db88d78c3864cb2cc3038adf72ebe49643161b608ad41f1b3fcdcd8a"
+      "report_sha256": "07df8fb3e9096c36c086a16a6fd4337bd79d49003897609373ec265ec4e37c38"
     },
     {
       "suite": "ir_call_slice_s002_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 47,
-      "case_count": 44779,
-      "report_sha256": "cd3bfce3f0b8b4ae298ba52d74959b07d4994ff496448cdbcdbc816a226a1ea6"
+      "case_count": 44776,
+      "report_sha256": "f662ee08101c68b8f05b624a546eb7008250c914a7d0f59fb3df240a85ffb034"
     },
     {
       "suite": "ir_call_slice_s003_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 56,
-      "case_count": 54873,
-      "report_sha256": "c9bd1b1bd987899f6e50b9005479d10a04015829f96c7435f132eaba25417a6a"
+      "case_count": 54551,
+      "report_sha256": "21cd1b5921b444191e5f2adb884168da93d0c420c55de51776e3ce1f3c2f3cf6"
     },
     {
       "suite": "ir_call_slice_s004_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 40,
       "case_count": 40197,
-      "report_sha256": "c6c55de2bf1ccc1e4ab8b75cd150776eb5b346f34eb44ad9877c12981cf59e2c"
+      "report_sha256": "deda160aa6e0cb2c0e0983e8cd6881b1eca459ebf25f9ddcae5260ad2f598688"
     },
     {
       "suite": "ir_call_slice_s005_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 26,
       "case_count": 25552,
-      "report_sha256": "6b6a51361b51003dcfe340ea72a0772161f14592723fc7ec361f65eaf90c6639"
+      "report_sha256": "933a25e5a5f9e11a54b0beae9ee2d144e8c8ac213e8f4bd58cdba2634181d44f"
     },
     {
       "suite": "ir_call_slice_s006_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 34,
       "case_count": 33436,
-      "report_sha256": "91f681a42d9edbdd8557acaafbce10969b1b05cf34a970ff34090f59bd30c708"
+      "report_sha256": "979e75df7e1985237dd650c16d36c84c785b86e1d7d94b5cf6f02e927d937805"
     },
     {
       "suite": "ir_call_slice_s007_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 53,
       "case_count": 51785,
-      "report_sha256": "b57d4cd57e2d0ed0d506e6b18bc0277ec5963fe2101db621ba5cb1d78ea19af4"
+      "report_sha256": "4a30fc65eb539bc98f16762d99aa1448dc63537f78663b2c76ff7f2e452b1928"
     },
     {
       "suite": "ir_call_slice_s008_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 52,
       "case_count": 49700,
-      "report_sha256": "6b5334e596713e618d123a0db4068feb668bfd4854421156466eae10c6d0aeff"
+      "report_sha256": "2b23dd5a85fb45445b6a0850302dbefc13c67bdad709a6bbb31550470e168f4d"
     },
     {
       "suite": "ir_call_slice_s009_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 35,
       "case_count": 32640,
-      "report_sha256": "76134bb6898c8843e7e9c0c23e8a00d77e5456918796a6eac4151510b54c5831"
+      "report_sha256": "d02a1ef1dda64a1dc70a226b696bf03becae4e7ef8223e4cf631b2e4ec3a0dae"
     },
     {
       "suite": "ir_call_slice_s010_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 51,
       "case_count": 51508,
-      "report_sha256": "c5d1a1c58d35c1bdf46de50a6d0e8ea251066c1e164a9054239884add747c560"
+      "report_sha256": "cdb55bf1a2856542f58a4b986e7bc657fb26c9df3f2bbd0ca3920600643a70b8"
     },
     {
       "suite": "ir_call_slice_s011_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 39,
       "case_count": 39245,
-      "report_sha256": "7f05ae924231046068cfd981516d0ebcebd3808c893822a5fcb372ac6447ad71"
+      "report_sha256": "918da8e33fe86c7e8c8361fdbeb255560249920d07a687746edc97aaf23b1fb4"
     },
     {
       "suite": "ir_call_slice_s012_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 46,
       "case_count": 44836,
-      "report_sha256": "b6659b9ae968befc52607476b292499b903ddd1ed9085b58d9899c057629f87a"
+      "report_sha256": "ec2e7da93d324d220eb337d61608b9dba01b1faa4df2a760ae12bf4b02848897"
     },
     {
       "suite": "ir_call_slice_s013_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 47,
       "case_count": 45615,
-      "report_sha256": "eb71a69c7a15cfdcb0459daf190d2369e4b543339cc1a9da73e706bfa8753e38"
+      "report_sha256": "ccb139db4f6856bac96624918ef7be90117b7915a973136af1be0796d798f312"
     },
     {
       "suite": "ir_call_slice_s014_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 42,
       "case_count": 39309,
-      "report_sha256": "b2e5acbd26db73edaf20eae3cd8fbced5f03f5370ffd911cf1e9896cc0e7f22e"
+      "report_sha256": "090286cd1b0506839db21c76b17919bb9632dea924478e591fff5df4124b08e0"
     },
     {
       "suite": "ir_call_slice_s015_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 36,
       "case_count": 34140,
-      "report_sha256": "5cd35ac751c5e57c5aa656f89693ecaf15161e3f66364d19c6b52d9c63e2e1c5"
+      "report_sha256": "9ca2c8a5488ca0ef12bc788216d32c8523b67f85a621543a78767844614ac8df"
     },
     {
       "suite": "ir_call_slice_s016_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 91,
       "case_count": 93184,
-      "report_sha256": "134ada9e3af65c1d27f94344352f033f0a9b668e5bbbf86b510ed09cc543e68f"
+      "report_sha256": "8144309f93db0801b40717ddadad89ecf83170323822f1b782767c10215384c6"
     },
     {
       "suite": "ir_call_slice_s017_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 92,
       "case_count": 94208,
-      "report_sha256": "af12154e2287dbff4fd69845820cd349ae860463edbb5262403510816fc42f2f"
+      "report_sha256": "d0debfafae0693a284b38df4bab5459c85a2a372548a3e49d75f6689d3d5c7a2"
     },
     {
       "suite": "ir_call_slice_s018_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 92,
       "case_count": 94208,
-      "report_sha256": "1163fbde04b2753f84fd4fe7f22d7f9ddfeb354d7134e2faf48f32ad2fe00b3a"
+      "report_sha256": "8436536ac77c8f4dd0a7e56e261cd79611b3380e0568f15ded35e3c9fc54aa81"
     },
     {
       "suite": "ir_call_slice_s019_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 92,
       "case_count": 94208,
-      "report_sha256": "bdc8109a508c3de7fdf2fc3678ed7f9d4cb09067b3ad2b95a429499c0ef7d6fe"
+      "report_sha256": "935170e4f6f0f1a365d733efa518ae1bf498ed5df7aec77e896b08df96cb9a20"
     },
     {
       "suite": "ir_call_slice_s020_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 92,
       "case_count": 94208,
-      "report_sha256": "f4a9b3ef940235cc816120f93cf4bb0baaccf0919290fbb4dd7f4efb7de9118f"
+      "report_sha256": "664597383d0d4d0e119f0e9b56ad6688da9b7fad68113ce5e9912ba216d41d9b"
     },
     {
       "suite": "ir_call_slice_s021_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 85,
       "case_count": 87040,
-      "report_sha256": "f486a3d51eddc14400290a616bdf7abc84feaea6550a2f57786df2b04077feda"
+      "report_sha256": "8690ef08867bf588eb43e0108fdd807656b50f583f3cae5cce03829ee00be34c"
     },
     {
       "suite": "ir_call_slice_s022_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 13,
       "case_count": 12506,
-      "report_sha256": "0599a4ea3904bdf26b287a76900c96bfc3ac020fdfd18a6b07bcb058d136373f"
+      "report_sha256": "d2ff874333fd828181cb8f4719d5abe49734be08a85db524d7361143de2316ab"
     },
     {
       "suite": "ir_call_slice_s023_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 30,
       "case_count": 27791,
-      "report_sha256": "a7e8724023a71af93dd26d33f0e243ed8060919c1fc2ff13c33bd56b09d9fc59"
+      "report_sha256": "e17fe78b130910ca81ace2e0cbd67356f0746b451f5e72d7d6e1ffd2a5e14ced"
     },
     {
       "suite": "ss_void_call_slice_v001_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 10,
       "case_count": 9779,
-      "report_sha256": "e8911130a0af4efa8c0f3c846b866a465faf7b20274d95ffc669d3db53b7378f"
+      "report_sha256": "66f15fe2bd65f21f3969b21118c659e782c2d8745629e1505a6f30b38bd886c8"
     },
     {
       "suite": "ss_void_call_slice_v002_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 11,
       "case_count": 11264,
-      "report_sha256": "5bef311afd2f95d39a877ab5485b06f4a04aa1bd766b1d47db7b1faa8bf90764"
+      "report_sha256": "f69ae0235fdfbb96c71b3bd848fea546783636257cf98aad0fb7e510d6adb697"
     },
     {
       "suite": "ss_void_call_slice_v003_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 44,
       "case_count": 45009,
-      "report_sha256": "251b99bf76212b2148cbde164eee70afc77d44927b4b19e605aa2736e179a914"
+      "report_sha256": "fd461359a5c8f8bf5458edfcfcd077f2f7ad5531a496a6d7facce19041bcc52a"
     },
     {
       "suite": "ss_void_call_slice_v004_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 62,
       "case_count": 63488,
-      "report_sha256": "a0fcbeb91e759ca95d9bcb829a9de831a00d98e752ca957a9e129c7deb938074"
+      "report_sha256": "279ccde6f0dd0014a510b49f478f43bfb9ce0f4050d9f4d85e034703036b533b"
     },
     {
       "suite": "noreturn_slice_n001_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 6,
-      "case_count": 5311,
-      "report_sha256": "79d26d9e87d87f50b572ec4ea3dc39af536fd8b5fbb8cd5b9687993d467c0c60"
+      "case_count": 5306,
+      "report_sha256": "327eef2056925640efa022e4ac5cc03dd557afed1f6072924c36dde03e18817f"
     },
     {
       "suite": "noreturn_slice_n002_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 6,
-      "case_count": 4570,
-      "report_sha256": "6d89dbd5d778822f645d0558a62154d8937aceeb4795a38f8e693852843d9c72"
+      "case_count": 4603,
+      "report_sha256": "775e0c423285a28604b71f81fd93a8bf5cc5b53ae8027e2ad80d7a1399173eea"
     },
     {
       "suite": "noreturn_slice_n003_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 3,
       "case_count": 3072,
-      "report_sha256": "2a131e9efd6ce970c4e8776d958d4d0074de38406c0d97c6ca3ad6ee3ea54cb0"
+      "report_sha256": "610ec861c6e5446a4a440003b74b16343dfd67667abf033ff379220e15d2c7cd"
     },
     {
       "suite": "ir_indirect_tail_native",
       "kind": "controlled-callee wrapper",
       "rva_count": 3,
       "case_count": 5120,
-      "report_sha256": "16fe514f4e407046de44ea625c9e2aed8a76228119cca795a6a3b5e1e35e09ab"
+      "report_sha256": "b02b9daa75d18a7c276d6edf2c9a10b7ee7b8a19e62d992d0390cd889a8d541e"
+    },
+    {
+      "suite": "ir_frame_alias_native",
+      "kind": "controlled-callee wrapper",
+      "rva_count": 1,
+      "case_count": 1024,
+      "report_sha256": "7e02d7c59467893244fbe4d83add2434703e38b86a553773673ce28b298f84ec"
     }
   ],
   "direct_original_rvas": [
@@ -853,6 +874,7 @@
     "0x943b0",
     "0x94ad0",
     "0x94c00",
+    "0x964a0",
     "0x9a060",
     "0x9a180",
     "0x9ae50",
@@ -863,6 +885,7 @@
     "0x9ba30",
     "0xab4a0",
     "0xaf900",
+    "0xafea0",
     "0xb0300",
     "0xb0510",
     "0xb2b60",
@@ -885,6 +908,7 @@
     "0x121250",
     "0x12b700",
     "0x13b740",
+    "0x149d90",
     "0x14d890",
     "0x153610",
     "0x157550",
@@ -1579,6 +1603,7 @@
     "0x1cd380",
     "0x1cd6e0",
     "0x1ce520",
+    "0x1d14c0",
     "0x1d1670",
     "0x1d16f0",
     "0x1d2e70",

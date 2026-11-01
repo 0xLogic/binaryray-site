@@ -1,0 +1,22 @@
+{
+  "before_exe_sha256": "43922bea66087e094d57a85498d5682ac32fab05f904e30eb96dee50dad86c13",
+  "exe_sha256": "cc28efc88783860764d6a6f5e60da39f7831cf1050b7e1f02a031648827c636b",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "discovered": 9239,
+  "before": {
+    "listing": 2463,
+    "ir_cpp": 3463,
+    "recognizer": 3313
+  },
+  "after": {
+    "listing": 2462,
+    "ir_cpp": 3464,
+    "recognizer": 3313
+  },
+  "gains": [
+    "0x11f510"
+  ],
+  "unexpected_changes": [],
+  "unchanged": 9238,
+  "exit_code": 0
+}

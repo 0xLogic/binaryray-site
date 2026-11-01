@@ -1,8 +1,8 @@
 {
   "claim": "native differential for ten isolated RIP-relative pointer initializers at preferred image base",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "d6c05078388e37ad50a7a9c6b159306c5ece078e579582193e307cd2cd616ca5",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "9650ba4789702a1b652d5906850f9442fa1ffa1dab76768a1eb8f5d1a4648bd9",
   "function_count": 10,
   "cases_per_function": 1024,
   "functions": [

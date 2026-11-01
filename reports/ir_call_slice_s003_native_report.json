@@ -2,10 +2,10 @@
   "claim": "original machine code (image mapped at its preferred base, every callee replaced by a recording stub that clobbers volatile registers) vs compiled IR C++; return value, 16 KiB argument buffer, .data section and the call sequence with every argument the callee reads compared",
   "callee_model": "controlled: callees return table values and do not touch memory; real callees untested",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "compiled_dll_sha256": "d3bf154e375d6025f95729d97b0f8513cba71100f5e796e7210db2135c1be4f9",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "compiled_dll_sha256": "511a54cd8709e34de0874a42799708e667141100239105de2ef7b95c6ad4b76c",
   "generated_cpp_sha256": "7c8064f9c91ab4faaf42155503da930b4183342519fffd2f5dd5add6ff8152d2",
-  "cases": 54873,
+  "cases": 54551,
   "mismatches": 0,
   "exit_code": 0,
   "functions": [
@@ -710,11 +710,11 @@
           "arguments_passed": 4
         }
       ],
-      "cases": 772,
-      "faulting_inputs_skipped": 252,
-      "distinct_returns": 409,
-      "distinct_outcomes": 768,
-      "calls_compared": 772
+      "cases": 970,
+      "faulting_inputs_skipped": 54,
+      "distinct_returns": 326,
+      "distinct_outcomes": 965,
+      "calls_compared": 970
     },
     {
       "rva": "0x68130",
@@ -788,8 +788,8 @@
           "arguments_passed": 2
         }
       ],
-      "cases": 1024,
-      "faulting_inputs_skipped": 0,
+      "cases": 504,
+      "faulting_inputs_skipped": 520,
       "distinct_returns": 25,
       "distinct_outcomes": 407,
       "calls_compared": 4325
@@ -996,7 +996,7 @@
       "cases": 1024,
       "faulting_inputs_skipped": 0,
       "distinct_returns": 1,
-      "distinct_outcomes": 1023,
+      "distinct_outcomes": 1024,
       "calls_compared": 2048
     },
     {
@@ -1089,7 +1089,7 @@
       "cases": 1024,
       "faulting_inputs_skipped": 0,
       "distinct_returns": 1,
-      "distinct_outcomes": 1024,
+      "distinct_outcomes": 1023,
       "calls_compared": 2048
     },
     {

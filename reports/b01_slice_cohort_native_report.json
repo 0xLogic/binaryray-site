@@ -6,8 +6,8 @@
     "0x9000"
   ],
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "compiled_dll_sha256": "117cf8122db31bf8fba4b4e730546ec14408d54328f4473d0dfb34ff2af6b239",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "compiled_dll_sha256": "ab68298165315e3878f53c20ae6d543e1746e389e51444853fd2f4881690e5c0",
   "generated_cpp_sha256": "7b784b4a0f752741f3713bf6519a6f8e415b2d33becca8efcb28041789076aa2",
   "cases_per_function": 256,
   "cases": 256,

@@ -4,27 +4,27 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+    "buildSha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
   "coverage": {
     "discovered": 9239,
-    "structured": 6507,
-    "listing": 2732,
+    "structured": 6777,
+    "listing": 2462,
     "idaHeadsDiscovered": 9128,
-    "idaHeadsStructured": 6396,
+    "idaHeadsStructured": 6666,
     "structuredOutsideReference": 111,
-    "directNativeValidated": 281,
-    "controlledNativeValidated": 1421,
-    "nativeValidatedDistinct": 1702,
-    "structuredWithoutNativeFixture": 4805
+    "directNativeValidated": 284,
+    "controlledNativeValidated": 1422,
+    "nativeValidatedDistinct": 1706,
+    "structuredWithoutNativeFixture": 5071
   },
   "validation": {
-    "directOriginalCases": 816414,
-    "controlledCases": 1542270,
-    "ownedLineFunctionsChecked": 6507,
-    "ownedLineBytesChecked": 8456205,
+    "directOriginalCases": 819473,
+    "controlledCases": 1542997,
+    "ownedLineFunctionsChecked": 6777,
+    "ownedLineBytesChecked": 12285384,
     "ownedLineMismatches": 0,
     "decodedIrMovFunctions": 7,
     "decodedIrMovCases": 7168
@@ -69,25 +69,25 @@
       "label": "11-20",
       "referenceHeads": 871,
       "discovered": 868,
-      "structured": 711
+      "structured": 718
     },
     {
       "label": "21-50",
       "referenceHeads": 1566,
       "discovered": 1559,
-      "structured": 950
+      "structured": 1034
     },
     {
       "label": "51-100",
       "referenceHeads": 1044,
       "discovered": 1042,
-      "structured": 274
+      "structured": 388
     },
     {
       "label": "101+",
       "referenceHeads": 1232,
       "discovered": 1232,
-      "structured": 96
+      "structured": 161
     }
   ],
   "sources": [
@@ -148,10 +148,10 @@
   ],
   "integration": {
     "baselineStructured": 5838,
-    "gainedStructured": 669,
-    "gainsWithNativeFixtures": 46,
-    "gainsWithoutNativeFixtures": 623,
-    "unchangedOutputs": 8570,
+    "gainedStructured": 939,
+    "gainsWithNativeFixtures": 50,
+    "gainsWithoutNativeFixtures": 889,
+    "unchangedOutputs": 8300,
     "unexpectedChanges": 0,
     "lanes": [
       {
@@ -162,12 +162,12 @@
       {
         "name": "L2 \u00b7 Local-stack arguments",
         "status": "Integrated with limits",
-        "detail": "Bounded frame memory; synthetic callee-write check. Real stack-pointer call behavior remains unproven."
+        "detail": "Known frame aliases and RSP restoration recovered. One real function has controlled callee-write proof; arbitrary callee effects remain unproven."
       },
       {
         "name": "L3 \u00b7 SSE moves",
-        "status": "Integrated",
-        "detail": "128-bit copy and zeroing; direct fixtures include record counts 0\u20137."
+        "status": "Integrated with limits",
+        "detail": "128-bit copy, zeroing and byte shifts. Shift boundary tests pass; byte shifts alone added no structured functions."
       },
       {
         "name": "L4 \u00b7 Partial registers / cookie",
@@ -181,8 +181,8 @@
       },
       {
         "name": "CFG \u00b7 Indirect jumps",
-        "status": "Memory tails only",
-        "detail": "Memory tail-call recovery integrated. Register jump-table recovery remains open."
+        "status": "Integrated with limits",
+        "detail": "Strict relative-table decoding lowered to existing branch blocks: 65 gains. Two real switches tested across every table index; other gains remain unproven."
       }
     ]
   }

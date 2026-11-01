@@ -1,8 +1,8 @@
 {
   "claim": "native differential for three newly structured IMUL immediate functions, including signed inputs and modulo-64 overflow",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "345381f374879cfa5386ed383404b191ac5cbd5f15bf29b2ffce2db2abf967cd",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "b869ebd6ded2c4af8f1ee2fd9af8c8b4af749c5027c0927b7d49fde52596a03b",
   "function_count": 3,
   "cases_per_function": 4096,
   "functions": [

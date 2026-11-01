@@ -1,0 +1,37 @@
+{
+  "claim": "original mapped DLL vs compiled IR; full RAX and 256-byte input memory; no substituted callees or skipped faults",
+  "coverage_method": "input-derived from original switch tables; all indices exercised; not an execution trace",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "compiled_exe_sha256": "831812f928cac02e8c35e0c4e1ad63e664dca41fd1e874041185b440be040c7b",
+  "generated_cpp_sha256": "3abf9f0217b3b3796a0afaf79363acef5b4cb7bb9e003ae28e738323505e6ede",
+  "functions": [
+    {
+      "rva": "0x964a0",
+      "cases": 1040,
+      "arm_coverage": {
+        "0x964d3": 72,
+        "0x964d6": 168,
+        "bounds_default": 796,
+        "special_0x964a8": 4
+      },
+      "generated_sha256": "da847e7a065777b6f4deabb8de0ce94e5718eb5bd25b379ddc9fb527f65c7feb"
+    },
+    {
+      "rva": "0xafea0",
+      "cases": 1040,
+      "arm_coverage": {
+        "bounds_default": 960,
+        "0xafec7": 20,
+        "0xafed3": 44,
+        "0xafecd": 16
+      },
+      "generated_sha256": "3973b6574e7f8e993563e2d5fcd4eb4b0949ac1b88cdce4d42ad61cebac64a63"
+    }
+  ],
+  "cases": 2080,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "2080 cases; zero mismatches\n",
+  "stderr": ""
+}

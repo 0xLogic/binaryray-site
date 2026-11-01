@@ -1,8 +1,8 @@
 {
   "claim": "exact original wrapper plus exact original bounded local callee vs generated wrapper",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "b7fd290a5882f3a5853b73fbb8282fe8005b0b38c5ee373cfaace02d59920e49",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "a91ab6495c7663a875aeeaf83508e7156f9c140453e182db419cb79de40e927f",
   "functions": [
     {
       "rva": "0x24220",

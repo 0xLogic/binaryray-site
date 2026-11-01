@@ -4,15 +4,15 @@
   "callee_rva": "0x26177c",
   "real_allocator_tested": false,
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
   "native_bytes_sha256": "118f3e822d8e78dbe983cef2fb6dc8d8d4f00d4905299571fb3fc40084ad5620",
   "generated_sha256": "43ff6d78057340ef570e113fb57595dd34f835d9f872544e80ca59e80810e487",
-  "harness_sha256": "c73f0a6ca451c031e26d61841cbe77bd6ffa46426f6ff421a7531039e72d56df",
+  "harness_sha256": "aa2e84c1ba3c5f115da2e77c640f4f60fc66b128304de38f4af9f1c137b9c119",
   "cases": 8192,
   "mismatches": 0,
   "exit_code": 0,
   "stdout": "Allocator initializer 0x136930: checked=8192 mismatches=0",
-  "stderr": "callback entered allocation=0xb7ba9ef760",
+  "stderr": "callback entered allocation=0x9b764ff4e0",
   "safety_gate": "exact 110 bytes, one checked direct allocator call, no branches/RIP, bounded object/returned block",
   "compared": "full wrapper return, full object and allocation buffers, allocator call count and four arguments against independent initializer model"
 }

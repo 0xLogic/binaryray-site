@@ -1,8 +1,8 @@
 {
   "claim": "exact original call-free functions vs generated C++; typed AL and full six-region memory",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "52656e2be65703e612f9f0a9ff8c50c342bbc3693ffed9b5b4a4fa228475cc16",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "4cf68b6e390494e857a7c1e49739fd02ef3058b5e45ebd241f8d34abb4eb9228",
   "functions": [
     {
       "rva": "0x2b8a0",

@@ -2,8 +2,8 @@
   "value_pool": "small, with forward-pointer memory; inputs on which the original faults are skipped",
   "claim": "exact original machine code vs compiled IR C++ for B07 loop and pointer-chasing helpers; full RAX and the whole 16 KiB argument buffer compared",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "compiled_dll_sha256": "d5673eb66d1db81fc23377dba91650804a8c0e80b06503523dec94ed571bae8b",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "compiled_dll_sha256": "5b74cd9d686785cbea64507a5ce8e934eec28016109d9b7ff5a660312298ed2d",
   "generated_cpp_sha256": "3d9ff8bba1adb4cb0ce97647d3e18f700b98cfc1467c21b2ce0f2f0501f113e7",
   "cases": 15431,
   "mismatches": 0,
@@ -216,8 +216,8 @@
       "generated_sha256": "721ecf78026c27eaab198dbb3a570435da1e8dfd92718ce2420f622a413628fa",
       "cases": 1024,
       "faulting_inputs_skipped": 0,
-      "distinct_returns": 3,
-      "distinct_outcomes": 3,
+      "distinct_returns": 2,
+      "distinct_outcomes": 2,
       "pointer_args": [
         "rcx"
       ],
@@ -302,7 +302,7 @@
       "generated_sha256": "05e91bbc3e9956a59ed345b5762594ba523e41986a0210fc2cc445005afb0426",
       "cases": 1024,
       "faulting_inputs_skipped": 0,
-      "distinct_returns": 25,
+      "distinct_returns": 3,
       "distinct_outcomes": 915,
       "pointer_args": [
         "r8",

@@ -1,8 +1,8 @@
 {
   "claim": "native differential for nine isolated SETcc byte-return functions",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "1b2bbd567176fc1251d47b6e20f68f142fe6dd7ad92ac431ee4bc4a17c37bb36",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "6a370f5e2f2963f1f8d6b49b438d1f9596db1a97b3663c4317887f5df8c9fc10",
   "function_count": 9,
   "cases_per_function": 1024,
   "functions": [

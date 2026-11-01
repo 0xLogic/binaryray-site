@@ -2,8 +2,8 @@
   "value_pool": "small, with forward-pointer memory; inputs on which the original faults are skipped",
   "claim": "direct original machine code vs compiled IR for recovered call-free functions; full RAX and the whole 16 KiB argument buffer compared",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "compiled_dll_sha256": "d8fb6e5ebeba11bb846ce8a471e7761678f4dc7b82f2ba2aed7a6ed314b8acb1",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "compiled_dll_sha256": "00001b5573548142df3ae7cdfbe6ae8bca61a5926d18be42ca9aa0d10abce482",
   "generated_cpp_sha256": "969685e5bc97dea5a73bbb88bc99b8471eec735ad096d1ea3da5a548d1aafb03",
   "cases": 10002,
   "mismatches": 0,
@@ -42,8 +42,8 @@
       "generated_sha256": "3c969eab670ffb7319e97a284b24627706e567b6dd542642d1883c49cfa891d4",
       "cases": 1024,
       "faulting_inputs_skipped": 0,
-      "distinct_returns": 31,
-      "distinct_outcomes": 31,
+      "distinct_returns": 32,
+      "distinct_outcomes": 32,
       "pointer_args": [
         "rcx"
       ],
@@ -133,7 +133,7 @@
       "generated_sha256": "2d70c4ad5d9049b3a420480bcfb552f8a79f90661aa193ee45ce7ad649b4f8a4",
       "cases": 1024,
       "faulting_inputs_skipped": 0,
-      "distinct_returns": 63,
+      "distinct_returns": 44,
       "distinct_outcomes": 114,
       "pointer_args": [
         "r8",

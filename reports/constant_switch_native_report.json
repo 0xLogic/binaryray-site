@@ -1,8 +1,8 @@
 {
   "claim": "direct original-byte jump-table differential; entire 8-bit domain plus random 32-bit inputs",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "eae14da34d02f8e4e45fa14bf6d66468cda24c4cc83f19aedea0da1711314b2b",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "71155aa41016c310c89800dea22d30e61cd84f59fafe58fc617850ce0bd62f6f",
   "function_count": 2,
   "cases_per_function": 8448,
   "checked": 16896,

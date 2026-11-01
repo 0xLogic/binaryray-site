@@ -1,0 +1,21 @@
+  HARNESS-LIMIT 0x97040: callee 0x180088aa0: arguments read cannot be bounded
+  HARNESS-LIMIT 0x1bb0c0: dropped argument: callee 0x180011520 reads 4 arguments, IR passes 1; callee 0x1801d0420 reads 4 arguments, IR passes 3
+  HARNESS-LIMIT 0x1bb570: dropped argument: callee 0x180011520 reads 4 arguments, IR passes 1; callee 0x1801d0420 reads 4 arguments, IR passes 3
+  HARNESS-LIMIT 0x3a850: callee 0x180088aa0: arguments read cannot be bounded
+  HARNESS-LIMIT 0x1bace0: dropped argument: callee 0x18015e420 reads 4 arguments, IR passes 3; callee 0x1801d0420 reads 4 arguments, IR passes 3
+  HARNESS-LIMIT 0x1bb610: dropped argument: callee 0x18000f450 reads 4 arguments, IR passes 3; callee 0x1801d0420 reads 4 arguments, IR passes 3
+  HARNESS-LIMIT 0x1bb6d0: dropped argument: callee 0x18000f2e0 reads 4 arguments, IR passes 3; callee 0x1801d0420 reads 4 arguments, IR passes 3
+  HARNESS-LIMIT 0x99340: callee 0x1800964a0: arguments read cannot be bounded
+  HARNESS-LIMIT 0x1d0a70: dropped argument: callee 0x18000f2e0 reads 4 arguments, IR passes 3; callee 0x18001c370 reads 4 arguments, IR passes 2
+  HARNESS-LIMIT 0x1eeb80: callee 0x180260bcd: arguments read cannot be bounded
+  HARNESS-LIMIT 0x138eb0: indirect call at 0x180138f64
+  HARNESS-LIMIT 0xdc0e0: callee 0x180260bdf: arguments read cannot be bounded
+  HARNESS-LIMIT 0x102760: callee 0x180104b30: arguments read cannot be bounded
+  HARNESS-LIMIT 0x13100: callee 0x180260921: arguments read cannot be bounded
+  MISMATCH mismatch in 0x1d14c0 case 0 (calls): native=0x9 port=0x9 native=[(1, 905713739672, 905713739648, 18446744073709551613, 9, 0, 0, 0, 6445077864, 9), (0, 2624346982400, 0, 0), (2, 0)] port=[(1, 905713739576, 905713739552, 18446744073709551613, 9, 0, 0, 0, 6445077864, 9), (0, 2624346982400, 0, 0), (2, 0)]
+  MISMATCH mismatch in 0x10be50 case 0 (calls): native=0x1 port=0x1 native=[(0, 11, 654613343072, 11, 12, 6445065320, 0, 0, 11, 0), (1, 1962436265984, 11, 11)] port=[(0, 11, 654613342944, 11, 12, 6445065320, 0, 0, 11, 0), (1, 1962436265984, 11, 11)]
+  MISMATCH mismatch in 0x1b9890 case 0 (calls): native=0xd1 port=0xd1 native=[(0, 264073309032, 264073309120, 6445079112, 209, 6445079112, 1865773287464, 18446744073709551615, 0, 0, 0, 0, 0), (1, 0), (1, 0)] port=[(0, 264073308936, 264073309024, 6445079112, 209, 6445079112, 1865773287464, 18446744073709551615, 0, 0, 0, 0, 0), (1, 264073309448), (1, 1)]
+  MISMATCH mismatch in 0x1b9940 case 0 (calls): native=0x1 port=0x1 native=[(1, 1031771450648), (0, 0), (1, 1031771450712), (0, 0)] port=[(1, 1031771450552), (0, 2269302141456), (1, 1031771450616), (0, 0)]
+  MISMATCH mismatch in 0x121410 case 0 (calls): native=0x18b08a00bf8 port=0x18b08a00bf8 native=[(1, 1696656787456, 151145867136, 104, 0), (0, 1696656787456, 151145867088), (2, 0)] port=[(1, 1696656787456, 151145867040, 104, 0), (0, 1696656787456, 151145866992), (2, 0)]
+  HARNESS-LIMIT 0x10e5c0: child process died (exit code 0xc0000005)
+{"validated": 0, "failures": 6, "limits": 14}

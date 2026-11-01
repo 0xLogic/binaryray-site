@@ -1,8 +1,8 @@
 {
   "claim": "19 stratified exact original tail thunks with controlled target stubs; real callees untested",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "4c06c223bfbc672162174f3761a494d3e3c2182460c68f7b0b4fdf7230ce9735",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "c5dcf5c36a14e50fb90b5be9a2f66a51aa677b0434e0babb7f644b9f899dfe9f",
   "function_count": 19,
   "cases_per_function": 4096,
   "functions": [

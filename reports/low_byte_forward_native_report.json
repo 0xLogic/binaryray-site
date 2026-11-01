@@ -1,8 +1,8 @@
 {
   "claim": "four exact original low-byte call wrappers with controlled callee; real callees untested",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "82f0c1ada5cb181243999d954ab8a55ed109dc2d85fb13e102ba42c4377101f0",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "6cdfa6f3f1d8802eee2c82561d7b503b66b9da0e182b15f050756338ee680cc9",
   "function_count": 4,
   "cases_per_function": 4096,
   "checked": 16384,

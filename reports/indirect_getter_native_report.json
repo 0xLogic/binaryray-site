@@ -1,8 +1,8 @@
 {
   "claim": "native differential for five isolated multi-level indexed getters",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
-  "harness_sha256": "a4d65d988cdbbd796bdad3c2a07dff9ea266a1eb4cbb5474e39245995fe4b783",
+  "own_exe_sha256": "72b1a0f33927793cad45b84f21f1e76e053a9ad3a9f50a9d423e6a3c2aa9a9eb",
+  "harness_sha256": "da4f646d0a6047dbb2b863e06800aaa1b9b6f3a9d51a99a062a5bcb045c72fa6",
   "function_count": 5,
   "cases_per_function": 3200,
   "checked": 16000,
