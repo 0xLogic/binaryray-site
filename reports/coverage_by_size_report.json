@@ -1,43 +1,43 @@
 {
   "claim": "coverage by recovered pseudocode line count; no semantic parity claim",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "exe_sha256": "bdc4ca09f7e54977ddee0597c7e5b577880a3df72bac50beb2489835e879ff92",
+  "exe_sha256": "69c1706a46f7e784f9bb55082ceb0c5b316bd4a06c5c1ce8522e4160dcb61581",
   "inventory_sha256": "eada06fb974995fa4694a1fb5997f123dfe000b14e7a081c56f1503336e152a1",
   "discovered_total": 9239,
-  "structured_total": 5632,
+  "structured_total": 5838,
   "ida_heads_total": 9167,
   "ida_heads_discovered": 9128,
-  "ida_heads_structured": 5521,
+  "ida_heads_structured": 5727,
   "bands": [
     {
       "reference_lines": "1-5",
       "ida_heads": 3153,
       "discovered": 3135,
-      "structured": 3097
+      "structured": 3105
     },
     {
       "reference_lines": "6-10",
       "ida_heads": 1301,
       "discovered": 1292,
-      "structured": 1185
+      "structured": 1209
     },
     {
       "reference_lines": "11-20",
       "ida_heads": 871,
       "discovered": 868,
-      "structured": 543
+      "structured": 577
     },
     {
       "reference_lines": "21-50",
       "ida_heads": 1566,
       "discovered": 1559,
-      "structured": 584
+      "structured": 675
     },
     {
       "reference_lines": "51-100",
       "ida_heads": 1044,
       "discovered": 1042,
-      "structured": 103
+      "structured": 152
     },
     {
       "reference_lines": "101+",
