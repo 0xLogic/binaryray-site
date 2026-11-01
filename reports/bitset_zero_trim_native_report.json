@@ -1,8 +1,8 @@
 {
   "claim": "direct original bytes versus compiled bitset zero/trim pseudocode, typed AL and full memory",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "5fd748e965659501059cfc05495aa370def839bd02937db18355d966f69adc47",
-  "generated_dll_sha256": "1241d5874d041c37292884244defd851ec6f1d1d993b3a5a908db9f4826e4602",
+  "own_exe_sha256": "4eabcaf2f3a98ffa05325c4ab860a34bcaa4128d17e4ee8e22d686c9961a56d1",
+  "generated_dll_sha256": "6edccf22da1fd7babbeb2201ce7990069db46da5f0af0ece97ec8f383a3b9e6e",
   "return_bits": 8,
   "exit_code": 0,
   "cases_per_function": 8192,

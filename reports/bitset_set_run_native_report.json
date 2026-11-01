@@ -1,8 +1,8 @@
 {
   "claim": "direct original bytes versus compiled bitset run pseudocode, typed AL or full 64-bit return and memory",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "5fd748e965659501059cfc05495aa370def839bd02937db18355d966f69adc47",
-  "generated_dll_sha256": "5f60d0b2b997041d4711effe94c90b9add2bc6c311b9106728d3d912ac6ee6dc",
+  "own_exe_sha256": "4eabcaf2f3a98ffa05325c4ab860a34bcaa4128d17e4ee8e22d686c9961a56d1",
+  "generated_dll_sha256": "773ea9aafb38235b2e698b73c4cd1cec6db8582d7b6fe7638b34c0bcf01b4684",
   "exit_code": 0,
   "cases_per_function": 8192,
   "cases": 16384,

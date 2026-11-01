@@ -4,25 +4,27 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "5fd748e965659501059cfc05495aa370def839bd02937db18355d966f69adc47",
+    "buildSha256": "4eabcaf2f3a98ffa05325c4ab860a34bcaa4128d17e4ee8e22d686c9961a56d1",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
   "coverage": {
     "discovered": 9239,
-    "structured": 3313,
-    "listing": 5926,
+    "structured": 5250,
+    "listing": 3989,
     "idaHeadsDiscovered": 9128,
-    "directNativeValidated": 266,
+    "idaHeadsStructured": 5145,
+    "structuredOutsideReference": 105,
+    "directNativeValidated": 267,
     "controlledNativeValidated": 44,
-    "nativeValidatedDistinct": 310,
-    "structuredWithoutNativeFixture": 3003
+    "nativeValidatedDistinct": 311,
+    "structuredWithoutNativeFixture": 4939
   },
   "validation": {
-    "directOriginalCases": 793168,
+    "directOriginalCases": 801395,
     "controlledCases": 169984,
-    "ownedLineFunctionsChecked": 3313,
-    "ownedLineBytesChecked": 1594632,
+    "ownedLineFunctionsChecked": 5250,
+    "ownedLineBytesChecked": 6036518,
     "ownedLineMismatches": 0,
     "decodedIrMovFunctions": 7,
     "decodedIrMovCases": 7168
@@ -55,37 +57,37 @@
       "label": "1-5",
       "referenceHeads": 3153,
       "discovered": 3135,
-      "structured": 2125
+      "structured": 2978
     },
     {
       "label": "6-10",
       "referenceHeads": 1301,
       "discovered": 1292,
-      "structured": 919
+      "structured": 1172
     },
     {
       "label": "11-20",
       "referenceHeads": 871,
       "discovered": 868,
-      "structured": 168
+      "structured": 453
     },
     {
       "label": "21-50",
       "referenceHeads": 1566,
       "discovered": 1559,
-      "structured": 86
+      "structured": 455
     },
     {
       "label": "51-100",
       "referenceHeads": 1044,
       "discovered": 1042,
-      "structured": 12
+      "structured": 79
     },
     {
       "label": "101+",
       "referenceHeads": 1232,
       "discovered": 1232,
-      "structured": 3
+      "structured": 8
     }
   ],
   "sources": [
