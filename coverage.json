@@ -4,27 +4,27 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "4030de32936c146647b68cf4c27b108d70180bb6706a8297647d001a789334ae",
+    "buildSha256": "766a1b3506823fc871cbdf26d1857f02b82fdac7c155cad2edfb4e20feec6f54",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
   "coverage": {
     "discovered": 9239,
-    "structured": 6829,
-    "listing": 2410,
+    "structured": 8012,
+    "listing": 1227,
     "idaHeadsDiscovered": 9128,
-    "idaHeadsStructured": 6718,
+    "idaHeadsStructured": 7901,
     "structuredOutsideReference": 111,
     "directNativeValidated": 286,
     "controlledNativeValidated": 1422,
     "nativeValidatedDistinct": 1708,
-    "structuredWithoutNativeFixture": 5121
+    "structuredWithoutNativeFixture": 6304
   },
   "validation": {
     "directOriginalCases": 822086,
-    "controlledCases": 1543184,
-    "ownedLineFunctionsChecked": 6829,
-    "ownedLineBytesChecked": 12802319,
+    "controlledCases": 1542688,
+    "ownedLineFunctionsChecked": 8012,
+    "ownedLineBytesChecked": 44038246,
     "ownedLineMismatches": 0,
     "decodedIrMovFunctions": 7,
     "decodedIrMovCases": 7168
@@ -57,37 +57,37 @@
       "label": "1-5",
       "referenceHeads": 3153,
       "discovered": 3135,
-      "structured": 3119
+      "structured": 3127
     },
     {
       "label": "6-10",
       "referenceHeads": 1301,
       "discovered": 1292,
-      "structured": 1246
+      "structured": 1275
     },
     {
       "label": "11-20",
       "referenceHeads": 871,
       "discovered": 868,
-      "structured": 721
+      "structured": 786
     },
     {
       "label": "21-50",
       "referenceHeads": 1566,
       "discovered": 1559,
-      "structured": 1043
+      "structured": 1312
     },
     {
       "label": "51-100",
       "referenceHeads": 1044,
       "discovered": 1042,
-      "structured": 409
+      "structured": 753
     },
     {
       "label": "101+",
       "referenceHeads": 1232,
       "discovered": 1232,
-      "structured": 180
+      "structured": 648
     }
   ],
   "sources": [
@@ -148,10 +148,10 @@
   ],
   "integration": {
     "baselineStructured": 5838,
-    "gainedStructured": 991,
+    "gainedStructured": 2174,
     "gainsWithNativeFixtures": 52,
-    "gainsWithoutNativeFixtures": 939,
-    "unchangedOutputs": 8248,
+    "gainsWithoutNativeFixtures": 2122,
+    "unchangedOutputs": 7065,
     "unexpectedChanges": 0,
     "lanes": [
       {
@@ -162,12 +162,12 @@
       {
         "name": "L2 \u00b7 Local-stack arguments",
         "status": "Integrated with limits",
-        "detail": "Known frame aliases and RSP restoration recovered. One real function has controlled callee-write proof; arbitrary callee effects remain unproven."
+        "detail": "Integer stack arguments share backing with merged frame aliases; nested-loop pointer copies preserve proven offsets. SDK-backed call contracts recover known argument widths. New gains remain unproven outside admitted native fixtures."
       },
       {
         "name": "L3 \u00b7 SSE moves",
         "status": "Integrated with limits",
-        "detail": "128-bit copy, scalar MOVD/MOVQ, byte shifts and vector state through joins/loops. One recovered string-record sort has direct original-DLL proof; other new vector gains remain unproven."
+        "detail": "128-bit copies, scalar moves, byte shifts, PSHUFD and vector state through joins/loops. Synthetic native tests cover every shuffle control and MOVSD lane merging; original-DLL proof remains limited to admitted fixtures."
       },
       {
         "name": "L4 \u00b7 Partial registers / cookie",
@@ -182,7 +182,7 @@
       {
         "name": "CFG \u00b7 Indirect jumps",
         "status": "Integrated with limits",
-        "detail": "Strict tables lowered to branches: 65 earlier gains, two switches tested across every index. New flag merging and proven noreturn padding recover more listings. Scheduled-switch support adds zero measured gains."
+        "detail": "Range-checked tables include copied or masked indices and proven image-base definitions; dispatch lowers to branches. Fixed-address register tails and unused loop flags are recovered. Native proof covers only the admitted fixtures."
       }
     ]
   }
