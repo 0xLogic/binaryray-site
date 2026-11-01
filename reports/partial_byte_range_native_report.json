@@ -1,0 +1,17 @@
+{
+  "claim": "direct original-byte differential with independent byte-merge/shift-bound rule",
+  "rva": "0x1d6ae0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "b934a31c2ac412de93535500c1e51ec25884d824abe9487c6d08c74b39ac23fa",
+  "generated_sha256": "36e155ca4bfa72a831bf51680343c468ac7c11964319478d7f25386f9452040e",
+  "return_bits": 64,
+  "harness_sha256": "30b1035bf094435c33042dc0f6695bf685a70a5bacc69bbfc8f87930f38fa24d",
+  "native_instruction_count": 34,
+  "generated_line_count": 46,
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "partial-byte range: checked=8192 mismatches=0 paths=1366,1366,1365,1365,1365,1365,",
+  "compared": "64-bit return, full object and backing memory, independent width and AL-merge expectation"
+}

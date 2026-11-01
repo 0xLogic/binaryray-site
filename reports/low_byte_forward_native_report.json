@@ -1,0 +1,40 @@
+{
+  "claim": "four exact original low-byte call wrappers with controlled callee; real callees untested",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "82f0c1ada5cb181243999d954ab8a55ed109dc2d85fb13e102ba42c4377101f0",
+  "function_count": 4,
+  "cases_per_function": 4096,
+  "checked": 16384,
+  "mismatches": 0,
+  "exit_code": 0,
+  "real_callees_tested": false,
+  "functions": [
+    {
+      "rva": "0x237da0",
+      "callee_rva": "0x2379e0",
+      "native_wrapper_bytes_sha256": "89facf8bcba82e0efd55215f8ac71c2834d2a88f50435577355c0d3c8d55c1d6",
+      "generated_sha256": "723fca4d4ceea364aaf1cbc85c972fd797623b4c4be602c3cc2f5488a9270736"
+    },
+    {
+      "rva": "0x2381e0",
+      "callee_rva": "0x21b4b0",
+      "native_wrapper_bytes_sha256": "3a0c818d6f1796f7df380312098e78856d820412d40aee5c05715509bd0e7766",
+      "generated_sha256": "3469b49eca13974b9998ea3d6ef495f14d382577d6aa743e5e328f85cd771bbd"
+    },
+    {
+      "rva": "0x238200",
+      "callee_rva": "0x21b5a0",
+      "native_wrapper_bytes_sha256": "22662d92711eeec20e2d8d723176ed5b8ba1d5273bc8328d59fa98aaec2dd5f3",
+      "generated_sha256": "ffaf57fe6d37c22a34a3f68f489d75adb2704e83ae854d022b015c731ad2c2fb"
+    },
+    {
+      "rva": "0x239210",
+      "callee_rva": "0x227750",
+      "native_wrapper_bytes_sha256": "5a5dedfba6b7d66d4331404f63cc98557e3167a6a7f36f26c09910e3425c2c87",
+      "generated_sha256": "24e53e413699a75105838978c235a0c874db77ebbb3435a4707a687138b6e75e"
+    }
+  ],
+  "stdout": "low-byte forwarding: checked=16384 mismatches=0 real_callees_tested=0",
+  "compared": "full callback argument tuple/count/return, full 64-bit wrapper return, independent DL merge expectation"
+}

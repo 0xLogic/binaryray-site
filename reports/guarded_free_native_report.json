@@ -1,0 +1,17 @@
+{
+  "claim": "exact original wrapper bytes and generated logic with controlled free-effect seam; real heap free untested",
+  "rva": "0x2dd50",
+  "controlled_callee_rva": "0x26161c",
+  "real_allocator_tested": false,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_wrapper_bytes_sha256": "a6fd145f6c9f5da874d37a94d6e78db6a306473e61fb2e22428f4a8444d7b1a2",
+  "raw_generated_sha256": "bb24bfe0cdee0eef014b7cccc664bcfb6313dbff610be9e7ece652626c21f559",
+  "adapted_generated_sha256": "0f4c0c1df1266af9245e73c71fa84bc2c43d851539f4e3a0a2ac3dfa9a94541b",
+  "harness_sha256": "11cb6643aa9e9f716bde6472fa56d9b4af88bcf57280e6c9989add299013e0a1",
+  "cases": 4096,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "guarded-free wrapper native parity: 4096 cases passed; free=2048 skip=2048 real_allocator_tested=0",
+  "stderr": ""
+}

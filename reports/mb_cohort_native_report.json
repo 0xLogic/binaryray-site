@@ -1,0 +1,55 @@
+{
+  "claim": "exact original machine code vs compiled IR C++ for 7 accepted multi-block functions",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "d4a9a4d9c853ccbe20920707e7a4fcc34b227a3492ddeecca87a5f8179c085fe",
+  "generated_cpp_sha256": "3f4d9ee83c7854d936d2b5019e658090c9541b862bad4f698c02dc8e87b4cde9",
+  "cases_per_function": 256,
+  "cases": 1792,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x12ac0",
+      "cases": 256,
+      "native_bytes_sha256": "b760963c58b12ac97c410d4da8e9eaa3b5f0ea7864721afc8b146ae7b9a8ad83",
+      "generated_sha256": "84e5d05ac0bd84d1fe7473e253b2768ff26390194467af76ebb7d863a995a464"
+    },
+    {
+      "rva": "0x12b20",
+      "cases": 256,
+      "native_bytes_sha256": "9bed364096db8d0f34d8063d2a071bab51e312895b84bbdd288978a3f4dbb177",
+      "generated_sha256": "ba1af334268f840c4a799db3c6dde89f2f72d5ac5e1083ef36cff288c5fbe6db"
+    },
+    {
+      "rva": "0x3f5c0",
+      "cases": 256,
+      "native_bytes_sha256": "66ad7ee1b73f11b81ece9f722e1cc0b606a8d8e18c57f78bf720bb17aecfad1a",
+      "generated_sha256": "22dcb60a3ba3ab374a861d28b7ad29add0df7dfc7ef89da6c21bb693de084fe5"
+    },
+    {
+      "rva": "0x65590",
+      "cases": 256,
+      "native_bytes_sha256": "6aec56e5fe75ba6c026da955516ea682badc49523f18f7c64a23d6c541a62973",
+      "generated_sha256": "0444aac97844a2413bb8ad7c6467a2c00be26378ea1b111694d3f35572f0006b"
+    },
+    {
+      "rva": "0x6e3f0",
+      "cases": 256,
+      "native_bytes_sha256": "b0ffd7ed4ad9da68052749d722ac9b341dcd5b900abb11c0afe9ac8f5489b9ea",
+      "generated_sha256": "55673fad2ef5b74be0c6df0febf061143c42fc622470c0d8b8f9a2317a2a0ec9"
+    },
+    {
+      "rva": "0x91000",
+      "cases": 256,
+      "native_bytes_sha256": "e05c9eda3d83e30bf7bdfa2e11438c077baeae6928e3b3d3dfc7255f396dd358",
+      "generated_sha256": "2ed7340b4d4779351833c1e38de0a37dd99e1fb5bb87709a26ab6bff66f7f8d8"
+    },
+    {
+      "rva": "0x91120",
+      "cases": 256,
+      "native_bytes_sha256": "72f692236ff40b75b9e9cfa9ac449c318322f056b6ce079beba7795cef572c54",
+      "generated_sha256": "2acc6279c032b57ae2b308ac062911b409138990d5f184369e1af244aa82e494"
+    }
+  ]
+}

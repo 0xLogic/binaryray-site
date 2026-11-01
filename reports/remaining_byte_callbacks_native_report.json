@@ -1,0 +1,27 @@
+{
+  "claim": "controlled virtual and imported callbacks; actual target callees not validated",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "0c3d0f04dbf3adb37363b25bb2ced50359f724609997dbc12723091793aba61f",
+  "cases_per_function": 4096,
+  "cases": 8192,
+  "mismatches": 0,
+  "compared": "typed AL, complete six-region memory, callback count and four argument registers on controlled paths",
+  "safety_gate": "exact wrapper/callee bytes, one checked call per wrapper, no callee nested calls/RIP, bounded list and table",
+  "stdout": "Remaining byte cohort: checked=12288 mismatches=0\nrva=0x4aa0 true=1536 calls=4096 changed=4096\nrva=0x138a00 true=2048 calls=4096 changed=4096\nrva=0x23dff0 true=1024 calls=0 changed=0",
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x4aa0",
+      "kind": "controlled callback seam",
+      "bytes_sha256": "2baa21989462455704de0966442469eee955b85e808ff36d2db5b3d4a61619d7",
+      "generated_sha256": "2d47c4ec641ae2e2af30c3aa49b452e93dd0693fd35dfc6e36e596341abf1d0d"
+    },
+    {
+      "rva": "0x138a00",
+      "kind": "controlled callback seam",
+      "bytes_sha256": "d3228ece6d3a515d8c5f862fd741c745789d4cc99c56a1d59dc2bc455f694860",
+      "generated_sha256": "09dc0ece91abb4b9cb852f94a8dd8a47b7b0ee1a5fa67a76cce64b3e0b692338"
+    }
+  ]
+}

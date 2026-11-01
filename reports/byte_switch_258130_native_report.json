@@ -1,0 +1,29 @@
+{
+  "claim": "direct-original exhaustive uint16 switch, comparing recovered uint8 return only",
+  "rva": "0x258130",
+  "reference_ida_pseudocode_lines": 112,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_span_sha256": "038022a44a2d2eaafb685b026971263c44dc487d8b35cf4f9a6569aecfb8c6bd",
+  "table_sha256": "9446bd178de40d3aab6837f4954cf60ccc943284b98cef35a059c896cb1bb695",
+  "map_sha256": "c4a8b9e459ca3f943a33b3a7eb7fe6d85b104fe1dea76bb5dfb452e19e15b33a",
+  "generated_sha256": "b538ce31a5b84098850f5bff8b7c31c30626ac5a2eb9f0ec9e2addd95e5a44dd",
+  "harness_sha256": "1c348ce98ae1ff5ffda45ec5716a46ea69a8a0c09d93d4e33fd84c1e3b4117d5",
+  "map_id_counts": {
+    "0": 98,
+    "1": 262
+  },
+  "machine_derived_values": [
+    1,
+    0
+  ],
+  "native_instruction_count": 15,
+  "cases": 65536,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "byte switch: checked=65536 mismatches=0 ones=98 zeros=65438 native_nonzero_upper=65176 return_width=8",
+  "return_width_bits": 8,
+  "full_rax_compared": false,
+  "safety_gate": "pinned image, checked 360-entry byte map, two local AL-return arms, no calls",
+  "compared": "native low return byte and generated uint8 result against machine-derived map for every uint16 value"
+}

@@ -1,0 +1,25 @@
+{
+  "claim": "native full-memory and return differential for 0x6D540 swap",
+  "rva": "0x6d540",
+  "cases": 5120,
+  "mismatches": 0,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "native_bytes_sha256": "da93aaf832e4255233a3d33a83e571b0f4d58475206ea5e320acc0cd9eec65fd",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "generated_cpp_sha256": "2dd6d54e0b9ac754b2f97e396f965e2bf6cb1a09cf0ba4e1ead4aa3bae69d3dd",
+  "harness_sha256": "01a5db4e06bf7c5e855c912375ed7cef88d919e935213b2cc303b196813bbe48",
+  "instruction_count": 79,
+  "native_bytes": 317,
+  "layouts": [
+    "disjoint",
+    "alias",
+    "overlap+1",
+    "overlap+4",
+    "overlap+8"
+  ],
+  "seeds_per_layout": 1024,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "0x6D540 native swap parity: 5120 cases passed",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "claim": "direct original-byte guarded pointer store across six independent branch shapes",
+  "rva": "0x9ae50",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "7c24a8de4cf08050d0da1589c6c6c2a600c8dd9ce76d5a024b3c4c3e018919fb",
+  "generated_sha256": "797cf902f314f35824fbfd6453e9fcde0a726f484195ac18b9805d4e5eb1a2ee",
+  "return_bits": 64,
+  "harness_sha256": "5017f1a0bef553fc45112560ef857a36922cc29e948e4bb23496031b5833f777",
+  "native_instruction_count": 14,
+  "generated_line_count": 23,
+  "cases": 6144,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "guarded pointer store: checked=6144 mismatches=0 paths=1024,1024,1024,1024,1024,1024,",
+  "compared": "full return, independent code/marker/flag rule, all object/candidate bytes"
+}

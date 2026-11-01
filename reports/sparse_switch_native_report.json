@@ -1,0 +1,32 @@
+{
+  "claim": "direct-original exhaustive uint16 sparse switch, including all defaults, cases, and two special values",
+  "rva": "0x242800",
+  "reference_ida_pseudocode_lines": 60,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_span_sha256": "9bfcc5dfe04121ec80741e6a0250b1635c93a34a17bbbbaa8d17f14594471202",
+  "table_sha256": "74f39890acea14fe85d7b9a61edf646073f24d452290ec2b640d3d37cc743595",
+  "map_sha256": "e66078e771fd8be45fcf50d00a5439d258deabf15a78e90fc978db43d11d53b7",
+  "generated_sha256": "6776c199ce4204a5c34defc4ebc7cce82ace74fcbf80f8f1a13de91f72db305c",
+  "return_bits": 64,
+  "harness_sha256": "5945d9d43253e07632b0c3e879495d32cee4f7cd0c415beb44319173a5615d62",
+  "map_id_counts": {
+    "0": 18,
+    "1": 14,
+    "2": 2,
+    "3": 53
+  },
+  "machine_derived_values": [
+    4294967295,
+    1,
+    4294967294,
+    0
+  ],
+  "native_instruction_count": 23,
+  "cases": 65536,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "sparse switch: checked=65536 mismatches=0 ids=18,14,2,53, specials=2 defaults=65447",
+  "safety_gate": "pinned image, checked finite byte map, four local constant-return targets, no calls",
+  "compared": "full 64-bit return and complete input object memory for every uint16 value"
+}

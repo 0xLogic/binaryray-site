@@ -59,3 +59,13 @@ For GitHub Pages, publish this directory as the Pages artifact root (or copy its
 | `limitations[]` | Plain-language scope notes displayed on the site. |
 
 The generator and browser both validate count relationships. Keep the site copy conservative when adding new metrics: a byte-for-byte text comparison, a C++ compile check, a native behavior test, and an export mapping are different forms of evidence. The C++ porting section does not derive its numbers from pseudocode coverage.
+
+## Lane integration panel
+
+The integration panel reads the complete default-output regression report, pinned to
+exactly the same executable and target hashes as the coverage snapshot. It displays
+new structured outputs, the subset covered by admitted native fixtures, the unproven
+remainder, and unexpected output changes. Its counts describe the combined build;
+individual lane gains must not be summed. Lane descriptions also retain unsupported
+forms and unproven behavior. `build_coverage.py` rejects a stale regression report or
+an output-preservation failure before writing the snapshot.

@@ -1,0 +1,23 @@
+{
+  "claim": "exact original bounded local callee 0x1EAF30 in both native and generated 0x23DFF0 wrapper",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "0c3d0f04dbf3adb37363b25bb2ced50359f724609997dbc12723091793aba61f",
+  "cases_per_function": 4096,
+  "cases": 4096,
+  "mismatches": 0,
+  "compared": "typed AL, complete six-region memory, callback count and four argument registers on controlled paths",
+  "safety_gate": "exact wrapper/callee bytes, one checked call per wrapper, no callee nested calls/RIP, bounded list and table",
+  "stdout": "Remaining byte cohort: checked=12288 mismatches=0\nrva=0x4aa0 true=1536 calls=4096 changed=4096\nrva=0x138a00 true=2048 calls=4096 changed=4096\nrva=0x23dff0 true=1024 calls=0 changed=0",
+  "exit_code": 0,
+  "rva": "0x23dff0",
+  "callee_rva": "0x1eaf30",
+  "functions": [
+    {
+      "rva": "0x23dff0",
+      "kind": "exact original local callee",
+      "bytes_sha256": "491db1b0bfe20ff8280182141c635187466cfcc919bd14323464c4ebe26578fa",
+      "generated_sha256": "b9c491491ffad23de26501bf63629365fe6c45a152e18e995ce5893aac8d3368"
+    }
+  ]
+}

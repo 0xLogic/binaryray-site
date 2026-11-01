@@ -1,0 +1,733 @@
+{
+  "claim": "original machine code (image mapped at its preferred base, every callee replaced by a recording stub that clobbers volatile registers) vs compiled IR C++; return value, 16 KiB argument buffer, .data section and the call sequence with every argument the callee reads compared",
+  "callee_model": "controlled: callees return table values and do not touch memory; real callees untested",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "d07d8c6ad6cd52be7ef0f418ee94e12ae8ee29589b8fcf2acde0d1b1fa23e75e",
+  "generated_cpp_sha256": "04b790cfb95bd03db6bbf8a2e73da89108137becbf660d0928cbf181138f38af",
+  "cases": 32640,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x1610f0",
+      "native_bytes_sha256": "fdf10baf8974b5da99fb0782698e332c8f3e631bfe8af562c283199943e688ac",
+      "generated_sha256": "c74b3b6dde32bf938d3a19e21a5ae8c85b202fd6fa8731d54922a4b50bcb44ea",
+      "callees": [
+        {
+          "va": "0x18015e420",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 301,
+      "distinct_outcomes": 1024,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x161130",
+      "native_bytes_sha256": "0f512d09406529244b875a8384826cf21b25c54ac6c6ce26f32b83015f62f6ae",
+      "generated_sha256": "979bf2972ccd9505837b2679d982745e4a52697dc3d24cad30ec24a0418f8bae",
+      "callees": [
+        {
+          "va": "0x18000f2e0",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 318,
+      "distinct_outcomes": 1024,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x162360",
+      "native_bytes_sha256": "47982b22afdfe3777f13a6d8459efaca9f87e2def8df0dfe16ab7a1eaf2d5367",
+      "generated_sha256": "ad764a8a73dfcd17d89e300e4a1f33f5d16090abc2bff1fdb3d63b9dd7e59ad0",
+      "callees": [
+        {
+          "va": "0x1801623c0",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 24,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x163110",
+      "native_bytes_sha256": "0799ebe472522293b5bbb02bdad25f947a3bb74b3a13663a309f5e92f587d445",
+      "generated_sha256": "4735fe46066021c0b684bb95729200f7cc5aa74bc004043653f33eb0771079f3",
+      "callees": [
+        {
+          "va": "0x18006ac60",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 2,
+      "distinct_outcomes": 23,
+      "calls_compared": 22
+    },
+    {
+      "rva": "0x163970",
+      "native_bytes_sha256": "ba496ddc50dcaa8bb9e582ae465cb372c586fba19a9ed3b3f0c435d356d789ff",
+      "generated_sha256": "bd811ca6ac09126c74c3064490f95b80d6d341a37d2085cdf59255c3049211fa",
+      "callees": [
+        {
+          "va": "0x180218cd0",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 477,
+      "distinct_outcomes": 1018,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x163990",
+      "native_bytes_sha256": "2b31c006c772f59a2673cc9721f7d399c7f758eeeee3c89a7cfe4c513b3457d7",
+      "generated_sha256": "c446e4b7ea3d09ad8b2fe08234c81da3c900d15479c25981532b3d4a282e8459",
+      "callees": [
+        {
+          "va": "0x180003810",
+          "arguments_read": 3,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x18010bed0",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 21,
+      "distinct_outcomes": 30,
+      "calls_compared": 28
+    },
+    {
+      "rva": "0x163a00",
+      "native_bytes_sha256": "e1f98671d2f150874c19e246ad5aceea9d4cd6a61340b8cd7f246cc55ab2f9b4",
+      "generated_sha256": "b033c9343f78da6d81abb868cf1f2d535473339e0c47a9d86e5a0619f64a7dda",
+      "callees": [
+        {
+          "va": "0x180218cd0",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 435,
+      "distinct_outcomes": 1021,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x163b20",
+      "native_bytes_sha256": "33ac0ac1f21aa81946c632f506e6b46db3388afb26d4fa9b39e49a785b096b50",
+      "generated_sha256": "77322e48f6c5a8cc1c944bbe9d4529f6cfe058e00f926b2ffdf44ff6bf77727c",
+      "callees": [
+        {
+          "va": "0x180163850",
+          "arguments_read": 2,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 272,
+      "calls_compared": 464
+    },
+    {
+      "rva": "0x1644c0",
+      "native_bytes_sha256": "5ff5fa8c1b4af4b61bd48d29a1755a85e7ff47b725c890b0c0cbd523696c5283",
+      "generated_sha256": "5ea0a83264a51394b9ea2e5cbb6c848a691e741fdc2c3fb174967cdee71f1d7f",
+      "callees": [
+        {
+          "va": "0x1801537a0",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1016,
+      "faulting_inputs_skipped": 8,
+      "distinct_returns": 1,
+      "distinct_outcomes": 33,
+      "calls_compared": 29
+    },
+    {
+      "rva": "0x165750",
+      "native_bytes_sha256": "1fb5570fe0744c0deb82cd2cc16190a3aee0a2923d3c90dcc94f254a604dea96",
+      "generated_sha256": "e895b2f8255825bb4afa3a3a0ff23ed4dee818a654a723a2662a4ba1ab205566",
+      "callees": [
+        {
+          "va": "0x180160990",
+          "arguments_read": 2,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 988,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x165c10",
+      "native_bytes_sha256": "6ccaf19a1405d5032776bcb9c64dff883c541e4640f3095d7f835342e4e35258",
+      "generated_sha256": "f61525d38e8f968411bd286514b3e118aea0113fcb1a5f2da1a37d0664b5d00e",
+      "callees": [
+        {
+          "va": "0x180160990",
+          "arguments_read": 2,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x18026089d",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1023,
+      "faulting_inputs_skipped": 1,
+      "distinct_returns": 1,
+      "distinct_outcomes": 453,
+      "calls_compared": 1023
+    },
+    {
+      "rva": "0x165d40",
+      "native_bytes_sha256": "6a765fdc4eb9b2d44bd536985a784481949f42bd57163125821acf6b091449f9",
+      "generated_sha256": "75587de7aa2b0c6493b3a06d8741f74b09c10656bccecd34d791b8de24708c51",
+      "callees": [
+        {
+          "va": "0x18026093f",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 321,
+      "distinct_outcomes": 1024,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x16f410",
+      "native_bytes_sha256": "aa5a245ad8d8a151c9ea94ff97465fa5c49677b9efae59a5f4e405cac4454aa5",
+      "generated_sha256": "cba12899b3794540b67d17b1fb48a812c1b796cffde4d12cda2e8be2da8c073c",
+      "callees": [
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 326,
+      "distinct_outcomes": 1024,
+      "calls_compared": 3072
+    },
+    {
+      "rva": "0x16f450",
+      "native_bytes_sha256": "831e3cfbf9f6940829838d467cb4ca941e89708070084e3ff7911e8ca769d5fa",
+      "generated_sha256": "be29afd72db8a9b5d05e198e58f765f90e052ccbf78e26241c0adbca7b44da28",
+      "callees": [
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 314,
+      "distinct_outcomes": 1024,
+      "calls_compared": 4096
+    },
+    {
+      "rva": "0x16f4a0",
+      "native_bytes_sha256": "855c8bfda092661a8c6c4ab7ba451c85239b2b3f286ef025187792e3a538ada5",
+      "generated_sha256": "56995a8a2fd96b368ffae627f75d8ffe174e77e2f2cd4f9edc939e82102d8c82",
+      "callees": [
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 285,
+      "distinct_outcomes": 1024,
+      "calls_compared": 4096
+    },
+    {
+      "rva": "0x16f4f0",
+      "native_bytes_sha256": "e7a29115d263bd6897d21eafb42b14e2bd8cbff514c40dbd1b4072a235f8adef",
+      "generated_sha256": "b5e9a392646558ea125f3051b72cbc13aeacb13f61773aaf61966d1f5cb278f0",
+      "callees": [
+        {
+          "va": "0x18026093f",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 305,
+      "distinct_outcomes": 1020,
+      "calls_compared": 1024
+    },
+    {
+      "rva": "0x16f510",
+      "native_bytes_sha256": "274a5f4a710f01941bb61b9213c656e4a51550f3e6d201ca582a20764ee80803",
+      "generated_sha256": "28a4e5868ec44fdfc27886fb4421130e67527a8a12b77f1f5052bb5d3b631964",
+      "callees": [
+        {
+          "va": "0x18016e1b0",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x18026161c",
+          "arguments_read": 1,
+          "arguments_passed": 2
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 311,
+      "distinct_outcomes": 1003,
+      "calls_compared": 2048
+    },
+    {
+      "rva": "0x16f540",
+      "native_bytes_sha256": "561e27671ec3958f68e99b0712265f6e1ed1cfd9b002ffd6d95b269ab34dfda8",
+      "generated_sha256": "a7d93208f41058cba69387ffc55f0e5b4da798e8ae0542aef7151003cd72f556",
+      "callees": [
+        {
+          "va": "0x18016f340",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x18026093f",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 315,
+      "distinct_outcomes": 1024,
+      "calls_compared": 4096
+    },
+    {
+      "rva": "0x16f7b0",
+      "native_bytes_sha256": "f76a414f49f414aa848027c6907700960729bb3b3388ce8891237da48020ecdc",
+      "generated_sha256": "639058e9c6b4e73666b59a644bde6d26a0759bc7839c15d6aed1ac0d54c42e60",
+      "callees": [
+        {
+          "va": "0x180001490",
+          "arguments_read": 0,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x1801ec230",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1023,
+      "calls_compared": 3566
+    },
+    {
+      "rva": "0x16f830",
+      "native_bytes_sha256": "1ce1627e03cc1f866e08706166093fbd1369654cad038d3f177c4367b99fbb90",
+      "generated_sha256": "4a1dd19afeee86a00f9ed7e36821ec2ffff27c961162d196bdac52fe826c0730",
+      "callees": [
+        {
+          "va": "0x180001490",
+          "arguments_read": 0,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x1801ec230",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1024,
+      "calls_compared": 4620
+    },
+    {
+      "rva": "0x16f8b0",
+      "native_bytes_sha256": "9f449a804c77f15d5352134290c5c90ee00baa095aac3c14075953b634ad35c1",
+      "generated_sha256": "bf1e9c9fa0da5456e04b652a208cabde8db4fe9e489c34278e8f67195e2e024c",
+      "callees": [
+        {
+          "va": "0x180001490",
+          "arguments_read": 0,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x1801ec230",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1024,
+      "calls_compared": 4662
+    },
+    {
+      "rva": "0x174770",
+      "native_bytes_sha256": "e5fa171972345c4f169a9bfac5a5b64b02dc1d2d59ef3d746ee854b1df005f9b",
+      "generated_sha256": "ce94e18f5f8ff7dfd3c90c4b0ec3d707b0e42010990c1d09a4aa0d041cc5418d",
+      "callees": [
+        {
+          "va": "0x1801ebdb0",
+          "arguments_read": 3,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x180260939",
+          "arguments_read": 2,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x180260987",
+          "arguments_read": 3,
+          "arguments_passed": 3
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 986,
+      "calls_compared": 1124
+    },
+    {
+      "rva": "0x175000",
+      "native_bytes_sha256": "9af5254a48f03f18d8c4f66456f01015ec23a1fba7a3862ad1d02a445e197cc3",
+      "generated_sha256": "35b3cd23cdae630bd00afb5b1096d9fd5fc42085d549aeb20c53bc2a4e64f5ab",
+      "callees": [
+        {
+          "va": "0x18016e110",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 531,
+      "faulting_inputs_skipped": 493,
+      "distinct_returns": 180,
+      "distinct_outcomes": 531,
+      "calls_compared": 531
+    },
+    {
+      "rva": "0x179210",
+      "native_bytes_sha256": "0f2e0f1042b4cfb6f0b24b48843b382d5b41acde63565dabb40500e820ee467f",
+      "generated_sha256": "f72e936d642d7dd1f047301e38852e83ccba4863f21202b6ba3a2d704deb7a74",
+      "callees": [
+        {
+          "va": "0x18015b9a0",
+          "arguments_read": 3,
+          "arguments_passed": 3
+        },
+        {
+          "va": "0x180164840",
+          "arguments_read": 2,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x180165440",
+          "arguments_read": 2,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x18026098d",
+          "arguments_read": 2,
+          "arguments_passed": 2
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 58,
+      "distinct_outcomes": 64,
+      "calls_compared": 42
+    },
+    {
+      "rva": "0x17a400",
+      "native_bytes_sha256": "087408608d5f58af64bed98489f1d1099655c32eac846d7a6c1a1dba66e57e3c",
+      "generated_sha256": "13997b4d49d2b0d9188df599dab86a342b2b6136cedc9272a8818d0ef3d26788",
+      "callees": [
+        {
+          "va": "0x18026089d",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 368,
+      "faulting_inputs_skipped": 656,
+      "distinct_returns": 84,
+      "distinct_outcomes": 312,
+      "calls_compared": 68
+    },
+    {
+      "rva": "0x17c390",
+      "native_bytes_sha256": "f8bef1141908161e7a6afa98eeacc9f1f0051dae9513b86e918777bbd34dd8f8",
+      "generated_sha256": "e21dbe20affb8a02912916b00eef32863e9a646241ee1703a4baab6cd4a7e71d",
+      "callees": [
+        {
+          "va": "0x18026089d",
+          "arguments_read": 4,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 366,
+      "faulting_inputs_skipped": 658,
+      "distinct_returns": 65,
+      "distinct_outcomes": 313,
+      "calls_compared": 64
+    },
+    {
+      "rva": "0x17c8a0",
+      "native_bytes_sha256": "7868ca5cb919fd2562c9b19710d1dd727ffd9b43c1e106e2a741772e75965be5",
+      "generated_sha256": "2786705f6c999d78a2d63c907cf8edaa5e9e5caf087a1df68b2e354c2e0a3da7",
+      "callees": [
+        {
+          "va": "0x18006a100",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260987",
+          "arguments_read": 3,
+          "arguments_passed": 3
+        },
+        {
+          "va": "0x18026098d",
+          "arguments_read": 2,
+          "arguments_passed": 2
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 103,
+      "distinct_outcomes": 968,
+      "calls_compared": 10178
+    },
+    {
+      "rva": "0x17d730",
+      "native_bytes_sha256": "e22f1d3abbe374f7a98a23401e9a1802d36e986584e07af1dee2112facb76a54",
+      "generated_sha256": "29771808e8f8ef47f31558397422ecb39a711c78fbd6e826db6a37b3daf98052",
+      "callees": [
+        {
+          "va": "0x18026093f",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 324,
+      "distinct_outcomes": 693,
+      "calls_compared": 2048
+    },
+    {
+      "rva": "0x17d760",
+      "native_bytes_sha256": "317cc222cf41ca424457c4e2bc2e2376d69c3c5ff81dd4d0d10efb4a957fe390",
+      "generated_sha256": "cfdc2b9b6fc50eb2b426ec7ba4e02fe3b14390e07f7355bf0827bcd9f1721e6a",
+      "callees": [
+        {
+          "va": "0x180011890",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 314,
+      "distinct_outcomes": 1017,
+      "calls_compared": 3072
+    },
+    {
+      "rva": "0x17d790",
+      "native_bytes_sha256": "55bcd140bb557605a596cba3881ee9dde029d895f7584b339359071ca382ea5c",
+      "generated_sha256": "be05663194fc70145398f70bd4a863cefb987ad972e0de6607c462314df37494",
+      "callees": [
+        {
+          "va": "0x180001490",
+          "arguments_read": 0,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x1801ec230",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1021,
+      "calls_compared": 2562
+    },
+    {
+      "rva": "0x17d800",
+      "native_bytes_sha256": "4b40a521044fbfb6bcdca7456071cc64ab7fe50c1990f447090ed52ecc07a915",
+      "generated_sha256": "e4daa05742a28c1c8c7644ac6a427312de7c3f17daac19f4246292ea7349a256",
+      "callees": [
+        {
+          "va": "0x180001490",
+          "arguments_read": 0,
+          "arguments_passed": 2
+        },
+        {
+          "va": "0x1801ec230",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        },
+        {
+          "va": "0x180260891",
+          "arguments_read": 1,
+          "arguments_passed": 1
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1020,
+      "calls_compared": 2570
+    },
+    {
+      "rva": "0x17e730",
+      "native_bytes_sha256": "846f09b51432b570a91bfc5baa7c654463cb6ea8e5c87723e6627757ac9258db",
+      "generated_sha256": "259c603835f90262682a58499af8e13260ffeae450e6b53264e82ae6912fa304",
+      "callees": [
+        {
+          "va": "0x1801ec220",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 346,
+      "faulting_inputs_skipped": 678,
+      "distinct_returns": 296,
+      "distinct_outcomes": 343,
+      "calls_compared": 346
+    },
+    {
+      "rva": "0x1832b0",
+      "native_bytes_sha256": "2483f25c6ce346b1f3b9674f500cf1925799f843498b49330f99458c4f4d1fc5",
+      "generated_sha256": "66e8b1dbae87362a6b57e6fac43facb2071e02b6a2970d96df71cb3b449f1059",
+      "callees": [
+        {
+          "va": "0x180163e30",
+          "arguments_read": 1,
+          "arguments_passed": 4
+        },
+        {
+          "va": "0x180165440",
+          "arguments_read": 2,
+          "arguments_passed": 2
+        }
+      ],
+      "cases": 318,
+      "faulting_inputs_skipped": 706,
+      "distinct_returns": 1,
+      "distinct_outcomes": 315,
+      "calls_compared": 325
+    },
+    {
+      "rva": "0x1856b0",
+      "native_bytes_sha256": "1275fd19ad89bae74c0456513562869fcae28a57992c0d9d971d1decfaf0fe65",
+      "generated_sha256": "e163f888624ae55ba3b73476afcf262269bff7485e10065672b272252d5eb19a",
+      "callees": [
+        {
+          "va": "0x180260987",
+          "arguments_read": 3,
+          "arguments_passed": 3
+        },
+        {
+          "va": "0x18026098d",
+          "arguments_read": 2,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 311,
+      "distinct_outcomes": 1016,
+      "calls_compared": 2014
+    },
+    {
+      "rva": "0x190140",
+      "native_bytes_sha256": "a28155dcc2922f32dbece7ff4c6ab5007f808db200e5470af666cc6cda62f10a",
+      "generated_sha256": "8f911f3dd1866e73be7442dfe75ad10b553b3ec58a5886bc786133cc7146018f",
+      "callees": [
+        {
+          "va": "0x18018bc30",
+          "arguments_read": 2,
+          "arguments_passed": 4
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 36,
+      "calls_compared": 38
+    }
+  ]
+}

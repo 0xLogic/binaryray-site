@@ -1,0 +1,98 @@
+{
+  "claim": "original machine code (image mapped at its preferred base, every callee replaced by a recording stub that clobbers volatile registers; stubs of proven-noreturn callees log the call and then end the case by an exception) vs compiled IR C++; per case the outcome kind (return / ended in a noreturn callee), the 16 KiB argument buffer, the .data section and the call sequence with every argument the callee reads (including the final noreturn call) are compared; the return value is compared for returning cases of non-void ports",
+  "callee_model": "controlled: callees return table values and do not touch memory; proven-noreturn callees (from the --noreturn file) never return; real callees untested",
+  "noreturn_file": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\ir_call_slices\\noreturn_callees.json",
+  "noreturn_file_sha256": "c2614cac099228d2ab2320aa242ecec55044cb5a40e926dda3ecb7166e3514f3",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "ff1938538f67e797e63ccc0a35bfb3ebf7e704b9611827b86e2b54bed47d9db7",
+  "generated_cpp_sha256": "ba82f70aacb424cdce0f4d5ae8f2975b16b9202a529835f7a591ae8b0fe54d7c",
+  "cases": 3072,
+  "mismatches": 0,
+  "exit_code": 0,
+  "noreturn_cases": 3072,
+  "noreturn_not_exercised": [],
+  "functions": [
+    {
+      "rva": "0x26e930",
+      "native_bytes_sha256": "aa1af2e5a287df57b11af223eb4b13c6c9c58f102e126b8547ecbaaec122b207",
+      "generated_sha256": "47ac66ba0a395d141c1f616e7fdf280498612261080c8a65da5c2644e22c93a9",
+      "void": true,
+      "callees": [
+        {
+          "va": "0x1801bb8f0",
+          "arguments_read": 3,
+          "arguments_passed": 4,
+          "noreturn": false
+        },
+        {
+          "va": "0x180262820",
+          "arguments_read": 2,
+          "arguments_passed": 2,
+          "noreturn": true
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 0,
+      "distinct_outcomes": 1024,
+      "calls_compared": 2048,
+      "noreturn_cases": 1024,
+      "noreturn_exercised": true
+    },
+    {
+      "rva": "0x26e960",
+      "native_bytes_sha256": "5455729a09f362c332f61a786e54e2ea70f54f24a0ba21259396fd7f6a231667",
+      "generated_sha256": "836e36b5e989ebefaed3da461dbc16ac1e870fa27bfb9ba659dc59020ad4ba37",
+      "void": true,
+      "callees": [
+        {
+          "va": "0x1801bb8f0",
+          "arguments_read": 3,
+          "arguments_passed": 4,
+          "noreturn": false
+        },
+        {
+          "va": "0x180262820",
+          "arguments_read": 2,
+          "arguments_passed": 2,
+          "noreturn": true
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 0,
+      "distinct_outcomes": 1023,
+      "calls_compared": 2048,
+      "noreturn_cases": 1024,
+      "noreturn_exercised": true
+    },
+    {
+      "rva": "0x271ec0",
+      "native_bytes_sha256": "6b12ed8817c84775f0c508325c7959750c4eddc52eb0bc2283e4b1194f710b6e",
+      "generated_sha256": "bd19abdb0c2664f58aa2ba538b64058c04543070f5153bc2430a14226e46eafa",
+      "void": true,
+      "callees": [
+        {
+          "va": "0x180224d00",
+          "arguments_read": 4,
+          "arguments_passed": 4,
+          "noreturn": false
+        },
+        {
+          "va": "0x180262820",
+          "arguments_read": 2,
+          "arguments_passed": 2,
+          "noreturn": true
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 0,
+      "distinct_outcomes": 966,
+      "calls_compared": 2048,
+      "noreturn_cases": 1024,
+      "noreturn_exercised": true
+    }
+  ]
+}

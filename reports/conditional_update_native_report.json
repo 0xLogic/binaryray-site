@@ -1,0 +1,15 @@
+{
+  "claim": "native differential for two-guard nested 32-bit conditional store",
+  "rva": "0x190870",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "aa8f07a3488019bda7058c6e71b2010f5268bf6b40923f65cef1438831007842",
+  "generated_sha256": "fe50bf99a78f9bdf0ae2c75ffc21ae18e8b19b02eece4797004bc2e7d17ecdb0",
+  "return_bits": 64,
+  "harness_sha256": "19893544e114e1341588e9aa0855e2e4356c6a4462fe61cbbd13512a641002e4",
+  "cases": 4096,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "conditional nested update native parity: 4096 cases passed; paths=1366,1365,1365,",
+  "stderr": ""
+}

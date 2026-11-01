@@ -1,0 +1,19 @@
+{
+  "claim": "exact original caller plus exact original bounded out-param callee; no controlled stub",
+  "rva": "0x943b0",
+  "callee_rva": "0xb0300",
+  "real_callee_tested": true,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "caller_bytes_sha256": "e171a2e9cc7bf09e61a0e0c8f416b499acc10d225ff116ec3ec195a4556a0423",
+  "callee_bytes_sha256": "1359d662b1a8191b871c856eaaf0a7da1e89836839f0af13c6dbcb4daae1d1ad",
+  "generated_sha256": "443a82610181801813286512279ff7eb66de1ec327873dd11c2e0a38cf96ae34",
+  "harness_sha256": "a638a944a82a9abfe82f924c1d6fd906f3b2998ebe286cde007e99cd1b946ac8",
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Composed out-param 0x943B0: checked=8192 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,",
+  "stderr": "",
+  "safety_gate": "exact 93+22 bytes, internal branches, one checked direct call, no nested calls/RIP, bounded object and callee write-through",
+  "compared": "typed low-byte return and full outer/inner/terminal/output buffers; upper RAX excluded for char source return"
+}

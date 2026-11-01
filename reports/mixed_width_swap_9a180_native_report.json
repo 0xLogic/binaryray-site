@@ -1,0 +1,19 @@
+{
+  "claim": "direct original-byte 16-byte mixed-width swap over disjoint, equal, and partially overlapping records",
+  "rva": "0x9a180",
+  "reference_ida_pseudocode_lines": 33,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "807bd32af88b6fd5d0346dc02c41a32496d3be0572c8dd362f8bd722b17acd11",
+  "generated_sha256": "81faaf0d4e5f102b99f18d3fb7ccea8193f7a9b70fe015b379e68a9ad3e1a736",
+  "harness_sha256": "7345a29eeccd5987d9fdaba93286b1c2bec5e50504cddeb8d8aa21931c3b2f28",
+  "native_instruction_count": 23,
+  "generated_line_count": 24,
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Mixed-width record swap: checked=8192 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,",
+  "stderr": "",
+  "safety_gate": "exact 84 bytes, one return, no calls/branches/RIP, 16-byte accesses inside 0x200-byte buffer",
+  "compared": "full RAX and 0x200-byte memory; independent full swap for disjoint and identity for equal inputs; native differential for partial overlaps"
+}

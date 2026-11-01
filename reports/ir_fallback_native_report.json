@@ -1,0 +1,20 @@
+{
+  "claim": "default IR fallback vs original bit-count bytes; synthetic conditional tail-call regressions",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "compiled_dll_sha256": "3c4e2767adacb5a44057a5b439ed2eb68b9cc307a3432a1b820b491b35f63bab",
+  "exit_code": 0,
+  "mismatches": 0,
+  "cases": 8192,
+  "synthetic_tail_cases": 1024,
+  "functions": [
+    {
+      "rva": "0x1880",
+      "cases": 8192,
+      "return_bits": 64,
+      "native_bytes_sha256": "6b464c781cdb9f0b890b9c6bb6a3242d2a97d8830a10b6795238ee7569276eb0",
+      "generated_sha256": "fb7776f17a943f1bb3fdfa3d5f329f80debba8fadf86743bb58680cda3e89af1"
+    }
+  ],
+  "compared": "full RAX, every owner/data byte, and bounded bit-count reference"
+}

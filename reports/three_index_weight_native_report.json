@@ -1,0 +1,18 @@
+{
+  "claim": "direct original-byte differential for weighted three-index reorder on bounded record graphs",
+  "rva": "0xfe330",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "81aee31455780eea179d4f22af6bb8bf29963fc7f82ce53719834b22eceab8f5",
+  "generated_sha256": "db68e0f02c78db7c55eb7383e1480441eb5cbaa62b96005e21e4ab84e1f953cc",
+  "return_bits": 64,
+  "harness_sha256": "4981083b34b1d7bffe9365dd3c4f8ca0350f99da7e19977edf10a9f04a0e0f3f",
+  "native_instruction_count": 67,
+  "generated_line_count": 328,
+  "cases": 12288,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "three-index weight: checked=12288 mismatches=0 flag_shapes=1756,1756,1756,1755,1755,1755,1755, tuples=1029,1029,1029,1025,1022,1022,1022,1022,1022,1022,1022,1022,",
+  "safety_gate": "exact bounded code, internal branches, no calls/RIP, valid four-record graph and 0..3 indices",
+  "compared": "full 64-bit native/generated return, full graph memory, index multiset invariant, records/weights unchanged"
+}

@@ -1,0 +1,18 @@
+{
+  "claim": "exact original-byte pointer-adjusting tail thunk with controlled target; real 0x6AD20 callee untested",
+  "rva": "0x6db40",
+  "callee_rva": "0x6ad20",
+  "real_callee_tested": false,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "2f995250a652937cb1cb49a0454880648f477c25e59913cec2c54a61877627a1",
+  "generated_sha256": "bd2966bd87a32da1c83c706154d4a2844867b7b94676eb7bc1b1c1e7097fe263",
+  "harness_sha256": "d763ccda31c120d415e6a65b37a7f6324d90b2d03d0b0c35912253ac66a63e08",
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Tail adjust 0x6DB40: checked=8192 mismatches=0 shapes=2048,2048,2048,2048,",
+  "stderr": "",
+  "safety_gate": "exact 19 bytes, checked backward direct jump to controlled stub, bounded pointer load and callback write",
+  "compared": "four callback arguments/count, full return, full 0x500-byte arena against independent pointer-adjust/write model"
+}

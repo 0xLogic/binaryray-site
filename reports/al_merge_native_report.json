@@ -1,0 +1,14 @@
+{
+  "claim": "native differential for full 64-bit return where SETE overwrites only AL",
+  "rva": "0x4af0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "f441a4e5d9150d1621bc06bae03d0f7b882f421c8e7baad6f1209d26cc9d3e0f",
+  "generated_sha256": "870c71e9cca13f9751b472a2ddb71cd2ad465e46fe744de2ce69611e736e8be5",
+  "harness_sha256": "d93580e0ad2d638c1fc0a8c5fc4063b846ee007c1803b7ac75fef54398e65bbb",
+  "cases": 4096,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "AL merge native parity: 4096 cases passed; true=2048 negative_indices=1984",
+  "stderr": ""
+}

@@ -1,0 +1,81 @@
+{
+  "claim": "exact original call-free functions vs generated C++; typed AL and full six-region memory",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "52656e2be65703e612f9f0a9ff8c50c342bbc3693ffed9b5b4a4fa228475cc16",
+  "functions": [
+    {
+      "rva": "0x2b8a0",
+      "bytes": 19,
+      "bytes_sha256": "e77f97fd2f228a61bed33047ee5e283ff2642f494782c53e252b47b3d12bdff1",
+      "generated_sha256": "2eb43f402cf813bf87134bd99f15615f2b052e276037d66a94b8615e43893f3f"
+    },
+    {
+      "rva": "0x1643f0",
+      "bytes": 22,
+      "bytes_sha256": "4020c0d51540ddf1ed8dcf95d56f7e9959a779957586b6f674cc32f581a12682",
+      "generated_sha256": "8374a2ae85223136092797891f98defad09f8b7ebf5e46b3e3c2e724708df4d5"
+    },
+    {
+      "rva": "0x3ac00",
+      "bytes": 27,
+      "bytes_sha256": "a4c224fec63fd8492ffafc6c85c9eff926abf53afdfc9d207cb71f4a9157b22b",
+      "generated_sha256": "c3ace16bf3dfe9ae5d0b91a6e3d6567b9d8d0f4cec1c4c8e20057ee6a6c7dc99"
+    },
+    {
+      "rva": "0x258040",
+      "bytes": 27,
+      "bytes_sha256": "06c248bcf0e7a883d70dd1f9952eafe7275cfd90d1c08c661feb59f4851fc1a2",
+      "generated_sha256": "b1b9f925b8c71b759ef926ee1e480172e0b22fc2ad9aeb22d646928a82bfbc52"
+    },
+    {
+      "rva": "0x257b30",
+      "bytes": 30,
+      "bytes_sha256": "dea728c05d467ce725c0b44c38020a87c993f64768f11448c427b31a15eccb36",
+      "generated_sha256": "4792f2ae65f2739d62c135d2956d7b067e18fb09cb2ce8b95a2dde9710758c54"
+    },
+    {
+      "rva": "0xb2b60",
+      "bytes": 34,
+      "bytes_sha256": "2421ecc1af24c17fef9a686bc5a658da03cbc45f0579df3b593e4599af17b2df",
+      "generated_sha256": "78a79e754d299bcff792f54093bd43f75afcc532a71c5ce940c325a379e54e71"
+    },
+    {
+      "rva": "0x116b80",
+      "bytes": 48,
+      "bytes_sha256": "1e3610ec7b4f811e88b429556e6f4f144765917da54fb6a9fe1b4d72a486cdee",
+      "generated_sha256": "7a13ddc9742dc64233634adae19e9074f62cb80de387b235f7562813df1be6a3"
+    },
+    {
+      "rva": "0x121250",
+      "bytes": 65,
+      "bytes_sha256": "1c8eea8aec66c4c35f9c8bdc841e9ecaa6deda97d708f2441e0ea1e8af53f17d",
+      "generated_sha256": "cc93605e644a3888e8f6b8bb32995acb87288ff461042eb305f9b3f780402d55"
+    },
+    {
+      "rva": "0xb0300",
+      "bytes": 22,
+      "bytes_sha256": "1359d662b1a8191b871c856eaaf0a7da1e89836839f0af13c6dbcb4daae1d1ad",
+      "generated_sha256": "bc798f12c67eb7f7760720d4e289baf0d77a858004d1324c45c53cb47eb5814a"
+    },
+    {
+      "rva": "0x22d000",
+      "bytes": 22,
+      "bytes_sha256": "7cdad4d7aac745d8f00160e94998bf2c923362cdf166c3d90112f52ec71a2538",
+      "generated_sha256": "d554a3a7fbc30380c34e0f1128f8df7ef968c6749accbe35707f56d7b4dc5e6e"
+    },
+    {
+      "rva": "0x7d9d0",
+      "bytes": 125,
+      "bytes_sha256": "ed15992e8d9d4534b1778efbddd6f33fafe1e4f584fd473c9f77503af3cec854",
+      "generated_sha256": "b741783f3ea490071a337b4cede5adab430c789c0a7d334b39a671578337e297"
+    }
+  ],
+  "cases_per_function": 4096,
+  "cases": 45056,
+  "mismatches": 0,
+  "safety_gate": "single exact IDA chunk, full disassembly, no calls/RIP, all direct branches inside function",
+  "compared": "typed low byte return and complete six scratch regions; upper RAX excluded for char source return",
+  "stdout": "New byte leaves: checked=45056 mismatches=0 functions=11\nrva=0x2b8a0 true=3584 changed=0\nrva=0x1643f0 true=3584 changed=0\nrva=0x3ac00 true=3328 changed=0\nrva=0x258040 true=2048 changed=0\nrva=0x257b30 true=2048 changed=0\nrva=0xb2b60 true=768 changed=0\nrva=0x116b80 true=512 changed=0\nrva=0x121250 true=1792 changed=0\nrva=0xb0300 true=3840 changed=3840\nrva=0x22d000 true=1024 changed=1024\nrva=0x7d9d0 true=1792 changed=1792",
+  "exit_code": 0
+}

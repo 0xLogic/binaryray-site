@@ -1,0 +1,18 @@
+{
+  "claim": "exact original-byte tail jump with controlled target stub; real callee 0x8800 untested",
+  "rva": "0x88c0",
+  "callee_rva": "0x8800",
+  "real_callee_tested": false,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "0873af1117bd7228ee29e0b904b306310d0b12e225a6dd1bb9836b1a2e9ddb6c",
+  "generated_sha256": "1b456b4dcbf5d1f7d17f10e765c8ef52f9b7a8e9ddca2e0077e342e2ffa71d24",
+  "harness_sha256": "69a5b1ce4d2b74f7a9fa5773cfdb97ba84651ca3ac9045b99bc3d8ab191673d9",
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Tail jump 0x88C0: checked=8192 mismatches=0",
+  "stderr": "",
+  "safety_gate": "exact five-byte direct jump to checked RVA, controlled stub at original relative offset",
+  "compared": "four forwarded arguments, callback count, and full 64-bit return"
+}

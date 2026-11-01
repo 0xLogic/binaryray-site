@@ -1,0 +1,386 @@
+{
+  "value_pool": "small, with forward-pointer memory; inputs on which the original faults are skipped",
+  "claim": "exact original machine code vs compiled IR C++ for B07 loop and pointer-chasing helpers; full RAX and the whole 16 KiB argument buffer compared",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "d5673eb66d1db81fc23377dba91650804a8c0e80b06503523dec94ed571bae8b",
+  "generated_cpp_sha256": "3d9ff8bba1adb4cb0ce97647d3e18f700b98cfc1467c21b2ce0f2f0501f113e7",
+  "cases": 15431,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x1da550",
+      "native_bytes_sha256": "351b8b6285d1a6df266283f490ff3a1ea5dea95754ce3a18c526aa35650bf14e",
+      "generated_sha256": "b8c5d1ab1e59493935f42e9f73a2691de694d4016e6c5b984e95019e8b2a2c13",
+      "cases": 1011,
+      "faulting_inputs_skipped": 13,
+      "distinct_returns": 3,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "r9",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x0",
+        "rdx+0x0"
+      ]
+    },
+    {
+      "rva": "0x1da690",
+      "native_bytes_sha256": "b5c05cf1b7afc9146434cf0d02e37830d7111220549da96e7978bdb24f514fad",
+      "generated_sha256": "e928d3c7f4808cf6e6f0e82938922ca3d24e871e2c009ea65e51392bacc42cc8",
+      "cases": 437,
+      "faulting_inputs_skipped": 587,
+      "distinct_returns": 399,
+      "distinct_outcomes": 399,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x0"
+      ]
+    },
+    {
+      "rva": "0x1e6b30",
+      "native_bytes_sha256": "372d21b26100406104429aa7f88b33b08cac13e64d4ce1804ec86c7c93910d4a",
+      "generated_sha256": "227f78eeb2b2a8a712ac6026f3dac41440f0b62ae864d7aafce7758031f11d44",
+      "cases": 334,
+      "faulting_inputs_skipped": 690,
+      "distinct_returns": 11,
+      "distinct_outcomes": 11,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x30"
+      ]
+    },
+    {
+      "rva": "0x1e8270",
+      "native_bytes_sha256": "b67b7dff042933e569cc85db2750f00c5230a4bc6a3701584cf8769780c7913d",
+      "generated_sha256": "82a1d01228be81fa280505285f5f53edb30a9b3a94716b3426350ff1011afd3b",
+      "cases": 1015,
+      "faulting_inputs_skipped": 9,
+      "distinct_returns": 3,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "r9",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x0",
+        "rcx+0x8",
+        "rdx+0x0",
+        "rdx+0x8"
+      ]
+    },
+    {
+      "rva": "0x1eaf30",
+      "native_bytes_sha256": "f2d80b111feb6286c4832f3fc16395352cedb01717b4769444582939635a088b",
+      "generated_sha256": "5d4ebacc353434a85d3af8f19aa2f89e7857975d3825dcc012a2c7be58d8756b",
+      "cases": 373,
+      "faulting_inputs_skipped": 651,
+      "distinct_returns": 80,
+      "distinct_outcomes": 80,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x30"
+      ]
+    },
+    {
+      "rva": "0x1eda30",
+      "native_bytes_sha256": "9df2f820703933c445beb6cce0b77f983ebc69b5f935e3338238b9f76c6cb509",
+      "generated_sha256": "069bad0c40615b551a08f6dca835b0871e1d8dea89e9a2c7b8cba01187b37e1b",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1024,
+      "distinct_outcomes": 1024,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [
+        "r8",
+        "rdx"
+      ],
+      "pointer_slots": [
+        "rcx+0x518",
+        "rcx+0x520"
+      ]
+    },
+    {
+      "rva": "0x1f9b10",
+      "native_bytes_sha256": "656c37ccd3a77a73f6191ee714d3920efd975541622cfb492fc6f89a75cd7246",
+      "generated_sha256": "f2966c9740b000e6de6e32dbc91bcbf93aa74139d56bd9699a5b09274bb6d3c9",
+      "cases": 432,
+      "faulting_inputs_skipped": 592,
+      "distinct_returns": 1,
+      "distinct_outcomes": 286,
+      "pointer_args": [
+        "r8",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x0"
+      ]
+    },
+    {
+      "rva": "0x2093b0",
+      "native_bytes_sha256": "0f46634d7b34a817cab35c8130f4f7a62204a611fd532f9181fa23e6f1d06f0c",
+      "generated_sha256": "9470847504d79a5b5c44fac2baa87a721afc0227e10bbb4a4ea7a7d324272360",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 73,
+      "distinct_outcomes": 73,
+      "pointer_args": [
+        "r9",
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x1f0"
+      ]
+    },
+    {
+      "rva": "0x20a910",
+      "native_bytes_sha256": "0de11033ff50a57f546d4c8674574cac0b52b1329bd366354d5e26d1aaedab51",
+      "generated_sha256": "e443841898c81e131788240b8b926105661ac1347c40704e9ae4c7bc61480545",
+      "cases": 273,
+      "faulting_inputs_skipped": 751,
+      "distinct_returns": 19,
+      "distinct_outcomes": 19,
+      "pointer_args": [
+        "r8",
+        "r9",
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "r9+0x28",
+        "rcx+0x0",
+        "rcx+0x10",
+        "rcx+0x418"
+      ]
+    },
+    {
+      "rva": "0x20b850",
+      "native_bytes_sha256": "65e33d5479f05e5c3fb70caa1ed0365de5aa460abd701c29f8bc2af9e0c4a922",
+      "generated_sha256": "8fadffa307239b8106149e62505dbcd6834da8703ea138cbec346cc3bf0da101",
+      "cases": 267,
+      "faulting_inputs_skipped": 757,
+      "distinct_returns": 16,
+      "distinct_outcomes": 16,
+      "pointer_args": [
+        "r9",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "r9+0x8",
+        "rcx+0x418"
+      ]
+    },
+    {
+      "rva": "0x21fa10",
+      "native_bytes_sha256": "3e16d3a88187decca9c56cfd4c558e2f66e74fc54bb493356ea6f9c2df6e3b31",
+      "generated_sha256": "ffa98edaef22b624cba9ddf4e61c0909e012b2c15b5522e5c6ebcb2ac0b397d8",
+      "cases": 729,
+      "faulting_inputs_skipped": 295,
+      "distinct_returns": 87,
+      "distinct_outcomes": 87,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0xc0"
+      ]
+    },
+    {
+      "rva": "0x21fa50",
+      "native_bytes_sha256": "767588dd581e66847c473213427746fa34981a725a3466dd044ced7b0e8d5a1d",
+      "generated_sha256": "721ecf78026c27eaab198dbb3a570435da1e8dfd92718ce2420f622a413628fa",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 3,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x8"
+      ]
+    },
+    {
+      "rva": "0x23c2d0",
+      "native_bytes_sha256": "015a6870a73dbd76587a149ed733c9a9f41d80167f8db91a905ad53a9d7c5ac6",
+      "generated_sha256": "e20700440abcdfb94132f4c1925784c6ea56670d6042ec526b81dd568fbdaeee",
+      "cases": 430,
+      "faulting_inputs_skipped": 594,
+      "distinct_returns": 3,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "r8",
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "r8+0x8",
+        "rcx+0x0"
+      ]
+    },
+    {
+      "rva": "0x1d6ab0",
+      "native_bytes_sha256": "cf0bec082f5318acebcca2f5faf21db51a1d70473fe82316c8bda4ee08e26070",
+      "generated_sha256": "4bf787249f3363a9ba2ebd5ce85aefade53f53bc9cf32c3e4cccbfc4c6d7325a",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 60,
+      "distinct_outcomes": 60,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x8"
+      ]
+    },
+    {
+      "rva": "0x1d6b50",
+      "native_bytes_sha256": "94c6a67cb3855483cdd2e25a28cfed7c57f8f7426184b57b3ae851c7300f07a8",
+      "generated_sha256": "1e60f262234ac7e76969407293ca534b09a975ec331ca3fc054e58682364c089",
+      "cases": 512,
+      "faulting_inputs_skipped": 512,
+      "distinct_returns": 311,
+      "distinct_outcomes": 311,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [
+        "rdx"
+      ],
+      "pointer_slots": [
+        "rcx+0x8"
+      ]
+    },
+    {
+      "rva": "0x1ef0d0",
+      "native_bytes_sha256": "f1cc9352d936ccc1b51f16054c7457bbf16ec7982c95fb5634c9bf9b6087f8f7",
+      "generated_sha256": "92c93e87ba48dd1c017c5adc5cecc74f897ddfda0cd98f204e1d25fd22f38e6e",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 19,
+      "distinct_outcomes": 1017,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rdx+0x0"
+      ]
+    },
+    {
+      "rva": "0x1ef1d0",
+      "native_bytes_sha256": "43688342cb5ee4c023e5d9a11c771d5fe5cd82499b73b36c446dc2bd344f59e7",
+      "generated_sha256": "05e91bbc3e9956a59ed345b5762594ba523e41986a0210fc2cc445005afb0426",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 25,
+      "distinct_outcomes": 915,
+      "pointer_args": [
+        "r8",
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x203d80",
+      "native_bytes_sha256": "14737a795c69584bdd851472dc7876c156e4215baf090dfdc73efa65eecdc6fe",
+      "generated_sha256": "31ecbad7795d0eaf046101a6a5780279d058ffc7cfc8653d924dd391c8748681",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "r8",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x40",
+        "rdx+0x18"
+      ]
+    },
+    {
+      "rva": "0x2145c0",
+      "native_bytes_sha256": "2bce71ce32f3e62fa25b95c461fafbed44ddeb1e5d02a6882b678dfee0c623a6",
+      "generated_sha256": "61dfcf589ff106c869eac31f16d1e0186388b768e0b62d25a2b99a50fada71e0",
+      "cases": 994,
+      "faulting_inputs_skipped": 30,
+      "distinct_returns": 1,
+      "distinct_outcomes": 9,
+      "pointer_args": [
+        "r8",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rdx+0x8"
+      ]
+    },
+    {
+      "rva": "0x21f5b0",
+      "native_bytes_sha256": "a1d735390aa0573bc920f6dff509590026994df4ac06037b83f17618bb288d0c",
+      "generated_sha256": "c8b64f4b9a0aa4f7d9287452265023ad57dc5099511f5fa7be79a906009edfd2",
+      "cases": 1007,
+      "faulting_inputs_skipped": 17,
+      "distinct_returns": 6,
+      "distinct_outcomes": 6,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x28",
+        "rcx+0x8"
+      ]
+    },
+    {
+      "rva": "0x22d020",
+      "native_bytes_sha256": "055bcac670736f45999d5a9a462070641af16f21e38d49be598122cafee0251a",
+      "generated_sha256": "37beac7a0c49a4ac867140feeafaecaf2e18acfb1ab178c2601a3e0b8dc610c7",
+      "cases": 449,
+      "faulting_inputs_skipped": 575,
+      "distinct_returns": 77,
+      "distinct_outcomes": 86,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x18"
+      ]
+    }
+  ]
+}

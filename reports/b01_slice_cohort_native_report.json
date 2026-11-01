@@ -1,0 +1,24 @@
+{
+  "claim": "exact original machine code vs compiled IR C++ for the B01-a slice cohort",
+  "slice": "B01-a",
+  "rva_window": [
+    "0x1000",
+    "0x9000"
+  ],
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "117cf8122db31bf8fba4b4e730546ec14408d54328f4473d0dfb34ff2af6b239",
+  "generated_cpp_sha256": "7b784b4a0f752741f3713bf6519a6f8e415b2d33becca8efcb28041789076aa2",
+  "cases_per_function": 256,
+  "cases": 256,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x6140",
+      "cases": 256,
+      "native_bytes_sha256": "36782127de29e69f978cde832c5a1b4b92eff991808d1b97a55a94532fc3a97c",
+      "generated_sha256": "36fa8bdc09d1f1be3df54d88ebd501d0cc92e10cf37ed77f90365d937ea8f6b7"
+    }
+  ]
+}

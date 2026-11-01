@@ -1,0 +1,31 @@
+{
+  "claim": "exact original machine code vs compiled IR C++ for 3 newly emitted unsigned-branch functions",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "bf31643a110c479cac8befcba9f95034d5d3915d637f54725cb20ef497d02d45",
+  "generated_cpp_sha256": "c7d085551f845efec0642577db367230fbb53b934ede59a514eadda13e570460",
+  "cases_per_function": 256,
+  "cases": 768,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x6e630",
+      "cases": 256,
+      "native_bytes_sha256": "7ad630b620616519ae29c0e9e9c06406fd35df579a433d18bf0760a1b347b478",
+      "generated_sha256": "51eefa39d868f64654a653671d41aee1cde8d13ad9bdc3a3bd54f93b00f5a82e"
+    },
+    {
+      "rva": "0x6e820",
+      "cases": 256,
+      "native_bytes_sha256": "0292d62046246e2a4febc121a12d50377a57f55b7fc7e3d06764d8a4739e3478",
+      "generated_sha256": "93c3421247301ccca970230c4302185c12a999501c6345f07a26c05197827b25"
+    },
+    {
+      "rva": "0x9ae50",
+      "cases": 256,
+      "native_bytes_sha256": "7c24a8de4cf08050d0da1589c6c6c2a600c8dd9ce76d5a024b3c4c3e018919fb",
+      "generated_sha256": "8406b450528775aca259eda9d64a4cd1d9b55f33ad49738882ee20608a2289c0"
+    }
+  ]
+}

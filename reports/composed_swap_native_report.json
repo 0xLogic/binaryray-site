@@ -1,0 +1,24 @@
+{
+  "claim": "direct original-byte composition of wrapper 0x6D400 and its real callee 0x6D540",
+  "rva": "0x6d400",
+  "callee_rva": "0x6d540",
+  "reference_ida_pseudocode_lines": {
+    "0x6d400": 57,
+    "0x6d540": 93
+  },
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_wrapper_sha256": "fd9fd22c45bd5ec9dadb4c53dec4c7d0a09fc294efc7ab1711848b833bc8894f",
+  "native_callee_sha256": "da93aaf832e4255233a3d33a83e571b0f4d58475206ea5e320acc0cd9eec65fd",
+  "generated_wrapper_sha256": "36640db0ff9dad2ed29e6c805b5abaecf42c8bc2598a304c02c9dac6f6b47239",
+  "generated_callee_sha256": "2dd6d54e0b9ac754b2f97e396f965e2bf6cb1a09cf0ba4e1ead4aa3bae69d3dd",
+  "harness_sha256": "e60cd1d7b9a30793c924b29d003a30bcd17d26816cea49da73a94465c27e7564",
+  "wrapper_instruction_count": 50,
+  "callee_instruction_count": 79,
+  "cases": 32768,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "composed swap: checked=32768 mismatches=0 shapes=4096,4096,4096,4096,4096,4096,4096,4096,",
+  "safety_gate": "exact two functions, one bounded direct call, no other calls/RIP/branches",
+  "compared": "full return/shared memory, generated wrapper+callee versus original wrapper+callee; independent disjoint swap rule"
+}

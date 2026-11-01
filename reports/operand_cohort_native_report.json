@@ -1,0 +1,326 @@
+{
+  "value_pool": "full width",
+  "claim": "exact original machine code vs compiled IR C++ for operand-form helpers; full RAX and the whole 16 KiB argument buffer compared",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "66751409a4e140c84393ba8e97ea95ed4196834d173922f6043fea9958b00847",
+  "generated_cpp_sha256": "797e41965aa9988256785b0d755c371065e7e1e898fe4fa2bb11c46bdaad835a",
+  "cases": 21504,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x2e2e0",
+      "native_bytes_sha256": "a3548f8bb1c042d2f0e8cdfed346c37f2f87c5d0557ba9013251b1d013cf6351",
+      "generated_sha256": "ca0022489c1a6e3d8a3d99e706ca0ff7cef7125e0ade3c4ac02a4bfdcd9a05dc",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 8,
+      "distinct_outcomes": 866,
+      "pointer_args": [
+        "r9",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x3a2a0",
+      "native_bytes_sha256": "31d7132eaf77a53b8291067a3d3b25ddc7b97d2a07cece3baf58fdf16b0baccd",
+      "generated_sha256": "208301bfa15da951ab7e7c7f31bf0b348bf48385e721089751b8f3d5fbf4df5e",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 418,
+      "distinct_outcomes": 418,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x38"
+      ]
+    },
+    {
+      "rva": "0x783f0",
+      "native_bytes_sha256": "229f1090a9f5ed43936e6ed2747d3a0967dc735264c49d860234960c1a65c2a6",
+      "generated_sha256": "29f4d08c023ad4f6d04883ebfb243093d831b41553668b3d15e65bd5a32abc00",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 2,
+      "pointer_args": [
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x78480",
+      "native_bytes_sha256": "48e3c69cdebc61e39f18b7c7f5d5ca303305e7ee95f58c31abd43b0bd693eeb2",
+      "generated_sha256": "2b43311dcaf201bc0cdacd49c1ac3cd8395a32a5922d10aaa67dbf16d93e015e",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 238,
+      "pointer_args": [
+        "r8"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x78490",
+      "native_bytes_sha256": "25dce8588a06e12f3d41dbda427cfe6a448b30a75531c5751537e5bd9c8185b5",
+      "generated_sha256": "5fcffb870cb6b95665de0a2b30125447475db75ba970c3243f82cca48366d772",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 9,
+      "pointer_args": [
+        "r8",
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x8f9f0",
+      "native_bytes_sha256": "69e33f37430fd32cb9f548e09d246aa161be2345f2c2d497ce062eb3a35cedb4",
+      "generated_sha256": "9ded692f0af2e935eb9261d14aa9dedd4008489e31d2eb39a1cba0b6bd81ce74",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 7,
+      "distinct_outcomes": 7,
+      "pointer_args": [],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x1d3ae0",
+      "native_bytes_sha256": "656b921ff001e1d88caace703b6cc55e4f5c61845310b8a26d1c4f60d33eb37c",
+      "generated_sha256": "cd7c324af0842e58bbf936712f0627fc8a71bcb4f73e64cdaba4f25818e99419",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 448,
+      "distinct_outcomes": 448,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x1e8310",
+      "native_bytes_sha256": "7ed16873edf0c905d23b5428a4e3c27da5b2f8da669df52f71ad85a7610f7824",
+      "generated_sha256": "7995e966b9f57de861cc103cafa335c5a1a46a90608acf1b7a60935f66ae351b",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 3,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x1ea300",
+      "native_bytes_sha256": "57f075b7a685acdce45d264e87ae6f2c7b44192478a60ff83474a08f99519660",
+      "generated_sha256": "189203b8550a207ea148352408bf26a7fd73061035d1f8e36f85d66552cf63f7",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 2,
+      "distinct_outcomes": 2,
+      "pointer_args": [],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x1edaf0",
+      "native_bytes_sha256": "030367a31dd87cf00234f66255c5c11f57a8e3b923a2995b28c04dbf667a5332",
+      "generated_sha256": "0e67c784952b27087b05109cb0d0887223d350a22a0439e6c5be1d01d701a558",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 470,
+      "distinct_outcomes": 470,
+      "pointer_args": [],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x1f1200",
+      "native_bytes_sha256": "96284ec10cfd261dd4749db0ac6a5f89f0b86477b5e45b66fbd747ed302e64c1",
+      "generated_sha256": "41f5fb5d1e8f0e8319d0c369f6db9edd4dfbf8a2976cbf88f9627790d77a5df7",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 10,
+      "pointer_args": [
+        "r8",
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x1f8ab0",
+      "native_bytes_sha256": "a9d790334638e8444ac67c61e7414d28f8487ce0c8935d96963781e6a148cb18",
+      "generated_sha256": "329c2616ec233e1492ab861ed0a8500fff3d07d4917f3f88e6426d79f88e4d74",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 415,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x308"
+      ]
+    },
+    {
+      "rva": "0x223710",
+      "native_bytes_sha256": "3fdf90e6c4f8d0ce8f5a542355a04501cda5153d1f6b1616c18a1124338f3ebd",
+      "generated_sha256": "24ae6af9a556063da12853d0dca5a1fca6b988afd32364a0e230250ebd656517",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 245,
+      "distinct_outcomes": 245,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x20"
+      ]
+    },
+    {
+      "rva": "0x22b670",
+      "native_bytes_sha256": "2a26ab1b40c2a06eb923031bccaf121ee28128034155716de3b2bbca215357f3",
+      "generated_sha256": "ca10d31974e59ebfd1368169441d0bb4f37f2ac789046357a93a471c4b4f6158",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 429,
+      "distinct_outcomes": 429,
+      "pointer_args": [
+        "r8",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x18",
+        "rdx+0x18"
+      ]
+    },
+    {
+      "rva": "0x22b6a0",
+      "native_bytes_sha256": "20bea6d376c00f4a75bb4ffcc653b1dbb286059f46e21dacb4296a6fc414c5b7",
+      "generated_sha256": "8036c1d8751ca91005ab59bcc310f43418fcb5cf54b6db1f32f784f8c7bd222c",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 452,
+      "distinct_outcomes": 452,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x22c920",
+      "native_bytes_sha256": "79c1d262b63740471863d3514fb0cf590e3243e7bd745d704bb7d74796ecd77f",
+      "generated_sha256": "bcc28214229b1a44bb2933c5de3244be5c020970c31eb4d1c823e7c002634802",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 409,
+      "distinct_outcomes": 409,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x20"
+      ]
+    },
+    {
+      "rva": "0x22cfe0",
+      "native_bytes_sha256": "0b430d63775e9bf3b41ee43a012c5cf4cd4a65cb3b4eee252f1cf95e01ead758",
+      "generated_sha256": "5abe0205b7fed3eb2e3451f6061190fd4616281913a17d1c5d1a343d82e48be1",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 419,
+      "distinct_outcomes": 423,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x23e660",
+      "native_bytes_sha256": "8e5a57dadc4dc78b98ce89f1c1fd31df26766692f938d3eeaf9fb0cbe52012a9",
+      "generated_sha256": "1d6a69c93205d5f4bbe5ae2652d2d48e9dbc26c5ef92ffb15713953bd31e4e84",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 403,
+      "distinct_outcomes": 403,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x24ea20",
+      "native_bytes_sha256": "a909f29deacc2c56f2cd4971edad15512c556ffc5bd66befc4ccae416927af80",
+      "generated_sha256": "1a820b52f503e2173987571f278e1bab2d0d25c5c9f6e3c2b15d62b3fa301551",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 5,
+      "distinct_outcomes": 5,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": []
+    },
+    {
+      "rva": "0x24edd0",
+      "native_bytes_sha256": "8c5425ecff1adec82409324cbcb5fc17a36e6626bc7144d92c968daa152d37d6",
+      "generated_sha256": "157d6303b22104dc17961f6b0227181cd1d8d96ebfdad769b239bdabe9c93390",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 678,
+      "distinct_outcomes": 678,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x118"
+      ]
+    },
+    {
+      "rva": "0x25ed00",
+      "native_bytes_sha256": "0aadd703b20718a8fef6f2b3696e7f7f54e2a2a247f1a6ecbf545bf5528f009c",
+      "generated_sha256": "7b7825f298843d86edf8faf12c6fe79c3477a9ac8be0ac06334a679095feb659",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 348,
+      "distinct_outcomes": 348,
+      "pointer_args": [
+        "r8",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x60"
+      ]
+    }
+  ]
+}

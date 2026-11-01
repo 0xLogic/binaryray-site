@@ -1,0 +1,96 @@
+{
+  "claim": "controlled free-effect differential for exact 43-byte wrappers; real allocator untested",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "controlled_callee_rva": "0x26161c",
+  "real_allocator_tested": false,
+  "function_count": 10,
+  "cases_per_function": 1024,
+  "functions": [
+    {
+      "rva": "0x2dd50",
+      "vtable": "0x1802761d8",
+      "size_argument": 32,
+      "native_wrapper_bytes_sha256": "a6fd145f6c9f5da874d37a94d6e78db6a306473e61fb2e22428f4a8444d7b1a2",
+      "raw_generated_sha256": "bb24bfe0cdee0eef014b7cccc664bcfb6313dbff610be9e7ece652626c21f559",
+      "adapted_generated_sha256": "0f4c0c1df1266af9245e73c71fa84bc2c43d851539f4e3a0a2ac3dfa9a94541b"
+    },
+    {
+      "rva": "0x2dd80",
+      "vtable": "0x1802761d8",
+      "size_argument": 24,
+      "native_wrapper_bytes_sha256": "2b828e70325383cef073324f0f7ad0a5ddccbb7a81fb19f16ba093cc30b4fea0",
+      "raw_generated_sha256": "c8da379f7afe2b298887fa75d682510868bdec80ff40886c01de9e8ad3888226",
+      "adapted_generated_sha256": "748bc4bebd279beafcce7a99e53eea2b3861791d96040cddaf5a13ddf6479f8f"
+    },
+    {
+      "rva": "0x51fc0",
+      "vtable": "0x18027b528",
+      "size_argument": 40,
+      "native_wrapper_bytes_sha256": "5f5fd479943a62bb5663bf45be0fbb01102d93be0885231bba22704fd5ac661b",
+      "raw_generated_sha256": "6e4640d89fad8cb42221b2319519bcd64bfd598bc3300e09022392912fe53fa3",
+      "adapted_generated_sha256": "f34c2f7d25b01328e1a98a643a36b4c16d4e29ca002fbaf5855d9bb2931bb263"
+    },
+    {
+      "rva": "0x51ff0",
+      "vtable": "0x18027b528",
+      "size_argument": 16,
+      "native_wrapper_bytes_sha256": "4fdd7b86fa244c6fa303c198c09e15f778525896719c96e80f030eac86a23711",
+      "raw_generated_sha256": "048e544deca366d69cd394c285041f79319c62ebae3affbc0c6245397c4b88b5",
+      "adapted_generated_sha256": "88c397d56fc6f48f7a63614eb2f305bdbce42595a6054ce30a575b8840f7a527"
+    },
+    {
+      "rva": "0x52020",
+      "vtable": "0x18027b528",
+      "size_argument": 8,
+      "native_wrapper_bytes_sha256": "93c61f19ab1ed610fdfd9a911395f44962f1cdf56026db4101af1b56b1940585",
+      "raw_generated_sha256": "603ddedae34348b905b10516a5a21e387ca6ed138e1d9f0561891fcf2ecd7ef5",
+      "adapted_generated_sha256": "a7b548b3d0022b8aa158df9879f96d6155d7dde96f9b1716e19e5f6ac85f6854"
+    },
+    {
+      "rva": "0x70d70",
+      "vtable": "0x18027bc40",
+      "size_argument": 16,
+      "native_wrapper_bytes_sha256": "5e33900cb2e20ff8adcc09b6cf5fe7d0134a26a92790945d957699c5426c3b6e",
+      "raw_generated_sha256": "6332c50ef5b61c72e75b0e68410adaf07dd47efe8ee82212f1420a4531427a19",
+      "adapted_generated_sha256": "57d6f3e65bd0fb3d98b756011b8a758644f21574f615acc772ff1f6375c1a1fd"
+    },
+    {
+      "rva": "0x70ea0",
+      "vtable": "0x18027bc20",
+      "size_argument": 8,
+      "native_wrapper_bytes_sha256": "e96eaabe57797f2ce6df3bf780f9199c67d1612b0623e4b371e1bbe226949afd",
+      "raw_generated_sha256": "dc14f864fa73bc50391a297efaf5bb57914ede360ee42c65183472cbed82b683",
+      "adapted_generated_sha256": "5ba6dd032424fb4e343f2ab3c132695c520649b5f2400f3170cb0b3815b5fa5f"
+    },
+    {
+      "rva": "0x70f70",
+      "vtable": "0x18027bc40",
+      "size_argument": 16,
+      "native_wrapper_bytes_sha256": "548fe2386ddde8082e7f3159ce47c1bf55babfa2221e9df6fd4f05e6cdba8880",
+      "raw_generated_sha256": "194a400987a8939894668e0094e49faece16287366fcec8e71819926660c05ed",
+      "adapted_generated_sha256": "5a1004b41116136e1d454eb91e8a77589f366434b16d4763d56d20c3fbc09a4c"
+    },
+    {
+      "rva": "0x70fa0",
+      "vtable": "0x18027bc40",
+      "size_argument": 24,
+      "native_wrapper_bytes_sha256": "8082b71a4e1a99d767248e14cebac1418e36dff5dc08a3ea99816d9444b29936",
+      "raw_generated_sha256": "cee7ac5a0c37a6ed3bb8fd95582318ed19f220307a4e651c742f460ba1a7989e",
+      "adapted_generated_sha256": "2111d778d1c45491c45444191d03b0d7843ce60c7573ce6c5c04ce93dc6e71c0"
+    },
+    {
+      "rva": "0x70fd0",
+      "vtable": "0x18027bc20",
+      "size_argument": 40,
+      "native_wrapper_bytes_sha256": "e5a4921ca9affd636c268226ba71e6ab7e4566e31dbac4673129143f1a06aa4f",
+      "raw_generated_sha256": "00281e9b7fd595352baffb55618aeb780679c93ca7231290328659c6a13ab6a8",
+      "adapted_generated_sha256": "86514899a8b2b9443583299aecb71587d31411ca87e12b4dc052b87a5aa7c2df"
+    }
+  ],
+  "harness_sha256": "56ab28fd9a3c0cc4941dbad2b9806871538b8f0d0a8c20f78fba3d432585fc46",
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "guarded-free cohort native parity: 10 wrappers, 10240 cases passed; free=5120 skip=5120 real_allocator_tested=0",
+  "stderr": ""
+}

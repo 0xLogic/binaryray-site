@@ -1,0 +1,17 @@
+{
+  "claim": "direct original-byte differential for field swap with disjoint and overlapping buffers",
+  "rva": "0x15d6d0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "728e347ec1a21759eea987579007d20b497680124df832e3b03b903c17ee3098",
+  "generated_sha256": "fa4245988a37fae1aafdfc090aa19a69bf1779f1b17449c6b9ebd33476e5962c",
+  "return_bits": 64,
+  "harness_sha256": "78d72123118bb8f48710ca2de4ac4ba275b78d2d58884c06ea352626628c465a",
+  "native_instruction_count": 35,
+  "generated_line_count": 36,
+  "cases": 32768,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "overlap swap: checked=32768 mismatches=0 shapes=4096,4096,4096,4096,4096,4096,4096,4096,",
+  "compared": "full buffer and return; independent disjoint field-swap rule; overlapping aliases by native differential"
+}

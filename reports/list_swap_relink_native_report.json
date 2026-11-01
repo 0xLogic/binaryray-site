@@ -1,0 +1,18 @@
+{
+  "claim": "direct original-byte guarded list traversal, field swap, and relink on bounded terminating graphs",
+  "rva": "0x159530",
+  "reference_ida_pseudocode_lines": 55,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "8532d182de117d983c74768837b65937552c646ae8efbb1dbe5a1169cb234f9e",
+  "generated_sha256": "dce60aec67d3c6d3d0d777223083e0c063a494aadcac69078c5c3a506c64a807",
+  "harness_sha256": "bcd5b0957233c4477f4a03e85e872d1f20b58715791e2e4350a95e638db1c661",
+  "native_instruction_count": 44,
+  "generated_line_count": 61,
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "list swap relink: checked=8192 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,",
+  "safety_gate": "pinned exact bytes, internal branches, no calls/RIP, bounded terminating pointer chains",
+  "compared": "full graph memory, independent swap/relink expectation for disjoint cases, and native differential for overlapping aliases"
+}

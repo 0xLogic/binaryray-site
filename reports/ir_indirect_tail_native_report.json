@@ -1,0 +1,37 @@
+{
+  "claim": "controlled vtable callees; original wrapper bytes vs compiled IR",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "generated_cpp_sha256": "54a6799e5c6b7de31d3ab706349b96bf75ce6513d014111973a881d38431737a",
+  "harness_exe_sha256": "005c8f29fec5258d19041020de3021b5b9261b386e35f032f15ec1cf255d1682",
+  "functions": [
+    {
+      "rva": "0x5c10",
+      "cases": 1024,
+      "tail_cases": 1024,
+      "bypass_cases": 0,
+      "native_bytes_sha256": "9519ab754256d65272d9d5727b31f2ca7cd8ff67a47cd0a4eb2cf12697b2739f",
+      "generated_sha256": "283b02e90de91a834251549c5d64ecfa13ddaa71caa343ea9e7fa8841d2be2fe"
+    },
+    {
+      "rva": "0x22d750",
+      "cases": 2048,
+      "tail_cases": 1024,
+      "bypass_cases": 1024,
+      "native_bytes_sha256": "2cc573010290825231fbd3562360b8f07d4cb7a258d0caf2232fc42f3536b92b",
+      "generated_sha256": "b7ecca0581ee8f1465095946057ae695b89f26bd0a3493d49c641f209376890b"
+    },
+    {
+      "rva": "0x22d770",
+      "cases": 2048,
+      "tail_cases": 1024,
+      "bypass_cases": 1024,
+      "native_bytes_sha256": "b80da4ca804d1872f7b3d108a1a5282c043ec4d252a66b2e7353da2ae7f0273e",
+      "generated_sha256": "ae7fb52af463a8e9b2645897564102e1c815030166893b6bd33e3e1293970761"
+    }
+  ],
+  "cases": 5120,
+  "mismatches": 0,
+  "exit_code": 0,
+  "limitations": "Three wrappers with four-register-argument recording callees only. Original virtual-method signatures and behavior, forwarded stack arguments, and switch arms are not validated."
+}

@@ -1,0 +1,50 @@
+{
+  "claim": "native differential for five isolated multi-level indexed getters",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "a4d65d988cdbbd796bdad3c2a07dff9ea266a1eb4cbb5474e39245995fe4b783",
+  "function_count": 5,
+  "cases_per_function": 3200,
+  "checked": 16000,
+  "mismatches": 0,
+  "functions": [
+    {
+      "rva": "0x5c30",
+      "native_bytes_sha256": "15048360474b169546109eb5e268137a37ab5c30d04aec493f9ab546a715b37c",
+      "generated_sha256": "70a2337b10458efebb385162e0b210f8836051404296a8af4b3acae67f2bd8a9",
+      "instruction_count": 6,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x5c70",
+      "native_bytes_sha256": "3ee61237de8ebaa801eda61a636bd5801b0884669c45ccd9d7e8e25fdedb3870",
+      "generated_sha256": "6fed77ec3d0bf757f06bda3fc43ae585f4a722312e0b8a46b82e0daf2e1e59bd",
+      "instruction_count": 6,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x5cb0",
+      "native_bytes_sha256": "3c94615d5a3e0c3b418aadc2b23206bd93173b6d163a546343743d04a479b63b",
+      "generated_sha256": "5cfab2ab74330f1ff44dd02ff6698524823cf6c7a364ffe60faf10c79eef25b6",
+      "instruction_count": 8,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x71b0",
+      "native_bytes_sha256": "fc337e6050339a3081e40964ffebf7f852312a9623410952298639442550d9cd",
+      "generated_sha256": "805114a87874924166d6587a31f329366f98d49b2e01e80b54b3ebe0477797c3",
+      "instruction_count": 3,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x74a0",
+      "native_bytes_sha256": "da8149d359d2150a236bd1abf6df676f0442f4bda6e9567e367868f9fd1e016a",
+      "generated_sha256": "170eb247ab38ba1fb170891341b0b042b4955cb26eddf9bfd9f82fb53f166018",
+      "instruction_count": 8,
+      "return_bits": 64
+    }
+  ],
+  "stdout": "checked=16000 mismatches=0",
+  "safety_gate": "complete linear decode, final ret, no call/branch/RIP, bounded synthetic pointer graph",
+  "compared": "full RAX of original bytes and generated C++ against independent field oracle, full graph memory"
+}

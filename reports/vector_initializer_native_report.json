@@ -1,0 +1,19 @@
+{
+  "claim": "direct original-byte XMM constant initializer with relocated RIP constant",
+  "rva": "0x1e3b00",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "88e77455051ca9ea7785b3db2fc2027fcc3a7b68e45f417d1500bc59e2ddfe88",
+  "constant_bytes_sha256": "5ac6a5945f16500911219129984ba8b387a06f24fe383ce4e81a73294065461b",
+  "generated_sha256": "a486529ef19bcca6421a1c5a524d4d0e2771bb12fb34a9d4f7a90069fded4ac6",
+  "harness_sha256": "a3c78f42bc1611d05111e2150d9c0bad9a5a0be8deb60b001c501708b071c624",
+  "native_instruction_count": 31,
+  "generated_line_count": 36,
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "XMM constant initializer: checked=8192 mismatches=0",
+  "stderr": "",
+  "safety_gate": "exact 189 code bytes and 16 constant bytes; one RIP data load relocated at original distance; no calls or branches",
+  "compared": "full RAX and 0x200-byte memory against independently specified initializer fields"
+}

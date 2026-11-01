@@ -1,0 +1,32 @@
+{
+  "claim": "two direct original-byte linked-node mutations with six independently checked graph paths",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "42dd0e2da05eacc0f63090ba6f47c5978c1802b35983ee3acfded8433dfa4287",
+  "function_count": 2,
+  "cases_per_function": 6144,
+  "checked": 12288,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x12ac0",
+      "native_bytes_sha256": "b760963c58b12ac97c410d4da8e9eaa3b5f0ea7864721afc8b146ae7b9a8ad83",
+      "generated_sha256": "127bcc847fd5d3a12371d55f5e806ec0e3ee8d8f026a70de13c43816920aa891",
+      "return_bits": 64,
+      "native_instruction_count": 27,
+      "generated_line_count": 60
+    },
+    {
+      "rva": "0x12b20",
+      "native_bytes_sha256": "9bed364096db8d0f34d8063d2a071bab51e312895b84bbdd288978a3f4dbb177",
+      "generated_sha256": "b5703d2c96784da39f1b3d735303539d79ef36ef41000e85eda27a9b2cdf61ed",
+      "return_bits": 64,
+      "native_instruction_count": 27,
+      "generated_line_count": 60
+    }
+  ],
+  "stdout": "linked unlink: checked=12288 mismatches=0 paths=2048,2048,2048,2048,2048,2048,",
+  "safety_gate": "complete linear decode, all branches internal, no call/RIP, bounded valid node graph",
+  "compared": "64-bit return and all graph bytes versus original and independent pointer-update rule"
+}

@@ -1,0 +1,27 @@
+{
+  "claim": "exact original machine code vs compiled IR C++ for 0x13B740 (movups 128-bit load/store inside a record-copy loop); full RAX and the whole 1 KiB buffer compared byte for byte on every case",
+  "harness": "crafted inputs: the end pointer is src + n*0x38 so the loop runs exactly n times; src and dst start at randomly unaligned offsets",
+  "rva": "0x13b740",
+  "bytes": 101,
+  "native_bytes_sha256": "aca41223068f13c3b5e4b9f0a99439a07088e26ca7eda247b16d5837eb24c738",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "generated_cpp_sha256": "e77567836ba4b838afc818eb9918f37525db8174ec052700055b130fb6408511",
+  "compiled_dll_sha256": "bb31e0c79a1e53648b0cddce184c196b396295d457478acc7c7c2784ef1777f2",
+  "cases": 512,
+  "record_counts_exercised": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "distinct_returns": 124,
+  "distinct_outcomes": 124,
+  "mismatches": 0,
+  "mismatch_rows": [],
+  "exit_code": 0
+}

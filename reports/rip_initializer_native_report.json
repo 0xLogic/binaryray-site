@@ -1,0 +1,74 @@
+{
+  "claim": "native differential for ten isolated RIP-relative pointer initializers at preferred image base",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "d6c05078388e37ad50a7a9c6b159306c5ece078e579582193e307cd2cd616ca5",
+  "function_count": 10,
+  "cases_per_function": 1024,
+  "functions": [
+    {
+      "rva": "0x2af0",
+      "target": "0x180275468",
+      "native_bytes_sha256": "b60097a9dfe81cb4e1245897e432202dce125ff391941b9facc4b2c44caf01a1",
+      "generated_sha256": "c6e5f6e32530c56c19d1a16ae233f4b7d00721c08263df025022223ca4a62a2a"
+    },
+    {
+      "rva": "0x2db50",
+      "target": "0x1802761d8",
+      "native_bytes_sha256": "8c404b39e28ec3ca13ca67dd62febe0598d4535fb2739a4ac02264f0b5b8106b",
+      "generated_sha256": "15989c739a2112ac3ba9933ee46377a9d187dbbaadedf8cf73a9269567922f7d"
+    },
+    {
+      "rva": "0x514b0",
+      "target": "0x18027b528",
+      "native_bytes_sha256": "ea5c712fddfce12823576223e304fcbdb4c93ab7dfd74f4f30c5f09ed0933fba",
+      "generated_sha256": "4dee6e557d2887e5c23564a98454169305f5530d8880f17858b3936662293b22"
+    },
+    {
+      "rva": "0x70850",
+      "target": "0x18027bc40",
+      "native_bytes_sha256": "0136227f353c320cd1241dae537897d8b093769022ea25d097b3c2cf978cb5c8",
+      "generated_sha256": "d6eabd9d90c1cdc9058fbc39047a7461ddd1a5874cec4619f50e7a537a2d02c2"
+    },
+    {
+      "rva": "0x70bd0",
+      "target": "0x18027bc20",
+      "native_bytes_sha256": "d4eb26334edfe4fff71942ceeb44b99c8b40a9bb42685e77edd3b54fedf19f71",
+      "generated_sha256": "ca6c7197b75b6572e2c85b716811e1d61d171ab42ee9339d3519534881c08feb"
+    },
+    {
+      "rva": "0x82400",
+      "target": "0x18027be00",
+      "native_bytes_sha256": "422cd3dd46a7e14ca7cd4df239f2778452979bb947bf988649b131589e402880",
+      "generated_sha256": "6ed3b9e8c29d05f05fd47f17c9ac8549f3e736c0db57cce5464bd04914234edf"
+    },
+    {
+      "rva": "0x82410",
+      "target": "0x18027be10",
+      "native_bytes_sha256": "422cd3dd46a7e14ca7cd4df239f2778452979bb947bf988649b131589e402880",
+      "generated_sha256": "6ff386f476684441e0014bd5a32eb72494bb2d3057f20f1f3b0cf6f226794c41"
+    },
+    {
+      "rva": "0x1b77a0",
+      "target": "0x1802813e8",
+      "native_bytes_sha256": "a683fe2f75faf729f14c2859dd47c815b58a55eecfd5bf9f2d8fb5d14a3d8990",
+      "generated_sha256": "9948940388f7e8490fa75a5be74ba0d29c53eb98592384f0a28b134196e13cb6"
+    },
+    {
+      "rva": "0x1b7820",
+      "target": "0x180281310",
+      "native_bytes_sha256": "d20ae99339b8dbad9215bd5d1e6cb17f771d68106e918bcfa259d2d3a04d6c00",
+      "generated_sha256": "5892b48ac8e334bfd09219813fb63423e5437b4ff14c145a5d83c4ca0e522746"
+    },
+    {
+      "rva": "0x1f3fe0",
+      "target": "0x1802a19b0",
+      "native_bytes_sha256": "99c222a5b7653fc113a288db2398487e70d0d6f607120dbf47431891f56ab340",
+      "generated_sha256": "f81c5eefb4baaa5477222a57e500728f7b65688227908619beb2e025aa5ed56e"
+    }
+  ],
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "RIP initializer native parity: 10 functions, 10240 cases passed",
+  "stderr": ""
+}

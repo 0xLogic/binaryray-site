@@ -1,8 +1,8 @@
 {
   "claim": "exact original machine code vs compiled IR C++ for 32 admitted multi-block and leaf functions",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "own_exe_sha256": "e062298184c2d62d85669ef4293e5a83421bef65156150ccb2d945c67b5057e5",
-  "compiled_dll_sha256": "ca06f67bcb3b1c0504a51266d81333afd6ae725e4c18e5713fa1fe0fb2702e36",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "52a10e99116a8f38f8502f6d38ce77fb53df548068b122acd74fca9d87f3d4f8",
   "generated_cpp_sha256": "846a15b39c4becee0f68469b575096c89b534686b9ba8119bb6dd277f424a3a9",
   "cases_per_function": 256,
   "cases": 8192,

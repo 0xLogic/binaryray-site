@@ -1,0 +1,68 @@
+{
+  "claim": "native differential for nine isolated SETcc byte-return functions",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "1b2bbd567176fc1251d47b6e20f68f142fe6dd7ad92ac431ee4bc4a17c37bb36",
+  "function_count": 9,
+  "cases_per_function": 1024,
+  "functions": [
+    {
+      "rva": "0x19ab0",
+      "native_bytes_sha256": "536e2787097209c72bc60392becd4aff3a649ec3222352bf0b9c2de635a1107b",
+      "generated_sha256": "9641e4271f404b9233f12b6d8aac42bc3dec7dc4fef2ca81b0794ed0fe2b9224",
+      "instruction_count": 3
+    },
+    {
+      "rva": "0xf5b10",
+      "native_bytes_sha256": "5485bc183b222f0e8dfe0f52200e6600bacbfe57defb62c0ced873f726a38e4d",
+      "generated_sha256": "5fae880742d6d14ce6f47fd02eddd59a6dd21e9e3a3323c57ba0c8b5d84cc503",
+      "instruction_count": 3
+    },
+    {
+      "rva": "0xf5b20",
+      "native_bytes_sha256": "f2b7041777d0c79d588850f7dc37e0621e0390e2a1aa7711d0d438dda75efd54",
+      "generated_sha256": "575f515577e1df74a5a42eab56e33430d1293983703e6972ebcdda8faa88ace2",
+      "instruction_count": 3
+    },
+    {
+      "rva": "0x157550",
+      "native_bytes_sha256": "1214c9defc2b1bb0c088e446b3029c1677775a312095115607b8f6ac075a5923",
+      "generated_sha256": "2613c4d578d23f747d1425877ad0dfa14d8ce57ee9c8a78b742b99c64c6a25d8",
+      "instruction_count": 3
+    },
+    {
+      "rva": "0x1d3b30",
+      "native_bytes_sha256": "20c386b94c8ea6fd089559413bcdd1249fe9dfd060da50f7033c8152f4b8fc52",
+      "generated_sha256": "8029256c4b148d4c807896308ef3c87d0c12c30a89a97ea1a1436fa26e0a26da",
+      "instruction_count": 3
+    },
+    {
+      "rva": "0x1d3b40",
+      "native_bytes_sha256": "b16dc8148a5b49a9458e3aa70a059b29bf789775c3fa3ab88b9f4f464ff36bab",
+      "generated_sha256": "1f588f693b7447574bf073a39f09f6091fac4369fe11a617629c89258978468a",
+      "instruction_count": 3
+    },
+    {
+      "rva": "0x1ef240",
+      "native_bytes_sha256": "6059fd6dacea03cf39f8e9ba4cdf0df589b1910232281f7b7d57b745232d17bf",
+      "generated_sha256": "149aeed58e1052ad976800309d9a6db7b3c5b8abf7143f14894fbc345f677c28",
+      "instruction_count": 8
+    },
+    {
+      "rva": "0x22c060",
+      "native_bytes_sha256": "a7c3cfdc685940d0272650e7ac2c105ad970df02893f58cc3c45e2ed41517ea1",
+      "generated_sha256": "ce1725de806255c45352d9237f164b60a686a23f430d800f708d8847dd87c4f3",
+      "instruction_count": 4
+    },
+    {
+      "rva": "0x22c070",
+      "native_bytes_sha256": "10f58de2141d1ffa72e11a6f2b5f49077ccd1684b34abbc5a6273c842ccea463",
+      "generated_sha256": "c0d3b087c945298b8c9ba8d5899141e67ef4aa14c15e96eb627b950358362359",
+      "instruction_count": 4
+    }
+  ],
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "rva=0x19ab0 zero=1022 one=2 modified_memory=0\nrva=0xf5b10 zero=3 one=1021 modified_memory=0\nrva=0xf5b20 zero=1 one=1023 modified_memory=0\nrva=0x157550 zero=1023 one=1 modified_memory=0\nrva=0x1d3b30 zero=1023 one=1 modified_memory=0\nrva=0x1d3b40 zero=1023 one=1 modified_memory=0\nrva=0x1ef240 zero=699 one=325 modified_memory=498\nrva=0x22c060 zero=1 one=1023 modified_memory=1024\nrva=0x22c070 zero=1 one=1023 modified_memory=1024\nsetcc native parity: 9 functions, 9216 cases passed",
+  "stderr": ""
+}

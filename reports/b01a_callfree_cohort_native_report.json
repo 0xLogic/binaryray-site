@@ -1,0 +1,84 @@
+{
+  "value_pool": "small, with forward-pointer memory; inputs on which the original faults are skipped",
+  "claim": "exact original machine code vs compiled IR C++ for B01-a slice callfree functions lifted under the merged loop/noreturn lifter; full RAX and the whole 16 KiB argument buffer compared",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "0f57b049d59ab62265c44d3662350d56926e2f172d22e2e0ec240cb813cfe5c2",
+  "generated_cpp_sha256": "a63df798c58514e1ee862421b71241645b448c9789d8eeefab1a41d2b04657f0",
+  "cases": 3480,
+  "mismatches": 0,
+  "exit_code": 0,
+  "functions": [
+    {
+      "rva": "0x1880",
+      "native_bytes_sha256": "6b464c781cdb9f0b890b9c6bb6a3242d2a97d8830a10b6795238ee7569276eb0",
+      "generated_sha256": "45e0373be451ac7c5b0692c5f97cc57429dba15441354c5295aed3c97ef71581",
+      "cases": 434,
+      "faulting_inputs_skipped": 590,
+      "distinct_returns": 9,
+      "distinct_outcomes": 9,
+      "pointer_args": [
+        "rcx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x0"
+      ]
+    },
+    {
+      "rva": "0x1980",
+      "native_bytes_sha256": "5ed7097537fc6f3376e069c7c7d2d90ace5450221bd07d947e9b8f5798db1154",
+      "generated_sha256": "76b0b59b361818bc2a37628e910331e6a2b566e294b8a872c73c5e52547d6eb4",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 3,
+      "distinct_outcomes": 3,
+      "pointer_args": [
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rcx+0x0"
+      ]
+    },
+    {
+      "rva": "0x5390",
+      "native_bytes_sha256": "5624c08b85932ddcfcbe1447b6a078dd04dca45b2f557eb3326e86c2f2d83244",
+      "generated_sha256": "d33142384df15983c17257c905079293f7c40369290b348e0023b7e015862e2f",
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1012,
+      "pointer_args": [
+        "r8",
+        "r9",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "r8+0x10",
+        "rcx+0x230"
+      ]
+    },
+    {
+      "rva": "0x74e0",
+      "native_bytes_sha256": "47dab4b7ab0088bb15ad6aa16dfd93f9340a56718528464dce8b68a28099b613",
+      "generated_sha256": "2837343232e7a7abd8fb77e9756263164fa5bf8c54572a49def60393c85036dd",
+      "cases": 998,
+      "faulting_inputs_skipped": 26,
+      "distinct_returns": 1,
+      "distinct_outcomes": 20,
+      "pointer_args": [
+        "r8",
+        "rcx",
+        "rdx"
+      ],
+      "index_args": [],
+      "pointer_slots": [
+        "rdx+0x8"
+      ]
+    }
+  ]
+}

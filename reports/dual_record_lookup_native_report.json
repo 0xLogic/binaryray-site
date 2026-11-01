@@ -1,0 +1,15 @@
+{
+  "claim": "native differential for two-record typed lookup with optional output",
+  "rva": "0x91000",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "e05c9eda3d83e30bf7bdfa2e11438c077baeae6928e3b3d3dfc7255f396dd358",
+  "generated_sha256": "cd6e26fed038a6fd5949af5fcd3ffef73e97771d44295189a573e4fda6aea060",
+  "return_bits": 64,
+  "harness_sha256": "a622ea2c12cb27901fc3e58b4cb610302d14f76ff7272d99682720db2c899708",
+  "cases": 4096,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "dual-record lookup native parity: 4096 cases passed; first=1024 second=768 miss=2304 output_writes=896",
+  "stderr": ""
+}

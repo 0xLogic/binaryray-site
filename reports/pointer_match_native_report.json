@@ -1,0 +1,15 @@
+{
+  "claim": "native differential for five-path pointer matcher with optional output and full-RAX low-byte writes",
+  "rva": "0x1d6ab0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "cf0bec082f5318acebcca2f5faf21db51a1d70473fe82316c8bda4ee08e26070",
+  "generated_sha256": "68a182e84f11b0b9ed4449c0bfb6e9449923b817654fe8b16b19855b5c94ca7c",
+  "return_bits": 64,
+  "harness_sha256": "55e70e6bed85c458b3d0f906369aa6745b8ac0d9a1baa171bb70c52708a1e46d",
+  "cases": 4096,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "pointer matcher native parity: 4096 cases passed; paths=820,819,819,819,819,",
+  "stderr": ""
+}

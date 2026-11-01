@@ -1,0 +1,68 @@
+{
+  "claim": "native differential for nine structured MOV AL/XOR AL byte-return functions",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "2363e2e31bba537d981a112103b750c5d3637f10b3617c4b226f154d7f13ca92",
+  "function_count": 9,
+  "cases_per_function": 1024,
+  "functions": [
+    {
+      "rva": "0x4ae0",
+      "native_bytes_sha256": "e18aacce29affcdddaa5f641ac1ec12552e0fe9d066e6408941b1792818b8619",
+      "generated_sha256": "1268002c270454dd4d87892563f87758aea92edbac3b6f30810b1dae399a4a27",
+      "instruction_count": 2
+    },
+    {
+      "rva": "0x4f20",
+      "native_bytes_sha256": "01cb47d078b4841b8408ec4fe278efa83115c6f6e101972987507d2b2b57dcf0",
+      "generated_sha256": "ca8121f1ec14df1291e67c49f4604ad62cc36fe4fa197e2aac9dfd0d5975d2ca",
+      "instruction_count": 2
+    },
+    {
+      "rva": "0xd2e0",
+      "native_bytes_sha256": "083d1449a9b2ce5acc72dafb2977e8ed65f1839b257b6562ce927cb47eda5a64",
+      "generated_sha256": "e843535f2ab94aa73b5b70233f916d73848b01ef0f5d7f8582c7d54f7dd37701",
+      "instruction_count": 8
+    },
+    {
+      "rva": "0x257a00",
+      "native_bytes_sha256": "c2debdf750e6b9f32d63f824e21f50086f071e326abf81b8819ed8125cde5888",
+      "generated_sha256": "9117ea94f32eeed764ffe2d45e0fcb4ee3812c70da35c5f90a02a5f28ab99101",
+      "instruction_count": 8
+    },
+    {
+      "rva": "0x6d3e0",
+      "native_bytes_sha256": "12eba1f04aa03ffcfd1182d030070599725b632e6efadbb595c0c9ae343232cb",
+      "generated_sha256": "7f00d52c4a2490a4dfb48fac58c1914b8e507db3434f71d4c41bfc90f997cc9d",
+      "instruction_count": 8
+    },
+    {
+      "rva": "0xef3c0",
+      "native_bytes_sha256": "6e055721a988647ee85800026f4aadfabc31c19b98cb67266db42037a46e4c84",
+      "generated_sha256": "ad9465c091b820636a875b4f762075f0b0242b2d200f72a2e744c9722f457261",
+      "instruction_count": 8
+    },
+    {
+      "rva": "0xf5b30",
+      "native_bytes_sha256": "bf2a888354460f45858aad6baa6c6013dddb028e6f5e9b23a2b2116010bce511",
+      "generated_sha256": "f5d87724a26b958eeddc7d146410fa1872293e1fe234e7a704582a9560fad055",
+      "instruction_count": 12
+    },
+    {
+      "rva": "0x23ded0",
+      "native_bytes_sha256": "de9a99081def960bffafcaf31b73f9a3eb08033d4d586fef9baf14de160420a0",
+      "generated_sha256": "9badcebcec4067ed0c5f0d72d79d149f213a36e0ecb7093abb8e1de282188e61",
+      "instruction_count": 8
+    },
+    {
+      "rva": "0x2488a0",
+      "native_bytes_sha256": "d6ac6e110418141e1e81ef85ee1b0087e6e50d5b11da728e7e7d63367620dd9c",
+      "generated_sha256": "eb5ee3293fbb4a44e2ef9c6ad555f400e3777a0c58b3f4d007bd516d574c855c",
+      "instruction_count": 8
+    }
+  ],
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "rva=0x4ae0 false=0 true=1024\nrva=0x4f20 false=1024 true=0\nrva=0xd2e0 false=682 true=342\nrva=0x257a00 false=410 true=614\nrva=0x6d3e0 false=256 true=768\nrva=0xef3c0 false=768 true=256\nrva=0xf5b30 false=410 true=614\nrva=0x23ded0 false=682 true=342\nrva=0x2488a0 false=341 true=683\nMOV AL/XOR AL native parity: 9 functions, 9216 cases passed",
+  "stderr": ""
+}

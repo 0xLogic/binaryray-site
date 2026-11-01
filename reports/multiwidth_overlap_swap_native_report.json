@@ -1,0 +1,19 @@
+{
+  "claim": "direct original-byte multi-width field swap with disjoint and overlapping buffers",
+  "rva": "0x9a060",
+  "reference_ida_pseudocode_lines": 92,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "b4bdf4606713aefe87acf38eb4ecee8da8cf35eb7013f0295a3857943b87f72f",
+  "generated_sha256": "77beab00d9ed1176706cae7d14e573c75c26f3dd2af723211967db28100e3dc8",
+  "return_bits": 64,
+  "harness_sha256": "81b69fe2cd75eb882751918b848cd60e545f79321e2683075f7d071d291720d0",
+  "native_instruction_count": 74,
+  "generated_line_count": 76,
+  "cases": 32768,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "multiwidth overlap swap: checked=32768 mismatches=0 shapes=4096,4096,4096,4096,4096,4096,4096,4096,",
+  "safety_gate": "exact linear function, no call/branch/RIP, bounded shared buffer",
+  "compared": "full return and shared buffer; independent disjoint swap rule and overlap native differential"
+}

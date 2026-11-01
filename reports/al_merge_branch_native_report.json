@@ -1,0 +1,14 @@
+{
+  "claim": "native differential for branchy full-RAX return with low-byte writes",
+  "rva": "0x3a2a0",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "31d7132eaf77a53b8291067a3d3b25ddc7b97d2a07cece3baf58fdf16b0baccd",
+  "generated_sha256": "224fc8194e2e1a725746e9f08ab6e86ba3f9efbf159de365d736bb7ffa0ccc76",
+  "harness_sha256": "f4260bcdb19c6f4e317c8da07efbc22d0bd56543cde54a2e2f801e5428895015",
+  "cases": 4096,
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "branching AL merge parity: 4096 cases passed; null=241 return_one=120 return_zero=481 non_boolean_return=3495",
+  "stderr": ""
+}

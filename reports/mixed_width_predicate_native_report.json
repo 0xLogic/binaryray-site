@@ -1,0 +1,18 @@
+{
+  "claim": "direct original-byte mixed word/dword predicate and partial-AL return",
+  "rva": "0x25ed00",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "0aadd703b20718a8fef6f2b3696e7f7f54e2a2a247f1a6ecbf545bf5528f009c",
+  "generated_sha256": "08052223f3404ee8e1dbbb6f47d6bbe5aec1d603c3ff1db04dff7692f22faeb4",
+  "return_bits": 64,
+  "harness_sha256": "2cad284419ee62de2b7cc2828bb750aca35e88e1f9b14a130811346f46952679",
+  "native_instruction_count": 18,
+  "generated_line_count": 47,
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "mixed-width predicate: checked=8192 mismatches=0 paths=1024,1024,1024,1024,1024,1024,1024,1024,",
+  "safety_gate": "exact bytes, all branches internal, no calls/RIP, valid bounded input buffers",
+  "compared": "full 64-bit return, independent byte-merge and width-specific branch rule, all input memory"
+}

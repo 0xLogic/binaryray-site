@@ -1,0 +1,32 @@
+{
+  "claim": "native differential for three newly structured IMUL immediate functions, including signed inputs and modulo-64 overflow",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "345381f374879cfa5386ed383404b191ac5cbd5f15bf29b2ffce2db2abf967cd",
+  "function_count": 3,
+  "cases_per_function": 4096,
+  "functions": [
+    {
+      "rva": "0x1b7c60",
+      "scale": 200,
+      "native_bytes_sha256": "05295ad85122433bade6fd9f70dabc6f4e3f6e37f86b640c83e847193291e7b5",
+      "generated_sha256": "5f21bfa061748f9ef02b3a07a465acccba19244009b4e1659c721712a1215526"
+    },
+    {
+      "rva": "0x1b7c90",
+      "scale": 56,
+      "native_bytes_sha256": "8e3cc13e74bc621e00ac7a3085c22fa32fe95ea0d73811780ac6ac703bd23470",
+      "generated_sha256": "d51fd008424379a3321cb420a0119930ace9f2fb524dbef799a7aec97b47d4a9"
+    },
+    {
+      "rva": "0x1b7ca0",
+      "scale": 88,
+      "native_bytes_sha256": "daafbb8d40d90eaf393d62d62102ebbf3cb6755489cc359bc24988e5ddb53a32",
+      "generated_sha256": "4783aebe87a828f805426e28966f51a4c85042563edc4b33b6adb3727105824b"
+    }
+  ],
+  "exit_code": 0,
+  "semantic_mismatch_found": false,
+  "stdout": "rva=0x1b7c60 negative_signed_inputs=1984 unsigned_product_wrap=4062\nrva=0x1b7c90 negative_signed_inputs=1984 unsigned_product_wrap=3994\nrva=0x1b7ca0 negative_signed_inputs=1984 unsigned_product_wrap=4024\nthree-operand IMUL native parity: 3 functions, 12288 cases passed",
+  "stderr": ""
+}

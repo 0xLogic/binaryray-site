@@ -56,6 +56,27 @@ function assertSnapshot(data) {
 function render(data) {
   assertSnapshot(data);
   const { coverage: c, snapshot: s, validation: v, porting: p } = data;
+  const integration = data.integration;
+  if (!integration || integration.baselineStructured + integration.gainedStructured !== c.structured ||
+      integration.gainsWithNativeFixtures + integration.gainsWithoutNativeFixtures !== integration.gainedStructured ||
+      integration.unchangedOutputs + integration.gainedStructured !== c.discovered || integration.unexpectedChanges !== 0) {
+    throw new Error('Lane integration evidence is missing or inconsistent.');
+  }
+  put('integration-summary', `${number.format(c.discovered)} default outputs compared. ${number.format(integration.unchangedOutputs)} are byte-identical; every changed output is a listing-to-IR gain.`);
+  put('integration-gains', number.format(integration.gainedStructured));
+  put('integration-proven', number.format(integration.gainsWithNativeFixtures));
+  put('integration-unproven', number.format(integration.gainsWithoutNativeFixtures));
+  put('integration-regressions', integration.unexpectedChanges);
+  put('integration-baseline', `${number.format(integration.baselineStructured)} → ${number.format(c.structured)} structured outputs`);
+  $('integration-lanes').replaceChildren(...integration.lanes.map(lane => {
+    const row = document.createElement('tr');
+    for (const text of [lane.name, lane.status, lane.detail]) {
+      const cell = document.createElement('td');
+      cell.textContent = text;
+      row.append(cell);
+    }
+    return row;
+  }));
   put('snapshot-label', s.name);
   put('snapshot-target', s.target);
   put('discovered-count', number.format(c.discovered));

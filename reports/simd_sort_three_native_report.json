@@ -1,0 +1,19 @@
+{
+  "claim": "direct original-byte three-record SIMD sort; independent signed-key order for distinct records",
+  "rva": "0x22e460",
+  "reference_ida_pseudocode_lines": 51,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "70542117d2b318677b8471905b0a7817539de866439e3850aaec774a9427e398",
+  "generated_sha256": "9fe25a49fd3fc496e496b28f172e3bbd536e750512169a8d9bb2040c47cb7e81",
+  "harness_sha256": "cea5eb9cf6867dfb135cfdabb5080c4ab6ff3f4c1776723d3515b14866e9122c",
+  "native_instruction_count": 55,
+  "generated_line_count": 665,
+  "cases": 16384,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "SIMD three-record sort: checked=16384 mismatches=0 shapes=1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,",
+  "stderr": "",
+  "safety_gate": "exact 195 bytes, all branches internal, no calls/RIP, bounded 0x28-byte records",
+  "compared": "full RAX and 0x200-byte buffer; independent stable signed-key sort for distinct records; native differential for aliases"
+}

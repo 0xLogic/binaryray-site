@@ -1,0 +1,19 @@
+{
+  "claim": "direct original-byte linked-node swap, four disjoint branches and two alias layouts",
+  "rva": "0x187f20",
+  "reference_ida_pseudocode_lines": 37,
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "4a4322f722a5bb9d333989797fc4f428a9d9d05217ee0268f44bee7be9133f2c",
+  "generated_sha256": "59b0962ceb3d2c9c6511f56c99fdb7735d9e1dc595f2eca3b35dffb1cc0caa6c",
+  "harness_sha256": "66fcda8f5a45a81fcca1af3f992f89a065c235921fb47c3c0f601971a318e04d",
+  "native_instruction_count": 28,
+  "generated_line_count": 49,
+  "cases": 12288,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Linked node swap 0x187F20: checked=12288 mismatches=0 shapes=2048,2048,2048,2048,2048,2048,",
+  "stderr": "",
+  "safety_gate": "exact 91 bytes, two returns, all branches internal, no calls/RIP, six valid bounded nodes",
+  "compared": "full RAX and 0x200-byte memory; independent link-repair model for four disjoint branches; native differential for two alias layouts"
+}

@@ -4,27 +4,27 @@
     "name": "Pinned validation snapshot",
     "target": "hexx64.dll",
     "targetSha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-    "buildSha256": "e062298184c2d62d85669ef4293e5a83421bef65156150ccb2d945c67b5057e5",
+    "buildSha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
     "buildArtifact": "own_decompiler.exe",
     "referenceHeads": 9167
   },
   "coverage": {
     "discovered": 9239,
-    "structured": 5838,
-    "listing": 3401,
+    "structured": 6507,
+    "listing": 2732,
     "idaHeadsDiscovered": 9128,
-    "idaHeadsStructured": 5727,
+    "idaHeadsStructured": 6396,
     "structuredOutsideReference": 111,
-    "directNativeValidated": 268,
-    "controlledNativeValidated": 1388,
-    "nativeValidatedDistinct": 1656,
-    "structuredWithoutNativeFixture": 4182
+    "directNativeValidated": 270,
+    "controlledNativeValidated": 1421,
+    "nativeValidatedDistinct": 1691,
+    "structuredWithoutNativeFixture": 4816
   },
   "validation": {
-    "directOriginalCases": 804830,
-    "controlledCases": 1509581,
-    "ownedLineFunctionsChecked": 5838,
-    "ownedLineBytesChecked": 4444957,
+    "directOriginalCases": 806412,
+    "controlledCases": 1542785,
+    "ownedLineFunctionsChecked": 6507,
+    "ownedLineBytesChecked": 8456205,
     "ownedLineMismatches": 0,
     "decodedIrMovFunctions": 7,
     "decodedIrMovCases": 7168
@@ -57,37 +57,37 @@
       "label": "1-5",
       "referenceHeads": 3153,
       "discovered": 3135,
-      "structured": 3105
+      "structured": 3119
     },
     {
       "label": "6-10",
       "referenceHeads": 1301,
       "discovered": 1292,
-      "structured": 1209
+      "structured": 1246
     },
     {
       "label": "11-20",
       "referenceHeads": 871,
       "discovered": 868,
-      "structured": 577
+      "structured": 711
     },
     {
       "label": "21-50",
       "referenceHeads": 1566,
       "discovered": 1559,
-      "structured": 675
+      "structured": 950
     },
     {
       "label": "51-100",
       "referenceHeads": 1044,
       "discovered": 1042,
-      "structured": 152
+      "structured": 274
     },
     {
       "label": "101+",
       "referenceHeads": 1232,
       "discovered": 1232,
-      "structured": 9
+      "structured": 96
     }
   ],
   "sources": [
@@ -133,7 +133,8 @@
     "reports/typed8_29_zero_native_report.json",
     "reports/typed8_29_trim_native_report.json",
     "reports/typed8_29_bitset_run_native_report.json",
-    "reports/branch_cohort_native_report.json"
+    "reports/branch_cohort_native_report.json",
+    "reports/ir_lane_integration_regression_report.json"
   ],
   "limitations": [
     "Discovered means an independently identified candidate start. It does not mean valid pseudocode was produced.",
@@ -144,5 +145,45 @@
     "The independent engine is not a drop-in hexx64.dll or an SDK-compatible decompiler plugin.",
     "Mapped C++ slices and compiled exports are separate from pseudocode output; validated exports cover admitted native inputs only.",
     "Typed-AL export comparisons check the defined low 8 return bits and scratch memory; they do not claim full-RAX equality."
-  ]
+  ],
+  "integration": {
+    "baselineStructured": 5838,
+    "gainedStructured": 669,
+    "gainsWithNativeFixtures": 35,
+    "gainsWithoutNativeFixtures": 634,
+    "unchangedOutputs": 8570,
+    "unexpectedChanges": 0,
+    "lanes": [
+      {
+        "name": "L1 \u00b7 Instruction budget",
+        "status": "Integrated",
+        "detail": "Cap raised from 128 to 1,024; boundary and native checks."
+      },
+      {
+        "name": "L2 \u00b7 Local-stack arguments",
+        "status": "Integrated with limits",
+        "detail": "Bounded frame memory; synthetic callee-write check. Real stack-pointer call behavior remains unproven."
+      },
+      {
+        "name": "L3 \u00b7 SSE moves",
+        "status": "Integrated",
+        "detail": "128-bit copy and zeroing; direct fixtures include record counts 0\u20137."
+      },
+      {
+        "name": "L4 \u00b7 Partial registers / cookie",
+        "status": "Integrated with limits",
+        "detail": "Defined-bit tracking and nonescaping cookie cancellation. Narrow RAX returns rejected; real /GS behavior unproven."
+      },
+      {
+        "name": "L5 \u00b7 Integer instructions",
+        "status": "Integrated with limits",
+        "detail": "Sign extension, bit tests, carry arithmetic, multiply and rotate forms. Unsafe return inference excluded; division remains unsupported."
+      },
+      {
+        "name": "CFG \u00b7 Indirect jumps",
+        "status": "Memory tails only",
+        "detail": "Memory tail-call recovery integrated. Register jump-table recovery remains open."
+      }
+    ]
+  }
 }

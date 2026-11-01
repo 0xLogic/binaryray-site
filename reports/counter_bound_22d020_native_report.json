@@ -1,0 +1,18 @@
+{
+  "claim": "direct original-byte 32-bit counter INC, signed extension, unsigned bound SETB, and full RAX merge",
+  "rva": "0x22d020",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "native_bytes_sha256": "055bcac670736f45999d5a9a462070641af16f21e38d49be598122cafee0251a",
+  "generated_sha256": "cec21bce4bd1a4161460ebb76c1f6cae7beb1c7f08e5db68d6bf04991f0fadab",
+  "harness_sha256": "af3d630872a33dfbd0e06b5feea35eda33a478a086479650d9ed7836773055d5",
+  "native_instruction_count": 7,
+  "generated_line_count": 11,
+  "cases": 8192,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Counter bound 0x22D020: checked=8192 mismatches=0",
+  "stderr": "",
+  "safety_gate": "exact 26 bytes, no calls/branches/RIP, bounded two-pointer chain and 0x600-byte arena",
+  "compared": "full RAX and entire arena against independent modulo-2^32 increment, sign extension, unsigned compare, AL merge"
+}

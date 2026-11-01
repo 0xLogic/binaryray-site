@@ -1,0 +1,46 @@
+{
+  "claim": "native differential for four isolated scaled-LEA pointer-index functions",
+  "compared": "full RAX and unchanged object, table, and target scratch memory",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "0fdf3d8b267178d36efa4ff7271a1bc5508616c687d222a2e484569bbae0a1b3",
+  "function_count": 4,
+  "cases_per_function": 224,
+  "checked": 896,
+  "mismatches": 0,
+  "functions": [
+    {
+      "rva": "0x5c50",
+      "native_bytes_sha256": "6c2479aa4e9890e16b1f4e7f45bae41d339a9be99275b6a47a6d419ae1c85ea6",
+      "generated_sha256": "69406cee6d10d55ab5e226af8f62ad32832311f0d1a62f9c245c2a34ffa93853",
+      "instruction_count": 10,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x5c90",
+      "native_bytes_sha256": "e0752e79149c894765963f82270b3b214ba473d9027e7506c4812c7892a40433",
+      "generated_sha256": "8bfd0d54435dcbd48b070c43daf41371e40e10ac775bd781bc16d7b9c495e40b",
+      "instruction_count": 10,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x5cd0",
+      "native_bytes_sha256": "dfc5d9a4228bb22487745285e57a57bf3377a47ef9bc7443e3982a7c0cf6630b",
+      "generated_sha256": "6f4da208f9711db3ed1eb384df4cc9f1b9d15631132c9d490b78b1039cdeb063",
+      "instruction_count": 7,
+      "return_bits": 64
+    },
+    {
+      "rva": "0x74c0",
+      "native_bytes_sha256": "c429df69c8d7728abc098860239459bd2b1a0c53a39dc3f6e512e4ebe00a1102",
+      "generated_sha256": "eb893d48f727e3b496f12a19dba35924244089e5cef4a63598593fdc003bc735",
+      "instruction_count": 7,
+      "return_bits": 64
+    }
+  ],
+  "excluded_static_scan_candidate": {
+    "rva": "0xfe330",
+    "reason": "large mutable graph routine with nested pointer traversals and stores; isolated synthetic graph not established"
+  },
+  "stdout": "checked=896 mismatches=0"
+}

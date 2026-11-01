@@ -1,0 +1,172 @@
+{
+  "claim": "original machine code (image mapped at its preferred base, every callee replaced by a recording stub that clobbers volatile registers; stubs of proven-noreturn callees log the call and then end the case by an exception) vs compiled IR C++; per case the outcome kind (return / ended in a noreturn callee), the 16 KiB argument buffer, the .data section and the call sequence with every argument the callee reads (including the final noreturn call) are compared; the return value is compared for returning cases of non-void ports",
+  "callee_model": "controlled: callees return table values and do not touch memory; proven-noreturn callees (from the --noreturn file) never return; real callees untested",
+  "noreturn_file": "C:\\Users\\dev\\Desktop\\IDA9\\reverse_engineering\\reconstruction\\validation\\ir_call_slices\\noreturn_callees.json",
+  "noreturn_file_sha256": "c2614cac099228d2ab2320aa242ecec55044cb5a40e926dda3ecb7166e3514f3",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "compiled_dll_sha256": "44726067efb60507074430d411fb2ed7a06da485897247e5c4bed7ae17dddd3f",
+  "generated_cpp_sha256": "fde002333270645f23d8a0b5903a6689f41583d99727c8c86cccf067bdf1d84c",
+  "cases": 5311,
+  "mismatches": 0,
+  "exit_code": 0,
+  "noreturn_cases": 2048,
+  "noreturn_not_exercised": [
+    "0x22c0",
+    "0x6b00",
+    "0x72dc0",
+    "0x10ae70"
+  ],
+  "functions": [
+    {
+      "rva": "0x22c0",
+      "native_bytes_sha256": "2fbc5201f7351d53e92719fc8149929b7f2c172731bcbb90e204c64fe0b5e0b9",
+      "generated_sha256": "38579172b33d2f15026896067986f3629502683909bd703a2098d13ca6d23ffc",
+      "void": false,
+      "callees": [
+        {
+          "va": "0x1800018e0",
+          "arguments_read": 2,
+          "arguments_passed": 4,
+          "noreturn": false
+        },
+        {
+          "va": "0x180215090",
+          "arguments_read": 1,
+          "arguments_passed": 4,
+          "noreturn": true
+        }
+      ],
+      "cases": 845,
+      "faulting_inputs_skipped": 179,
+      "distinct_returns": 146,
+      "distinct_outcomes": 449,
+      "calls_compared": 431,
+      "noreturn_cases": 0,
+      "noreturn_exercised": false
+    },
+    {
+      "rva": "0x6b00",
+      "native_bytes_sha256": "dffd9df6f381dd1ed9a847f59de4af6d69c1600ed58a7e5abb6cd1176f4b8245",
+      "generated_sha256": "b878c6039b368bf2525790064381dab68977db2201c4252851316f6f4c6a1844",
+      "void": false,
+      "callees": [
+        {
+          "va": "0x180215090",
+          "arguments_read": 1,
+          "arguments_passed": 4,
+          "noreturn": true
+        },
+        {
+          "va": "0x1802627fc",
+          "arguments_read": 3,
+          "arguments_passed": 4,
+          "noreturn": false
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 329,
+      "distinct_outcomes": 872,
+      "calls_compared": 1024,
+      "noreturn_cases": 0,
+      "noreturn_exercised": false
+    },
+    {
+      "rva": "0x9020",
+      "native_bytes_sha256": "1ea0bee18568cc07d660eb5063ad2d3368ce872af4f9dc08485bb379d60af3f8",
+      "generated_sha256": "3c2447f928245699f04ba67f3f66042212cb01a3efd943415c2307dd229be824",
+      "void": true,
+      "callees": [
+        {
+          "va": "0x18026140d",
+          "arguments_read": 1,
+          "arguments_passed": 4,
+          "noreturn": true
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 0,
+      "distinct_outcomes": 885,
+      "calls_compared": 1024,
+      "noreturn_cases": 1024,
+      "noreturn_exercised": true
+    },
+    {
+      "rva": "0x434b0",
+      "native_bytes_sha256": "8c91a58c360b2dd5e1f9730d989f2a3789947209be3fe496d7e313bbe8afd5b9",
+      "generated_sha256": "f82cb01e1c8f723430e8be25a9fd494b80d67cf29b5b718acf218dded2feed45",
+      "void": true,
+      "callees": [
+        {
+          "va": "0x18026140d",
+          "arguments_read": 1,
+          "arguments_passed": 4,
+          "noreturn": true
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 0,
+      "distinct_outcomes": 867,
+      "calls_compared": 1024,
+      "noreturn_cases": 1024,
+      "noreturn_exercised": true
+    },
+    {
+      "rva": "0x72dc0",
+      "native_bytes_sha256": "d0b7bf0194ba6a43f6fbac671e7bf88ef76aa1a9e4c8045f2a7489d3f87ddd28",
+      "generated_sha256": "ec52619effae5fea7c84a495eead2d11c16d3cc51e7bd04525f31e8a7e3fe399",
+      "void": false,
+      "callees": [
+        {
+          "va": "0x1801e5640",
+          "arguments_read": 4,
+          "arguments_passed": 4,
+          "noreturn": false
+        },
+        {
+          "va": "0x180215090",
+          "arguments_read": 1,
+          "arguments_passed": 4,
+          "noreturn": true
+        }
+      ],
+      "cases": 1024,
+      "faulting_inputs_skipped": 0,
+      "distinct_returns": 1,
+      "distinct_outcomes": 1024,
+      "calls_compared": 72,
+      "noreturn_cases": 0,
+      "noreturn_exercised": false
+    },
+    {
+      "rva": "0x10ae70",
+      "native_bytes_sha256": "086f8c0d1d75932adf9651494b4b511c9778169e8ce11f3cbde7aa2c92a5a279",
+      "generated_sha256": "fef19ba216fad2f3683282f6e2e71ce69a905aac1b5f960ed34f5f2ec051e763",
+      "void": false,
+      "callees": [
+        {
+          "va": "0x18010af90",
+          "arguments_read": 2,
+          "arguments_passed": 4,
+          "noreturn": false
+        },
+        {
+          "va": "0x180215090",
+          "arguments_read": 1,
+          "arguments_passed": 1,
+          "noreturn": true
+        }
+      ],
+      "cases": 370,
+      "faulting_inputs_skipped": 654,
+      "distinct_returns": 146,
+      "distinct_outcomes": 361,
+      "calls_compared": 370,
+      "noreturn_cases": 0,
+      "noreturn_exercised": false
+    }
+  ]
+}

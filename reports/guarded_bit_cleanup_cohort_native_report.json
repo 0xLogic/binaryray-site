@@ -1,0 +1,49 @@
+{
+  "claim": "four exact guarded bit-2 cleanup wrappers across distinct callees/offsets with controlled targets; real callees untested",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "2fa5cfecf8011d211fc8cddd5db11f3cd4ca30750a33d71683d04f4c69bd561a",
+  "function_count": 4,
+  "cases_per_function": 4096,
+  "functions": [
+    {
+      "rva": "0x2648f0",
+      "callee_rva": "0x124a0",
+      "flag_offset": "0x50",
+      "subobject_offset": "0x58",
+      "native_bytes_sha256": "e8893ec5d0e54deda3a15a63836d5916df21dab4ad83b919256f9717634dacc6",
+      "generated_sha256": "c367af6a30577c2bbefebca854382287e89dd71c465f75dec04cd73ef8fbcd8f"
+    },
+    {
+      "rva": "0x263cc0",
+      "callee_rva": "0x12440",
+      "flag_offset": "0x1b0",
+      "subobject_offset": "0x20",
+      "native_bytes_sha256": "22777d8ab2653eae5812cedffe6289692bfda3b92bf77dd2503f544d716e9b17",
+      "generated_sha256": "0bf7b1c3f6c69c415037ae54b873c626a0d5ba92db5e536f33b2a3bb4fa5f997"
+    },
+    {
+      "rva": "0x269250",
+      "callee_rva": "0x11e10",
+      "flag_offset": "0xb8",
+      "subobject_offset": "0x58",
+      "native_bytes_sha256": "33ee90c34265d1fc5a8be6e5cc006523581db50774ef3b4df65f260b4255012e",
+      "generated_sha256": "8972e15b7e609790baf96a84a310155d929a74672cdf02fdb71571069a6404fc"
+    },
+    {
+      "rva": "0x268960",
+      "callee_rva": "0x2ae0",
+      "flag_offset": "0x170",
+      "subobject_offset": "0x60",
+      "native_bytes_sha256": "196e0d7d8f1bb17941baff02a692f1132494bc83dee026ed9da3ce6e911f4f82",
+      "generated_sha256": "d885cf9a50ee4280d6feb0485fc8910aefa650165937fa48ed0eb51baf62e190"
+    }
+  ],
+  "real_callees_tested": false,
+  "mismatches": 0,
+  "exit_code": 0,
+  "stdout": "Guarded bit cleanup cohort: checked=16384 mismatches=0",
+  "stderr": "",
+  "safety_gate": "exact decoded 13-instruction form, internal skip branch, one checked direct call per taken path, bounded object fields",
+  "compared": "full object, callback count/args, and raw ABI RAX; source return types not inferred"
+}

@@ -1,0 +1,39 @@
+{
+  "claim": "exact original wrapper plus exact original bounded local callee vs generated wrapper",
+  "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
+  "own_exe_sha256": "55e42eaa614dd3d9de213b528d9656e48e1ee8b383daa16a91218ad4e9f63c89",
+  "harness_sha256": "b7fd290a5882f3a5853b73fbb8282fe8005b0b38c5ee373cfaace02d59920e49",
+  "functions": [
+    {
+      "rva": "0x24220",
+      "callee_rva": "0x1980",
+      "caller_bytes_sha256": "2131d385c10583b24f82c2344a47eaf0a2855dd65514f419178f7d705420cd4c",
+      "generated_sha256": "5aa51d58e41c14c0138d5370edf3f3df5df4c10a4debf3578fa02a3e0a8e04e3"
+    },
+    {
+      "rva": "0x7dbc0",
+      "callee_rva": "0x1eb250",
+      "caller_bytes_sha256": "47971a56bdd5fcd78955582788da6ae146017397b68906b75ffb9f4b58a4f670",
+      "generated_sha256": "ad64a2110f99128390248d67194ef37a5ca8d5cb2ff2490d5bc064de7272ccbc"
+    },
+    {
+      "rva": "0x1d3a80",
+      "callee_rva": "0x161b30",
+      "caller_bytes_sha256": "8f8eeda37fe1a7da4ed3cbe57f31d7a35abd4c0d103bda88c08c75d4addd42ef",
+      "generated_sha256": "91b181637656e74bd7584d723fff4655eeaa006fd519cc4fa8503b631bdb84df"
+    },
+    {
+      "rva": "0x1d3ac0",
+      "callee_rva": "0x161b30",
+      "caller_bytes_sha256": "7ab964e4006c9f91d62a124b8467067996704d23dd9adffc91f9d59403ca5ede",
+      "generated_sha256": "9c2bc31696a1991e86bcd180450f81734bf2a30048be397b2d25d74a3aed6cc6"
+    }
+  ],
+  "cases_per_function": 4096,
+  "cases": 16384,
+  "mismatches": 0,
+  "safety_gate": "exact caller/callee bytes, one checked direct call, no nested calls/RIP, internal branches and bounded linked inputs",
+  "compared": "typed low-byte wrapper return and complete scratch memory; original local callee executed in both arms",
+  "stdout": "New byte compositions: checked=16384 mismatches=0 functions=4\nrva=0x24220 true=3584\nrva=0x7dbc0 true=1280\nrva=0x1d3a80 true=3840\nrva=0x1d3ac0 true=3840",
+  "exit_code": 0
+}
