@@ -1,7 +1,7 @@
 {
   "claim": "coverage by recovered pseudocode line count; no semantic parity claim",
   "dll_sha256": "b70156e7acdc1092963dab4adad2f763c6a870b66d9263ca605813c06d09f342",
-  "exe_sha256": "69c1706a46f7e784f9bb55082ceb0c5b316bd4a06c5c1ce8522e4160dcb61581",
+  "exe_sha256": "e062298184c2d62d85669ef4293e5a83421bef65156150ccb2d945c67b5057e5",
   "inventory_sha256": "eada06fb974995fa4694a1fb5997f123dfe000b14e7a081c56f1503336e152a1",
   "discovered_total": 9239,
   "structured_total": 5838,
